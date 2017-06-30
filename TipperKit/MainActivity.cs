@@ -43,9 +43,7 @@ namespace TipperKit {
                 }
                 TipperCalculator.Calculate();
 
-                InputMethodManager inputManager = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
-
-                inputManager.HideSoftInputFromWindow(this.CurrentFocus.WindowToken, HideSoftInputFlags.NotAlways);
+                Android.Util.Log.Info("[TipperKit Calculated Output]", "Overall: " + Convert.ToString(TipperCalculator.T68OverallApplicationSetup) + "\nPart Numbers: TipperKit - " + Convert.ToString(TipperCalculator.P3TipperKitPartNumber) + " and Cylinder - " + Convert.ToString(TipperCalculator.E30CylinderPartNumber));
 
                 this.StartActivity(typeof(Output));
             };

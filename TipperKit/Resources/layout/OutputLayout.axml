@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/linearLayout5"
     android:minWidth="25px"
-    android:minHeight="25px">
+    android:minHeight="25px"
+    tools:gridSpec="0|8|#0093eeff|K:#ee8700ff:|S:#83ee00ff:">
     <ScrollView
         android:minWidth="25px"
         android:minHeight="25px"
@@ -368,13 +370,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:editable="false" />
-                    <EditText
-                        android:inputType="none"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/SSH10L"
-                        android:clickable="false"
-                        android:editable="false" />
                 </LinearLayout>
                 <FrameLayout
                     android:minWidth="25px"
@@ -424,7 +419,9 @@
                     android:orientation="vertical"
                     android:layout_width="112.5dp"
                     android:layout_height="match_parent"
-                    android:id="@+id/linearLayout4">
+                    android:id="@+id/linearLayout4"
+                    android:minWidth="25px"
+                    android:minHeight="25px">
                     <TextView
                         android:text="Tank Vol. (Usable) = "
                         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -432,6 +429,13 @@
                         android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:editable="false" />
+                    <EditText
+                        android:inputType="none"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/SSH10L"
+                        android:clickable="false"
                         android:editable="false" />
                     <EditText
                         android:inputType="none"
@@ -467,6 +471,25 @@
                             android:gravity="center" />
                     </LinearLayout>
                 </FrameLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout6"
+                android:layout_marginTop="2.3dp">
+                <Button
+                    android:text="Recalculate"
+                    android:id="@+id/Recalculate"
+                    android:layout_width="174.3dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="4.3dp" />
+                <Button
+                    android:text="Generate Report"
+                    android:id="@+id/GenerateReport"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5.0dp" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

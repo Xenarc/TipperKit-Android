@@ -21,10 +21,15 @@ namespace TipperKit {
 
                 inputManager.HideSoftInputFromWindow(this.CurrentFocus.WindowToken, HideSoftInputFlags.NotAlways);
 
-            } catch (Exception) {
+                // Recalculate
+                Button recalculate = FindViewById<Button>(Resource.Id.button1);
+
+                recalculate.Click += delegate {
+                    this.StartActivity(typeof(MainActivity));
+                };
+            } catch {
                 this.Dispose();
             }
-
         }
     }
 }

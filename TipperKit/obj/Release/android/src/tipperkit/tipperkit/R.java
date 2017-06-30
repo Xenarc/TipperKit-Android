@@ -1593,8 +1593,10 @@ containing a value of this type.
         public static final int splash=0x7f020046;
     }
     public static final class id {
+        public static final int GenerateReport=0x7f0b0079;
+        public static final int Recalculate=0x7f0b0078;
         public static final int SRH6L=0x7f0b0071;
-        public static final int SSH10L=0x7f0b0073;
+        public static final int SSH10L=0x7f0b0074;
         public static final int SSH15L=0x7f0b0075;
         public static final int action0=0x7f0b0059;
         public static final int action_bar=0x7f0b0041;
@@ -1651,6 +1653,7 @@ containing a value of this type.
         public static final int linearLayout3=0x7f0b006d;
         public static final int linearLayout4=0x7f0b006f;
         public static final int linearLayout5=0x7f0b0066;
+        public static final int linearLayout6=0x7f0b0077;
         public static final int listMode=0x7f0b0009;
         public static final int list_item=0x7f0b0028;
         public static final int media_actions=0x7f0b005c;
@@ -1703,7 +1706,7 @@ containing a value of this type.
         public static final int textViewd=0x7f0b006e;
         public static final int textViewe=0x7f0b0070;
         public static final int textViewf=0x7f0b0072;
-        public static final int textViewg=0x7f0b0074;
+        public static final int textViewg=0x7f0b0073;
         public static final int time=0x7f0b005f;
         public static final int title=0x7f0b002a;
         public static final int title_template=0x7f0b002f;

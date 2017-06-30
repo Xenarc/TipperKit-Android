@@ -1432,11 +1432,17 @@ namespace TipperKit
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f0b0079
+			public const int GenerateReport = 2131427449;
+			
+			// aapt resource value: 0x7f0b0078
+			public const int Recalculate = 2131427448;
+			
 			// aapt resource value: 0x7f0b0071
 			public const int SRH6L = 2131427441;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int SSH10L = 2131427443;
+			// aapt resource value: 0x7f0b0074
+			public const int SSH10L = 2131427444;
 			
 			// aapt resource value: 0x7f0b0075
 			public const int SSH15L = 2131427445;
@@ -1606,6 +1612,9 @@ namespace TipperKit
 			// aapt resource value: 0x7f0b0066
 			public const int linearLayout5 = 2131427430;
 			
+			// aapt resource value: 0x7f0b0077
+			public const int linearLayout6 = 2131427447;
+			
 			// aapt resource value: 0x7f0b0009
 			public const int listMode = 2131427337;
 			
@@ -1762,8 +1771,8 @@ namespace TipperKit
 			// aapt resource value: 0x7f0b0072
 			public const int textViewf = 2131427442;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int textViewg = 2131427444;
+			// aapt resource value: 0x7f0b0073
+			public const int textViewg = 2131427443;
 			
 			// aapt resource value: 0x7f0b005f
 			public const int time = 2131427423;
