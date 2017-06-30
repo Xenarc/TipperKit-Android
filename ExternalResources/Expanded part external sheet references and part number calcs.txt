@@ -1,0 +1,91 @@
+IF(E30='Data Sheet - Cyls & Packs'!C32){
+	Q22=('Data Sheet - Cyls & Packs'!G32),
+}ELSE{
+	IF(E30='Data Sheet - Cyls & Packs'!C34){
+		Q22=('Data Sheet - Cyls & Packs'!G34),
+	}ELSE{
+		IF(E30='Data Sheet - Cyls & Packs'!C35){
+			Q22=('Data Sheet - Cyls & Packs'!G35),
+		}ELSE{
+			IF(E30='Data Sheet - Cyls & Packs'!C36){
+				Q22=('Data Sheet - Cyls & Packs'!G36)
+			}
+		}
+	}
+}
+
+IF(E30='Data Sheet - Cyls & Packs'!C32){
+	Q23=('Data Sheet - Cyls & Packs'!R32),
+}ELSE{
+	IF(E30='Data Sheet - Cyls & Packs'!C34){
+		Q23=('Data Sheet - Cyls & Packs'!R34),
+	}ELSE{
+		IF(E30='Data Sheet - Cyls & Packs'!C35){
+			Q23=('Data Sheet - Cyls & Packs'!R35),
+		}ELSE{
+			IF(E30='Data Sheet - Cyls & Packs'!C36){
+				Q23=('Data Sheet - Cyls & Packs'!R36)
+			}
+		}
+	}
+}
+
+IF(E30='Data Sheet - Cyls & Packs'!C32){
+	Q24=('Data Sheet - Cyls & Packs'!U32),
+}ELSE{
+	IF(E30='Data Sheet - Cyls & Packs'!C34){
+		Q24=('Data Sheet - Cyls & Packs'!W34),
+	}ELSE{
+		IF(E30='Data Sheet - Cyls & Packs'!C35){
+			Q24=('Data Sheet - Cyls & Packs'!W35),
+		}ELSE{
+			IF(E30='Data Sheet - Cyls & Packs'!C36){
+				Q24=('Data Sheet - Cyls & Packs'!W36)
+			}
+		}
+	}
+}
+
+
+/// THIS IS THE CYLINDER PART NUMBER ///
+IF(P3='Data Sheet - Cyls & Packs'!Q32){
+	E30=('Data Sheet - Cyls & Packs'!C32)
+}ELSE{
+	IF(P3='Data Sheet - Cyls & Packs'!Q34){
+		E30=('Data Sheet - Cyls & Packs'!C34)
+	}ELSE{
+		IF(P3='Data Sheet - Cyls & Packs'!Q34){
+			E30=('Data Sheet - Cyls & Packs'!C34)
+		}ELSE{
+			IF(P3='Data Sheet - Cyls & Packs'!Q35){
+				E30=('Data Sheet - Cyls & Packs'!C35)
+			}ELSE{
+				IF(P3='Data Sheet - Cyls & Packs'!Q36){
+					E30=('Data Sheet - Cyls & Packs'!C36)
+				}
+			}
+		}
+	}
+}
+
+
+/// THIS IS THE TIPPERKIT PART NUMBER ///				// This is what the cylinder part number references
+IF(Q12='Data Sheet - Cyls & Packs'!E32){
+	P3=('Data Sheet - Cyls & Packs'!Q32)
+}ELSE{
+	IF(Q12='Data Sheet - Cyls & Packs'!E34){
+		P3=('Data Sheet - Cyls & Packs'!Q34),
+	}ELSE{
+		IF(Q12='Data Sheet - Cyls & Packs'!E35){
+			P3=('Data Sheet - Cyls & Packs'!Q35)
+		}ELSE{
+			IF(Q12='Data Sheet - Cyls & Packs'!E36){
+				P3=('Data Sheet - Cyls & Packs'!Q36)
+			}
+		}
+	}
+}
+
+
+
+

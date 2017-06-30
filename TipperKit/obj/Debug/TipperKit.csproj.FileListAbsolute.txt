@@ -1,0 +1,151 @@
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\TipperKit.csprojResolveAssemblyReference.cache
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\TipperKit.dll
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\TipperKit.pdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\TipperKit.TipperKit.apk
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\TipperKit.TipperKit-Signed.apk
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\TipperKit.dll
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\TipperKit.pdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\bin\TipperKit.TipperKit.apk
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\res\layout\main.xml
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\res\values\strings.xml
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\res\drawable\icon.png
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\R.cs.flag
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\uploadflags.txt
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\TipperKit.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\Java.Interop.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\Mono.Android.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\Mono.Android.Export.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\mscorlib.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\System.Core.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\System.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\System.Xml.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\Mono.Android.Export.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\System.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\android\assets\TipperKit.dll.mdb
+C:\Users\blashmark\documents\visual studio 2017\Projects\TipperKit\TipperKit\obj\Debug\TipperKit.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\TipperKit.dll
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\TipperKit.pdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\TipperKit.TipperKit.apk
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\TipperKit.TipperKit-Signed.apk
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\Xamarin.Android.Support.v4.dll
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\TipperKit.csprojResolveAssemblyReference.cache
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\TipperKit.dll
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\TipperKit.pdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\bin\TipperKit.TipperKit.apk
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\res\layout\main.xml
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\res\values\strings.xml
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\res\drawable\icon.png
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\R.cs.flag
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\uploadflags.txt
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\Java.Interop.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\Mono.Android.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\Mono.Android.Export.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\mscorlib.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\System.ComponentModel.Composition.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\System.Core.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\System.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\System.Net.Http.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\System.Runtime.Serialization.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\System.ServiceModel.Internals.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\System.Xml.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\System.Xml.Linq.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\bin\Debug\TipperKit.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\Java.Interop.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\Mono.Android.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\Mono.Android.Export.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\mscorlib.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\System.Core.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\System.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\System.Net.Http.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\System.Xml.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\android\assets\TipperKit.dll.mdb
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\res\drawable\splash.png
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\res\values\styles.xml
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\res\values\colors.xml
+D:\Mark\Desktop\TipperKit\TipperKit\obj\Debug\TipperKit.dll.mdb
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\bin\Debug\TipperKit.dll
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\bin\Debug\TipperKit.pdb
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\bin\Debug\TipperKit.TipperKit.apk
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\bin\Debug\TipperKit.TipperKit-Signed.apk
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\bin\Debug\Xamarin.Android.Support.v4.dll
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\obj\Debug\TipperKit.dll
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\obj\Debug\TipperKit.pdb
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\bin\TipperKit.TipperKit.apk
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\layout\main.xml
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\values\strings.xml
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\drawable\icon.png
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\drawable\splash.png
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\values\styles.xml
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\obj\Debug\R.cs.flag
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\obj\Debug\uploadflags.txt
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\obj\Debug\TipperKit.dll.mdb
+D:\Mark\Desktop\Tipper Backup\TipperKit_3_UI_Fields\TipperKit\bin\Debug\TipperKit.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\TipperKit.dll
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\TipperKit.pdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\TipperKit.TipperKit.apk
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\TipperKit.TipperKit-Signed.apk
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\Xamarin.Android.Support.v4.dll
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\TipperKit.csprojResolveAssemblyReference.cache
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\TipperKit.dll
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\TipperKit.pdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\bin\TipperKit.TipperKit.apk
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\layout\main.xml
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\values\strings.xml
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\drawable\icon.png
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\drawable\splash.png
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\values\styles.xml
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\R.cs.flag
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\uploadflags.txt
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\Java.Interop.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\Mono.Android.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\Mono.Android.Export.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\mscorlib.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\System.ComponentModel.Composition.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\System.Core.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\System.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\System.Net.Http.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\System.Runtime.Serialization.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\System.ServiceModel.Internals.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\System.Xml.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\System.Xml.Linq.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\TipperKit.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\Java.Interop.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\Mono.Android.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\Mono.Android.Export.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\mscorlib.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\System.Core.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\System.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\System.Net.Http.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\System.Xml.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\TipperKit.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\layout\outputlayout.xml
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\TipperKit.dll.mdb
+D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\bin\Debug\TipperKit.dll.mdb
