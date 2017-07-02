@@ -42,7 +42,7 @@ namespace TipperKit {
                     Toast.MakeText(ApplicationContext, "CALC ERROR" + e.Message, ToastLength.Long);
                 }
                 TipperCalculator.Calculate();
-
+                
                 Android.Util.Log.Info("[TipperKit Calculated Output]", "Overall: " + Convert.ToString(TipperCalculator.T68OverallApplicationSetup) + "\nPart Numbers: TipperKit - " + Convert.ToString(TipperCalculator.P3TipperKitPartNumber) + " and Cylinder - " + Convert.ToString(TipperCalculator.E30CylinderPartNumber));
 
                 this.StartActivity(typeof(Output));
