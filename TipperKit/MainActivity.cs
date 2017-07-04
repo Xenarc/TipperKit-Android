@@ -52,17 +52,11 @@ namespace TipperKit {
         }
 
         private void FillData() {
-            EditText editText1 = FindViewById<EditText>(Resource.Id.editText1);
-            EditText editText2 = FindViewById<EditText>(Resource.Id.editText2);
-            EditText editText3 = FindViewById<EditText>(Resource.Id.editText3);
-            EditText editText4 = FindViewById<EditText>(Resource.Id.editText4);
-            EditText editText5 = FindViewById<EditText>(Resource.Id.editText5);
-
-            editText1.SetText(String.valueOf(800));
-            editText2.SetText(String.valueOf(1000));
-            editText3.SetText(String.valueOf(1500));
-            editText4.SetText(String.valueOf(1250));
-            editText5.SetText(String.valueOf(2000));
+            FindViewById<EditText>(Resource.Id.editText1).Text = "800";
+            FindViewById<EditText>(Resource.Id.editText2).Text = "1000";
+            FindViewById<EditText>(Resource.Id.editText3).Text = "1500";
+            FindViewById<EditText>(Resource.Id.editText4).Text = "1250";
+            FindViewById<EditText>(Resource.Id.editText5).Text = "2000";
         }
     }
 }

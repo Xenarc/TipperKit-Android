@@ -13,7 +13,8 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scrollView1">
+        android:id="@+id/scrollView1"
+        android:fitsSystemWindows="true">
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -311,7 +312,9 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/SRH6L"
                         android:clickable="false"
-                        android:editable="false" />
+                        android:editable="false"
+                        android:text="5.2"
+                        android:textAlignment="center" />
                 </LinearLayout>
                 <FrameLayout
                     android:minWidth="25px"
@@ -370,6 +373,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:editable="false" />
+                    <EditText
+                        android:inputType="none"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/SRH6L"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="8.5"
+                        android:textAlignment="0" />
                 </LinearLayout>
                 <FrameLayout
                     android:minWidth="25px"
@@ -436,7 +448,9 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/SSH10L"
                         android:clickable="false"
-                        android:editable="false" />
+                        android:editable="false"
+                        android:text="13.5"
+                        android:textAlignment="0" />
                     <EditText
                         android:inputType="none"
                         android:layout_width="match_parent"

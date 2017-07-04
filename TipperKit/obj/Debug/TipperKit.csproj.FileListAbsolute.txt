@@ -193,3 +193,4 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\System.Xml.dl
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\TipperKit.dll.mdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.dll.mdb
+D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.dll.mdb
