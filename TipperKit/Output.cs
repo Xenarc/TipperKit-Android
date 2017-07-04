@@ -17,15 +17,13 @@ namespace TipperKit {
             base.OnCreate(savedInstanceState);
             try {
                 SetContentView(Resource.Layout.OutputLayout);
-                InputMethodManager inputManager = (InputMethodManager)this.GetSystemService(Context.InputMethodService);
-
-                inputManager.HideSoftInputFromWindow(this.CurrentFocus.WindowToken, HideSoftInputFlags.NotAlways);
 
                 // Recalculate
-                Button recalculate = FindViewById<Button>(Resource.Id.button1);
+                Button recalculate = FindViewById<Button>(Resource.Id.Recalculate);
 
                 recalculate.Click += delegate {
-                    this.StartActivity(typeof(MainActivity));
+                    this.Finish();
+                    Android.Util.Log.Info("Tipperkit", "Recalculate button has been Pressed");
                 };
             } catch {
                 this.Dispose();

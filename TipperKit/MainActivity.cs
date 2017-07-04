@@ -39,7 +39,7 @@ namespace TipperKit {
                     try {
                     TipperCalculator.Calculate();
                 } catch (Exception e) {
-                    Toast.MakeText(ApplicationContext, "CALC ERROR" + e.Message, ToastLength.Long);
+                    Toast.MakeText(ApplicationContext, "CALC ERROR" + e.Message, ToastLength.Long); 
                 }
                 TipperCalculator.Calculate();
                 
