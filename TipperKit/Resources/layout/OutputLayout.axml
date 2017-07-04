@@ -216,69 +216,6 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="45.0dp"
-                android:id="@+id/linearLayout2"
-                android:background="#333333"
-                android:layout_marginTop="5.0dp">
-                <TextView
-                    android:text="6L SRH (Option)"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:id="@+id/textView1"
-                    android:gravity="center_horizontal"
-                    android:layout_marginRight="3.0dp"
-                    android:layout_marginLeft="3.0dp"
-                    android:layout_marginTop="3.0dp" />
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="112.5dp"
-                    android:layout_height="match_parent"
-                    android:id="@+id/linearLayout4">
-                    <TextView
-                        android:text="Tank Vol. (Usable) = "
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:id="@+id/textView1"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:editable="false" />
-                    <EditText
-                        android:inputType="none"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/editText1" />
-                </LinearLayout>
-                <FrameLayout
-                    android:minWidth="25px"
-                    android:minHeight="25px"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/frameLayout1"
-                    android:layout_marginLeft="5.0dp"
-                    android:layout_marginRight="5.0dp"
-                    android:background="#FF0000">
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:minWidth="25px"
-                        android:minHeight="25px"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:id="@+id/linearLayout3">
-                        <TextView
-                            android:text="False"
-                            android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:id="@+id/textViewe"
-                            android:textAlignment="viewStart"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center" />
-                    </LinearLayout>
-                </FrameLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:id="@+id/linearLayout2"
                 android:background="#333333"
@@ -314,7 +251,11 @@
                         android:clickable="false"
                         android:editable="false"
                         android:text="5.2"
-                        android:textAlignment="center" />
+                        android:textAlignment="centered"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#444"
+                        android:textColor="#FFF" />
                 </LinearLayout>
                 <FrameLayout
                     android:minWidth="25px"
@@ -381,7 +322,11 @@
                         android:clickable="false"
                         android:editable="false"
                         android:text="8.5"
-                        android:textAlignment="0" />
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#444"
+                        android:textColor="#FFF" />
                 </LinearLayout>
                 <FrameLayout
                     android:minWidth="25px"
@@ -450,14 +395,11 @@
                         android:clickable="false"
                         android:editable="false"
                         android:text="13.5"
-                        android:textAlignment="0" />
-                    <EditText
-                        android:inputType="none"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/SSH15L"
-                        android:clickable="false"
-                        android:editable="false" />
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#444"
+                        android:textColor="#FFF" />
                 </LinearLayout>
                 <FrameLayout
                     android:minWidth="25px"
