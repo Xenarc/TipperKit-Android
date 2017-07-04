@@ -16,8 +16,10 @@ namespace TipperKit {
             try {
                 SetContentView(Resource.Layout.Main);
             } catch (Exception) {
-                this.Dispose();
+                Android.Util.Log.Error("TipperKit", "SetContentView Failed");
             }
+            // Fill out sample data
+            FillData();
             Button button = FindViewById<Button>(Resource.Id.button1);
 
             button.Click += delegate {
@@ -47,6 +49,26 @@ namespace TipperKit {
 
                 this.StartActivity(typeof(Output));
             };
+        }
+
+        private void FillData() {
+            EditText editText1 = new EditText(this);
+            EditText editText2 = new EditText(this);
+            EditText editText3 = new EditText(this);
+            EditText editText4 = new EditText(this);
+            EditText editText5 = new EditText(this);
+
+            editText1 = FindViewById<EditText>(Resource.Id.editText1);
+            editText2 = FindViewById<EditText>(Resource.Id.editText2);
+            editText3 = FindViewById<EditText>(Resource.Id.editText3);
+            editText4 = FindViewById<EditText>(Resource.Id.editText4);
+            editText5 = FindViewById<EditText>(Resource.Id.editText5);
+
+            editText1.SetText(800);
+            editText2.SetText(1000);
+            editText3.SetText(1500);
+            editText4.SetText(1250);
+            editText5.SetText(2000);
         }
     }
 }
