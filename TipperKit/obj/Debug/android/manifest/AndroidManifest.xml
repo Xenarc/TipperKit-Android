@@ -4,7 +4,6 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="TipperKit" android:theme="@style/Theme.DeviceDefault.Light.DarkActionBar" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:icon="@drawable/icon" android:label="TipperKit" android:theme="@style/Theme.DeviceDefault.Light.DarkActionBar" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.MainActivity" />
     <activity android:label="Output" android:theme="@style/Theme.DeviceDefault.Light.DarkActionBar" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.Output" />
     <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.SplashActivity">
       <intent-filter>

@@ -8,12 +8,15 @@ using Android.Content;
 
 namespace TipperKit {
     [Activity(Label = "TipperKit", Icon = "@drawable/icon", Theme = "@style/Theme.DeviceDefault.Light.DarkActionBar")]
+    public class Util {
+        public static Tipper TipperCalculator = new Tipper();
+    }
     public class MainActivity : Activity {
         protected override void OnCreate(Bundle bundle) {
             base.OnCreate(bundle);
             Android.Util.Log.Info("TipperKit", "Activity started");
 
-            Tipper TipperCalculator = new Tipper();
+            Tipper TipperCalculator = Util.TipperCalculator;
             Android.Util.Log.Info("TipperKit", "TipperCalculator has initialised");
 
             // Set the content view from Main.axml
@@ -51,16 +54,18 @@ namespace TipperKit {
                     Toast.MakeText(ApplicationContext, "CALC ERROR" + e.Message, ToastLength.Long);
                     Android.Util.Log.Info("TipperKit", "Calculation error! " + e.Message);
                 }
-                TipperCalculator.Calculate();
+                for (int i = 0; i < 100; i++) {     // Test Calculating for 100 times
+                    TipperCalculator.Calculate();
+                }
                 if(TipperCalculator.E30CylinderPartNumber == "" || TipperCalculator.P3TipperKitPartNumber == "") {
                     Android.Util.Log.Info("TipperKit", "Calculation Failed");
                 }
                 Android.Util.Log.Info("TipperKit", "Calculation output. Overall: " + Convert.ToString(TipperCalculator.T68OverallApplicationSetup) + "\nPart Numbers: TipperKit - " + Convert.ToString(TipperCalculator.P3TipperKitPartNumber) + " and Cylinder - " + Convert.ToString(TipperCalculator.E30CylinderPartNumber));
 
+                Util.TipperCalculator = TipperCalculator;
                 this.StartActivity(typeof(Output));
             };
         }
-
         private void FillData() {
             FindViewById<EditText>(Resource.Id.editText1).Text = "800";
             FindViewById<EditText>(Resource.Id.editText2).Text = "1000";

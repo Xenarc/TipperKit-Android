@@ -202,4 +202,3 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Sup
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.dll.mdb
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.dll.mdb
