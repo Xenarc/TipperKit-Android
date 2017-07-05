@@ -23,7 +23,7 @@ namespace TipperKit {
         public Datasheets.TipperKits[] TipperKits;
 
         public float Q8TrayWeightLoaded = 1000;
-		public float Q9GrossTrayWeighEmpty = 800;
+		public float Q9GrossTrayWeightEmpty = 800;
 		public float Q10CenterOfGravity = 1000;
 		public float Q11DistanceBetweenPivotPoints = 1500;
 		public float Q12CylinderStroke = 1250;
@@ -171,7 +171,7 @@ namespace TipperKit {
 			E66ForceRequiredY2 = E58ForceRequiredW * E59ForceRequiredL1 / E60ForceRequiredL2;
 			E58ForceRequiredW = E55ForceAppliedFullLoadW;
             E55ForceAppliedFullLoadW = E51ForceAppliedFullLoadM * g + E53ForceAppliedFullLoadO;
-            E51ForceAppliedFullLoadM = Q9GrossTrayWeighEmpty + Q83PowerPackRaiseLowerTimeR;
+            E51ForceAppliedFullLoadM = Q9GrossTrayWeightEmpty + Q83PowerPackRaiseLowerTimeR;
             E53ForceAppliedFullLoadO = E51ForceAppliedFullLoadM * g * (E50ForceAppliedFullLoadAFO / 100);
 
             E59ForceRequiredL1 = Q10CenterOfGravity;

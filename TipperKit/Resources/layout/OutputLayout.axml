@@ -255,7 +255,9 @@
                         android:focusable="false"
                         android:gravity="center"
                         android:background="#444"
-                        android:textColor="#FFF" />
+                        android:textColor="#FFF"
+                        android:layout_marginTop="7.5dp"
+                        android:enabled="false" />
                 </LinearLayout>
                 <FrameLayout
                     android:minWidth="25px"
@@ -326,7 +328,9 @@
                         android:focusable="false"
                         android:gravity="center"
                         android:background="#444"
-                        android:textColor="#FFF" />
+                        android:textColor="#FFF"
+                        android:layout_marginTop="7.5dp"
+                        android:enabled="false" />
                 </LinearLayout>
                 <FrameLayout
                     android:minWidth="25px"
@@ -399,7 +403,9 @@
                         android:focusable="false"
                         android:gravity="center"
                         android:background="#444"
-                        android:textColor="#FFF" />
+                        android:textColor="#FFF"
+                        android:layout_marginTop="7.5dp"
+                        android:enabled="false" />
                 </LinearLayout>
                 <FrameLayout
                     android:minWidth="25px"

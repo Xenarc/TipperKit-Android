@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 
 namespace TipperKit {
-    [Activity(Label = "Output")]
+    [Activity(Label = "Output", Theme = "@style/Theme.DeviceDefault.Light.DarkActionBar")]
     public class Output : Activity {
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
@@ -19,11 +19,17 @@ namespace TipperKit {
                 SetContentView(Resource.Layout.OutputLayout);
 
                 // Recalculate
-                Button recalculate = FindViewById<Button>(Resource.Id.Recalculate);
+                Button Recalculate = FindViewById<Button>(Resource.Id.Recalculate);
+                Button GenerateReport = FindViewById<Button>(Resource.Id.GenerateReport);
 
-                recalculate.Click += delegate {
+                Recalculate.Click += delegate {
                     this.Finish();
                     Android.Util.Log.Info("Tipperkit", "Recalculate button has been Pressed");
+                };
+
+                GenerateReport.Click += delegate {
+                    Android.Util.Log.Info("Tipperkit", "GenerateReport button has been Pressed");
+                    //Generate Report Activity
                 };
             } catch {
                 this.Dispose();

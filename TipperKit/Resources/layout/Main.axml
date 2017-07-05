@@ -5,7 +5,8 @@
     p1:minHeight="25px"
     p1:layout_width="match_parent"
     p1:layout_height="match_parent"
-    p1:id="@+id/linearLayout1">
+    p1:id="@+id/linearLayout1"
+    p1:background="#222">
     <LinearLayout
         p1:orientation="horizontal"
         p1:layout_width="match_parent"
@@ -28,7 +29,7 @@
             p1:layout_height="match_parent"
             p1:id="@+id/editText1"
             p1:layout_marginRight="5.0dp"
-            p1:background="#FFFFFF"
+            p1:background="#eee"
             p1:textColor="#222222"
             p1:textColorHighlight="#222222"
             p1:textColorHint="#222222"
@@ -55,7 +56,7 @@
             p1:layout_height="match_parent"
             p1:id="@+id/editText2"
             p1:layout_marginRight="5.0dp"
-            p1:background="#FFFFFF"
+            p1:background="#eee"
             p1:textColor="#222222"
             p1:textColorHighlight="#222222"
             p1:textColorHint="#222222"
@@ -82,7 +83,7 @@
             p1:layout_height="match_parent"
             p1:id="@+id/editText3"
             p1:layout_marginRight="4.5dp"
-            p1:background="#FFFFFF"
+            p1:background="#eee"
             p1:textColor="#222222"
             p1:textColorHighlight="#222222"
             p1:textColorHint="#222222"
@@ -127,7 +128,7 @@
             p1:layout_height="match_parent"
             p1:id="@+id/editText4"
             p1:layout_marginRight="5.0dp"
-            p1:background="#FFFFFF"
+            p1:background="#eee"
             p1:textColor="#222222"
             p1:textColorHighlight="#222222"
             p1:textColorHint="#222222"
@@ -172,7 +173,7 @@
             p1:layout_height="match_parent"
             p1:id="@+id/editText5"
             p1:layout_marginRight="5.0dp"
-            p1:background="#FFFFFF"
+            p1:background="#eee"
             p1:textColor="#222222"
             p1:textColorHighlight="#222222"
             p1:textColorHint="#222222"
@@ -181,6 +182,8 @@
     <Button
         p1:text="Calculate"
         p1:layout_width="match_parent"
-        p1:layout_height="wrap_content"
-        p1:id="@+id/button1" />
+        p1:layout_height="32.0dp"
+        p1:id="@+id/button1"
+        p1:background="#F00"
+        p1:textColor="#FFF" />
 </LinearLayout>

@@ -1,5 +1,4 @@
 #!/bin/bash
-git diff
 git status
 git add -A
 git status 
