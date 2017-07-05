@@ -152,7 +152,6 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.dll
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.pdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.TipperKit.apk
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.TipperKit-Signed.apk
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\Xamarin.Android.Support.v4.dll
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.csprojResolveAssemblyReference.cache
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.dll
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.pdb
@@ -191,13 +190,6 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\System.Servic
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\System.Xml.dll.mdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\TipperKit.dll.mdb
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\Xamarin.Android.Support.Annotations.dll
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\Xamarin.Android.Support.Compat.dll
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\Xamarin.Android.Support.Core.UI.dll
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\Xamarin.Android.Support.Fragment.dll
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\Xamarin.Android.Support.v13.dll
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Annotations.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll.stamp
@@ -206,9 +198,6 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Sup
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Fragment.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.v4.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.v13.dll.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll.stamp
