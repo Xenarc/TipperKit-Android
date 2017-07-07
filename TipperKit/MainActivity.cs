@@ -22,6 +22,10 @@ namespace TipperKit {
             // Set the content view from Main.axml
             try {
                 SetContentView(Resource.Layout.Main);
+
+                //STYLING
+                FindViewById<Button>(Resource.Id.button1).SetBackgroundColor(Android.Graphics.Color.Argb(0xFF, 0x48, 0x48, 0x48));
+                this.ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red));
             } catch (Exception) {
                 Android.Util.Log.Error("TipperKit", "SetContentView Failed  ");
             }
