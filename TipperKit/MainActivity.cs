@@ -5,6 +5,8 @@ using Android.OS;
 using System;
 using Android.Views.InputMethods;
 using Android.Content;
+using Android.Graphics;
+using Android.Graphics.Drawables;
 
 namespace TipperKit {
     [Activity(Label = "TipperKit", Icon = "@drawable/icon", Theme = "@style/Theme.DeviceDefault.Light.DarkActionBar")]
@@ -23,9 +25,23 @@ namespace TipperKit {
             try {
                 SetContentView(Resource.Layout.Main);
 
-                //STYLING
-                FindViewById<Button>(Resource.Id.button1).SetBackgroundColor(Android.Graphics.Color.Argb(0xFF, 0x48, 0x48, 0x48));
-                this.ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red));
+            //STYLING
+                //Create Local Copies of 
+                Button recalculateButton = FindViewById<Button>(Resource.Id.button1);
+                
+                try {
+                    ActionBar.SetDisplayUseLogoEnabled(false);
+                    ActionBar.SetIcon(BitmapDrawable.CreateFromPath("Resources\\drawable\\Icon.png"));
+                } catch (Exception e) {
+                    Android.Util.Log.Error("TipperKit", "ActionBarIcon Failed to load" + e.Message);
+                    throw;
+                }
+                
+                ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Color.Argb(0x88, 0x1F, 0x1F, 0x1F)));
+                
+                recalculateButton.SetBackgroundColor(Color.Argb(0xFF, 0x3F, 0x3F, 0x3F));
+                
+                
             } catch (Exception) {
                 Android.Util.Log.Error("TipperKit", "SetContentView Failed  ");
             }
