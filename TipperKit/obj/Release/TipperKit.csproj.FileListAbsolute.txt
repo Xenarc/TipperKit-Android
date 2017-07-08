@@ -42,8 +42,6 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Release\TipperKit.dll
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Release\TipperKit.pdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Release\TipperKit.TipperKit.apk
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Release\TipperKit.TipperKit-Signed.apk
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Release\Xamarin.Android.Support.v4.dll
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Release\TipperKit.csprojResolveAssemblyReference.cache
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Release\TipperKit.dll
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Release\TipperKit.pdb
@@ -79,4 +77,3 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Release\android\assets\System.Runt
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Release\android\assets\System.Xml.dll.mdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Release\android\assets\TipperKit.dll.mdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Release\TipperKit.dll.mdb
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Release\TipperKit.dll.mdb
