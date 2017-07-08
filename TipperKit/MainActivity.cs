@@ -9,7 +9,7 @@ using Android.Graphics;
 using Android.Graphics.Drawables;
 
 namespace TipperKit {
-    [Activity(Label = "TipperKit", Icon = "@drawable/icon", Theme = "@style/Theme.DeviceDefault.Light.DarkActionBar")]
+    [Activity(Label = "TipperKit", Icon = "@drawable/icon")]
     public class Util {
         public static Tipper TipperCalculator = new Tipper();
     }

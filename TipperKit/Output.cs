@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 
 namespace TipperKit {
-    [Activity(Label = "Output", Theme = "@style/Theme.DeviceDefault.Light.DarkActionBar")]
+    [Activity(Label = "Output")]
     public class Output : Activity {
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
