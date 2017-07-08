@@ -186,11 +186,4 @@
         p1:id="@+id/button1"
         p1:textColor="#FFF"
         p1:textAllCaps="false" />
-    <Button
-        p1:text="Calculate"
-        p1:layout_width="match_parent"
-        p1:layout_height="wrap_content"
-        p1:id="@+id/button1"
-        p1:textColor="#FFF"
-        p1:textAllCaps="false" />
 </LinearLayout>

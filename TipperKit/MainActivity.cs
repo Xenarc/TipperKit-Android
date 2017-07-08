@@ -9,10 +9,10 @@ using Android.Graphics;
 using Android.Graphics.Drawables;
 
 namespace TipperKit {
-    [Activity(Label = "TipperKit", Icon = "@drawable/icon")]
     public class Util {
         public static Tipper TipperCalculator = new Tipper();
     }
+    [Activity(Label = "MainActivity")]
     public class MainActivity : Activity {
         protected override void OnCreate(Bundle bundle) {
             base.OnCreate(bundle);
