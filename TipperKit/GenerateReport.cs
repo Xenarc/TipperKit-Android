@@ -15,7 +15,8 @@ namespace TipperKit {
     public class GenerateReport : Activity {
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
-
+            SetContentView(Resource.Layout.GenerateReportLayout);
+            
             // Create your application here
         }
     }

@@ -18,7 +18,7 @@ namespace TipperKit {
             base.OnCreate(savedInstanceState);
             try {
                 SetContentView(Resource.Layout.OutputLayout);
-
+                
                 // Recalculate
                 Button Recalculate = FindViewById<Button>(Resource.Id.Recalculate);
                 Button GenerateReport = FindViewById<Button>(Resource.Id.GenerateReport);

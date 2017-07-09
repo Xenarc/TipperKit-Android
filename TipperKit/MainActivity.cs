@@ -37,8 +37,6 @@ namespace TipperKit {
                     throw;
                 }
                 
-                ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Color.Argb(0x88, 0x1F, 0x1F, 0x1F)));
-                
                 recalculateButton.SetBackgroundColor(Color.Argb(0xFF, 0x3F, 0x3F, 0x3F));
                 
                 
