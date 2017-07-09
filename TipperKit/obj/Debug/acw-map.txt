@@ -1,3 +1,11 @@
+TipperKit.DetailedOutput, TipperKit;md5c71bd3ede1cc5b61e4a263b3f1f671c6.DetailedOutput
+TipperKit.DetailedOutput, TipperKit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c71bd3ede1cc5b61e4a263b3f1f671c6.DetailedOutput
+TipperKit.DetailedOutput;md5c71bd3ede1cc5b61e4a263b3f1f671c6.DetailedOutput
+tipperkit.DetailedOutput;md5c71bd3ede1cc5b61e4a263b3f1f671c6.DetailedOutput
+TipperKit.GenerateReport, TipperKit;md5c71bd3ede1cc5b61e4a263b3f1f671c6.GenerateReport
+TipperKit.GenerateReport, TipperKit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c71bd3ede1cc5b61e4a263b3f1f671c6.GenerateReport
+TipperKit.GenerateReport;md5c71bd3ede1cc5b61e4a263b3f1f671c6.GenerateReport
+tipperkit.GenerateReport;md5c71bd3ede1cc5b61e4a263b3f1f671c6.GenerateReport
 TipperKit.MainActivity, TipperKit;md5c71bd3ede1cc5b61e4a263b3f1f671c6.MainActivity
 TipperKit.MainActivity, TipperKit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c71bd3ede1cc5b61e4a263b3f1f671c6.MainActivity
 TipperKit.MainActivity;md5c71bd3ede1cc5b61e4a263b3f1f671c6.MainActivity

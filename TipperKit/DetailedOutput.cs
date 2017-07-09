@@ -15,7 +15,7 @@ namespace TipperKit {
     public class DetailedOutput : Activity {
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
-
+            SetContentView(Resource.Layout.DetailedOutputLayout);
             // Create your application here
         }
     }

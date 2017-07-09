@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android;
 
 namespace TipperKit {
     [Activity(Label = "Output")]
@@ -70,6 +71,14 @@ namespace TipperKit {
                 } else {
                     FindViewById<TextView>(Resource.Id.textViewH).SetBackgroundColor(Android.Graphics.Color.Orange);
                 }
+                if (TipperKit.Util.TipperCalculator.T68OverallApplicationSetup) {
+                    ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Green));
+                    ActionBar.Title = "Application Acceptable";
+                    
+                } else {
+                    ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red));
+                    ActionBar.Title = "Application Unaceptable";
+                }
                 Recalculate.Click += delegate {
                     this.Finish();
                     Android.Util.Log.Info("Tipperkit", "Recalculate button has been Pressed");
@@ -78,6 +87,7 @@ namespace TipperKit {
                 GenerateReport.Click += delegate {
                     Android.Util.Log.Info("Tipperkit", "GenerateReport button has been Pressed");
                     //Generate Report Activity
+                    this.StartActivity(typeof(DetailedOutput));
                 };
             } catch {
                 this.Dispose();

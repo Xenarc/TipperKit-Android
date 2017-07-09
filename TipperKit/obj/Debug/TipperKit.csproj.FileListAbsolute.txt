@@ -152,6 +152,7 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.dll
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.pdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.TipperKit.apk
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.TipperKit-Signed.apk
+D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.csprojResolveAssemblyReference.cache
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Annotations.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll.stamp
@@ -169,6 +170,8 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\bin\TipperKit.Tipper
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\icon.png
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\splash.png
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\layout\outputlayout.xml
+D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\layout\generatereportlayout.xml
+D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\layout\detailedoutputlayout.xml
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\layout\main.xml
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\values\strings.xml
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\values\styles.xml
@@ -176,4 +179,3 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\R.cs.flag
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\uploadflags.txt
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.dll.mdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\TipperKit.dll.mdb
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.csprojResolveAssemblyReference.cache
