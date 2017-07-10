@@ -19,12 +19,916 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/linearLayout1">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout7"
+                android:layout_marginBottom="13.0dp">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Cylinder Part Number: "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#00F"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#FFF"
+                        android:ellipsize="none"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputPartC"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#00F"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp"
+                    android:layout_marginBottom="5.0dp">
+                    <TextView
+                        android:text="Tipper Kit Part Number: "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#00F"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#FFF"
+                        android:ellipsize="none"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputPartT"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#00F"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout9">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout3"
+                        android:layout_marginTop="2.0dp">
+                        <TextView
+                            android:text="NULL"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:id="@+id/Sentance"
+                            android:background="#444"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="0.0dp"
+                            android:padding="3dp"
+                            android:textColor="#FFF" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView
+                    android:text="Manually Inputted"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:background="#DBAD20" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Tray Weight (empty)"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#DBAD20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:ellipsize="none"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA1"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="kg"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Gross Tray Weight (Loaded)"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#DBAD20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA2"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="kg"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Center of Gravity"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#DBAD20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/Output491"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="L1"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA3"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="mm"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Distance Between Pivot Points"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#DBAD20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:layout_marginRight="5.0dp"
+                        android:scrollHorizontally="false"
+                        android:ellipsize="none"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/Output492"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="L2"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA4"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="mm"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:text="Cylinder Stroke"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#DBAD20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:ellipsize="none"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/Output493"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="L3"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA5"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="mm"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Tray Length"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#DBAD20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/Output494"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="L4"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA6"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="mm"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp"
+                    android:layout_marginBottom="5.0dp">
+                    <TextView
+                        android:text="Tipping Angle"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#DBAD20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#000"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/Output495"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="Tilt"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA7"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="d"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#DBAD20"
+                        android:textColor="#000"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <TextView
+                    android:text="Fixed Values"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:textColor="#FFF"
+                    android:gravity="center"
+                    android:background="#639144" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Max Working Pressure of Cylinder (Pmax) "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#639144"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#FFF"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA8"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#639144"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="Bar"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#639144"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Flow Rate of Power Pack (Raise) "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#639144"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#FFF"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA9"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#639144"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="Bar"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#639144"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp"
+                    android:layout_marginBottom="5.0dp">
+                    <TextView
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#639144"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#FFF"
+                        android:text="Flow Rate of Power Pack (Lower) "
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA10"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#639144"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="Bar"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#639144"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <TextView
+                    android:text="Referenced Values"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:textColor="#FFF"
+                    android:background="#32cddb"
+                    android:gravity="center" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Stroke Volume of Cylinder"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#32cddb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#FFF"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA11"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#32cddb"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="Bar"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#32cddb"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Overall Cylinder Diameter"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#32cddb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#FFF"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA12"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#32cddb"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="I/min"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#32cddb"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Smallest Rod Diameter "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#32cddb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#FFF"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA13"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#32cddb"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="I/min"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#32cddb"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <TextView
+                    android:text="Key"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:textColor="#FFF"
+                    android:gravity="center" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout8"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:text="NOT Acceptable"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewaasdg"
+                        android:textAlignment="viewStart"
+                        android:gravity="center"
+                        android:background="#F00"
+                        android:layout_width="10dp"
+                        android:layout_height="60dp"
+                        android:textColor="#000"
+                        android:layout_weight="1" />
+                    <TextView
+                        android:text="Acceptable"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewa"
+                        android:textAlignment="viewStart"
+                        android:gravity="center"
+                        android:layout_width="10dp"
+                        android:background="#0F0"
+                        android:layout_height="60dp"
+                        android:textColor="#000"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
             <TextView
                 android:text="Cylinder Force Acceptable For Application"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView2" />
+                android:id="@+id/textView2"
+                android:textColor="#FFF" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -38,7 +942,8 @@
                     android:layout_width="250.0dp"
                     android:layout_height="match_parent"
                     android:id="@+id/textView1"
-                    android:gravity="center" />
+                    android:gravity="center"
+                    android:textColor="#FFF" />
                 <FrameLayout
                     android:minWidth="25px"
                     android:minHeight="25px"
@@ -51,11 +956,14 @@
                     <TextView
                         android:text="False"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:id="@+id/textViewa"
+                        android:id="@+id/textViewA"
                         android:textAlignment="viewStart"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:background="#F00"
+                        android:textSize="16dp" />
                 </FrameLayout>
                 <LinearLayout
                     android:orientation="horizontal"
@@ -86,7 +994,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView2" />
+                android:id="@+id/textView2"
+                android:textColor="#FFF" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -100,7 +1009,8 @@
                     android:layout_width="250.0dp"
                     android:layout_height="match_parent"
                     android:id="@+id/textView1"
-                    android:gravity="center" />
+                    android:gravity="center"
+                    android:textColor="#FFF" />
                 <FrameLayout
                     android:minWidth="25px"
                     android:minHeight="25px"
@@ -117,7 +1027,9 @@
                         android:textAlignment="viewStart"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textSize="16dp" />
                 </FrameLayout>
             </LinearLayout>
             <TextView
@@ -125,7 +1037,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView2" />
+                android:id="@+id/textView2"
+                android:textColor="#FFF" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -134,12 +1047,13 @@
                 android:background="#333333"
                 android:layout_marginTop="5.0dp">
                 <TextView
-                    android:text="SYSTEM OK = d &gt;39ᴼ &amp; &lt;58ᴼ"
+                    android:text="SYSTEM OK = d &gt;39 &amp; &lt;58"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:layout_width="250.0dp"
                     android:layout_height="match_parent"
                     android:id="@+id/textView1"
-                    android:gravity="center" />
+                    android:gravity="center"
+                    android:textColor="#FFF" />
                 <FrameLayout
                     android:minWidth="25px"
                     android:minHeight="25px"
@@ -156,7 +1070,9 @@
                         android:textAlignment="viewStart"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="center" />
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textSize="16dp" />
                 </FrameLayout>
             </LinearLayout>
             <TextView
@@ -164,7 +1080,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView2" />
+                android:id="@+id/textView2"
+                android:textColor="#FFF" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -178,7 +1095,8 @@
                     android:layout_width="250.0dp"
                     android:layout_height="match_parent"
                     android:id="@+id/textView1"
-                    android:gravity="center" />
+                    android:gravity="center"
+                    android:textColor="#FFF" />
                 <FrameLayout
                     android:minWidth="25px"
                     android:minHeight="25px"
@@ -202,7 +1120,9 @@
                             android:textAlignment="viewStart"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:gravity="center" />
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
                     </LinearLayout>
                 </FrameLayout>
             </LinearLayout>
@@ -211,7 +1131,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView2" />
+                android:id="@+id/textView2"
+                android:textColor="#FFF" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -228,7 +1149,8 @@
                     android:gravity="center_horizontal"
                     android:layout_marginRight="3.0dp"
                     android:layout_marginLeft="3.0dp"
-                    android:layout_marginTop="3.0dp" />
+                    android:layout_marginTop="3.0dp"
+                    android:textColor="#FFF" />
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="112.5dp"
@@ -241,7 +1163,8 @@
                         android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:editable="false" />
+                        android:editable="false"
+                        android:textColor="#FFF" />
                     <EditText
                         android:inputType="none"
                         android:layout_width="match_parent"
@@ -280,7 +1203,9 @@
                             android:textAlignment="viewStart"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:gravity="center" />
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
                     </LinearLayout>
                 </FrameLayout>
             </LinearLayout>
@@ -300,7 +1225,8 @@
                     android:gravity="center_horizontal"
                     android:layout_marginRight="3.0dp"
                     android:layout_marginLeft="3.0dp"
-                    android:layout_marginTop="3.0dp" />
+                    android:layout_marginTop="3.0dp"
+                    android:textColor="#FFF" />
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="112.5dp"
@@ -313,7 +1239,8 @@
                         android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:editable="false" />
+                        android:editable="false"
+                        android:textColor="#FFF" />
                     <EditText
                         android:inputType="none"
                         android:layout_width="match_parent"
@@ -353,7 +1280,9 @@
                             android:textAlignment="viewStart"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:gravity="center" />
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
                     </LinearLayout>
                 </FrameLayout>
             </LinearLayout>
@@ -373,7 +1302,8 @@
                     android:gravity="center_horizontal"
                     android:layout_marginRight="3.0dp"
                     android:layout_marginLeft="3.0dp"
-                    android:layout_marginTop="3.0dp" />
+                    android:layout_marginTop="3.0dp"
+                    android:textColor="#FFF" />
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="112.5dp"
@@ -388,7 +1318,8 @@
                         android:gravity="center"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:editable="false" />
+                        android:editable="false"
+                        android:textColor="#FFF" />
                     <EditText
                         android:inputType="none"
                         android:layout_width="match_parent"
@@ -428,7 +1359,9 @@
                             android:textAlignment="viewStart"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:gravity="center" />
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="16dp" />
                     </LinearLayout>
                 </FrameLayout>
             </LinearLayout>
@@ -445,7 +1378,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="5.0dp"
                     android:textAllCaps="false"
-                    android:layout_marginBottom="5.0dp" />
+                    android:layout_marginBottom="5.0dp"
+                    android:textColor="#FFF" />
                 <ToggleButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -454,7 +1388,8 @@
                     android:textOn="Generate Report"
                     android:textAllCaps="false"
                     android:layout_marginLeft="0.0dp"
-                    android:layout_marginBottom="5.0dp" />
+                    android:layout_marginBottom="5.0dp"
+                    android:textColor="#FFF" />
                 <Button
                     android:text="Continue"
                     android:id="@+id/GenerateReport"
@@ -463,7 +1398,8 @@
                     android:layout_marginLeft="5.0dp"
                     android:textAllCaps="false"
                     android:layout_marginRight="5.0dp"
-                    android:layout_marginBottom="5.0dp" />
+                    android:layout_marginBottom="5.0dp"
+                    android:textColor="#FFF" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

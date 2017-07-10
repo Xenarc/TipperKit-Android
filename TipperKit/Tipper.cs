@@ -1,17 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 
 namespace TipperKit {
-	public class Tipper {
+    public class Tipper {
         public Tipper() {
             initSRH();
             initSSH();
@@ -30,15 +20,13 @@ namespace TipperKit {
 		public float Q14TrayLength;
 		public float Q15TippingAngle;
 
-		public float MaxWorkingPressureOfCylinder;
-
 		public float Q17MaxWorkingPressureOfCylinder = 160.0f;
 		public float Q18FlowRateOfPowerPackRaise = 5.5f;
 		public float Q19FlowRateOfPowerPackLower = 9.0f;
 
-		public float Q22StrokeVolumeOfCylinder;
-		public float Q23OverallCylinderDiameter;
-		public float Q24SmallestRodDiameter;
+		public float Q23StrokeVolumeOfCylinder;
+		public float Q24OverallCylinderDiameter;
+		public float Q25SmallestRodDiameter;
 
 		public string P3TipperKitPartNumber;
 		public string E30CylinderPartNumber;
@@ -68,10 +56,10 @@ namespace TipperKit {
         public float E61ForceRequiredL3;
 		public float E67ForceRequiredY1;
 		public float E66ForceRequiredY2;
-		public float E70PressureRequiredCD;
-		public float E71PressureRequiredCR;
-		public float E72PressureRequiredA;
-		public float E73PressureRequiredMFR;
+		public float E73PressureRequiredCD;
+		public float E74PressureRequiredCR;
+		public float E75PressureRequiredA;
+		public float E76PressureRequiredMFR;
 		public float C75PressureRequiredTheoPNM;
 		public float E75PressureRequiredTheoPB;
 
@@ -111,6 +99,7 @@ namespace TipperKit {
 		public float P81PowerPackRaiseLowerTimeLowerF;
 		public float Q83PowerPackRaiseLowerTimeR;
 		public float Q84PowerPackRaiseLowerTimeL;
+        
 
         public void initSRH() {
             SRH = new Datasheets.SRH[]{ new Datasheets.SRH("KR45W", 5, 3.8f, 170, 250), 
@@ -125,7 +114,9 @@ namespace TipperKit {
         public void initSSH() {
 
             SSH = new Datasheets.SSH[] { new Datasheets.SSH("TK - 36C", 10, 8.5f, 213, 198, 260),
+                new Datasheets.SSH("", 12, 10.2f, 213, 198, 301.5f),   //FIX THIS
                 new Datasheets.SSH("TK-03", 12, 10.2f, 213, 198, 301.5f),
+                new Datasheets.SSH("", 12, 10.2f, 213, 198, 301.5f),   //AND THIS
                 new Datasheets.SSH("TK-120-15L-66-W-A", 15, 13.5f, 213, 198, 410),
                 new Datasheets.SSH("TK-15", 20, 17.8f, 213, 198, 734),
                 new Datasheets.SSH("TK-34", 25, 23.5f, 213, 198, 705)
@@ -133,132 +124,166 @@ namespace TipperKit {
         }
 
         public void initTipperKits() {
-            TipperKits = new Datasheets.TipperKits[]{new Datasheets.TipperKits(1, "4TG-E90*800QZ", 4, 800, 5, 3.2f, 21, 155, 223, 85, 43, 40, 112, 135, 378, "TK*SHORT", 90, 75, 60, 45, null, null, 10.2f, 7.1f, 4.5f, 2.5f, null, null, 3.5f),
+            // No, string Model,  Extension,  Stroke,  Capacity,  Volume,  Weight,  A,  B,  D,  E,  F,  H,  I,  L, string Kit,  RodDiameterPerStage1st,  RodDiameterPerStage2nd,  RodDiameterPerStage3rd,  RodDiameterPerStage4th,  RodDiameterPerStage5th,  RodDiameterPerStage6th,  TonForce160BarPerStage1st,  TonForce160BarPerStage2nd,  TonForce160BarPerStage3rd,  TonForce160BarPerStage4th,  TonForce160BarPerStage5th,  TonForce160BarPerStage6th,  MinOilCapCylCapPlus10Percent
+            TipperKits = new Datasheets.TipperKits[]{
+                new Datasheets.TipperKits(1, "4TG-E90*800QZ", 4, 800, 5, 3.2f, 21, 155, 223, 85, 43, 40, 112, 135, 378, "TK*SHORT", 90, 75, 60, 45, -1, -1, 10.2f, 7.1f, 4.5f, 2.5f, -1, -1, 3.5f),
+                new Datasheets.TipperKits(2, "4TG-E105*850QZ", 6, 850, 6, 3.8f, 21, 160, 186, 85, 43, 40, 125, 150, 321, "N/a", 105, 90, 75, 60, 45, 30, 13.9f, 10.2f, 7.1f, 4.5f, 2.5f, 1.1f, 4.2f),
                 new Datasheets.TipperKits(3, "6TG-E105*1000QZ", 6, 1000, 6, 4.2f, 23, 160, 186, 85, 43, 40, 125, 150, 346, "TK*LONG", 105, 90, 75, 60, 45, 30, 13.9f, 10.2f, 7.1f, 4.5f, 2.5f, 1.1f, 4.6f),
                 new Datasheets.TipperKits(5, "6TG-E120*1250QZ", 6, 1250, 9, 7.7f, 33, 160, 231, 85, 43, 45, 142, 165, 391, "TK*XLONG", 120, 105, 90, 75, 60, 45, 18.1f, 13.9f, 10.2f, 7.1f, 4.5f, 2.5f, 8.5f),
                 new Datasheets.TipperKits(6, "6TG-E120*1500QZ", 6, 1500, 9, 8.7f, 37, 160, 273, 85, 43, 45, 142, 165, 433, "TK*XXLONG", 120, 105, 90, 75, 60, 45, 18.1f, 13.9f, 10.2f, 7.1f, 4.5f, 2.5f, 9.6f)
                 };
         }
-
         public bool Calculate() {
             H83ForceProducedMFWUO20KN = H82ForceProducedMFWUO20N / 1000;
             O63ForceResistanceOfCylinderPNM = O61ForceResistanceOfCylinderYN / M59ForceResistanceOfCylinderA;
-            Q63ForceResistanceOfCylinderPB = O63ForceResistanceOfCylinderPNM / PaNM;
-
-
-            MaxWorkingPressureOfCylinder = 160;
+            Q63ForceResistanceOfCylinderPB = O63ForceResistanceOfCylinderPNM / BarPa;
+            
+            Q17MaxWorkingPressureOfCylinder = 160;
             E61ForceRequiredL3 = Q13CylinderStroke;
             E67ForceRequiredY1 = E58ForceRequiredW - E66ForceRequiredY2;
 
             Q11CenterOfGravity = Q14TrayLength / 2;
-			Q15TippingAngle = (float)Math.Acos((Q13CylinderStroke / Q14TrayLength));
+            float a = (Q12DistanceBetweenPivotPoints * Q12DistanceBetweenPivotPoints) + (Q12DistanceBetweenPivotPoints * Q12DistanceBetweenPivotPoints) - (Q13CylinderStroke * Q13CylinderStroke);
+            float b = (2 * Q12DistanceBetweenPivotPoints * Q12DistanceBetweenPivotPoints);
 
-			T37FmaxGtY2 = (H82ForceProducedMFWUO20N > E66ForceRequiredY2);
+
+            Q15TippingAngle = (float)Math.Acos((a/b))*(180 / (float)Math.PI);
+
+            Android.Util.Log.Debug("TipperKit", Convert.ToString(a) + "   " + Convert.ToString(b) + "  a/b: " + Convert.ToString(a / b) + "     Q15 = " + Convert.ToString(Q15TippingAngle));
+
+            T37FmaxGtY2 = (H82ForceProducedMFWUO20N > E66ForceRequiredY2);
 			H82ForceProducedMFWUO20N = H80ForceProducedPNM * D80ForceProducedA;
-			H80ForceProducedPNM = H79ForceProducedBP * PaNM;
+
+            Android.Util.Log.Debug("TPC: ", Convert.ToString("FORCE APPLIED:"));
+            Android.Util.Log.Debug("TPC: ", Convert.ToString(D78ForceProducedCD));
+            Android.Util.Log.Debug("TPC: ", Convert.ToString(D79ForceProducedCR));
+            Android.Util.Log.Debug("TPC: ", Convert.ToString(D80ForceProducedA));
+            Android.Util.Log.Debug("TPC: ", Convert.ToString(H78ForceProducedPA));
+            Android.Util.Log.Debug("TPC: ", Convert.ToString(H79ForceProducedBP));
+            Android.Util.Log.Debug("TPC: ", Convert.ToString(H80ForceProducedPNM));
+            Android.Util.Log.Debug("TPC: ", Convert.ToString(H82ForceProducedMFWUO20N));
+            Android.Util.Log.Debug("TPC: ", Convert.ToString(H83ForceProducedMFWUO20KN));
+
+            H80ForceProducedPNM = H79ForceProducedBP * PaNM;
 			H79ForceProducedBP = H78ForceProducedPA * BarPa;
 
 			Q72ForceAppliedOnCylinderByNoLoadP1B = O72ForceAppliedOnCylinderByNoLoadP1NM / BarPa;
-			H78ForceProducedPA = Q17MaxWorkingPressureOfCylinder;
+            O72ForceAppliedOnCylinderByNoLoadP1NM = O70ForceAppliedOnCylinderByNoLoadY1N / M59ForceResistanceOfCylinderA;
+            H78ForceProducedPA = Q17MaxWorkingPressureOfCylinder;
 			Q17MaxWorkingPressureOfCylinder = 160.0f;
 
 			D80ForceProducedA = (D79ForceProducedCR * D79ForceProducedCR) * Pi;
 			D79ForceProducedCR = (D78ForceProducedCD / 1000) / 2;
-			D78ForceProducedCD = Q22StrokeVolumeOfCylinder;
+			D78ForceProducedCD = Q24OverallCylinderDiameter;
 
             T38PLsPmax = E75PressureRequiredTheoPB < H78ForceProducedPA;
 			E75PressureRequiredTheoPB = C75PressureRequiredTheoPNM / 100000;
-			C75PressureRequiredTheoPNM = E73PressureRequiredMFR / E72PressureRequiredA;
-			E73PressureRequiredMFR = E66ForceRequiredY2;
+			C75PressureRequiredTheoPNM = E76PressureRequiredMFR / E75PressureRequiredA;
+			E76PressureRequiredMFR = E66ForceRequiredY2;
 			E66ForceRequiredY2 = E58ForceRequiredW * E59ForceRequiredL1 / E60ForceRequiredL2;
 			E58ForceRequiredW = E55ForceAppliedFullLoadW;
             E55ForceAppliedFullLoadW = E51ForceAppliedFullLoadM * g + E53ForceAppliedFullLoadO;
-            E51ForceAppliedFullLoadM = Q11CenterOfGravity + Q10GrossTrayWeightLoaded;
+            E51ForceAppliedFullLoadM = Q9TrayWeightEmpty + Q10GrossTrayWeightLoaded;
             E53ForceAppliedFullLoadO = E51ForceAppliedFullLoadM * g * (E50ForceAppliedFullLoadAFO / 100);
 
             E59ForceRequiredL1 = Q11CenterOfGravity;
 			E60ForceRequiredL2 = Q12DistanceBetweenPivotPoints;
 
-			E72PressureRequiredA = (E71PressureRequiredCR * E71PressureRequiredCR) * Pi;
-			E71PressureRequiredCR = (E70PressureRequiredCD / 1000) / 2;
+			E75PressureRequiredA = (E74PressureRequiredCR * E74PressureRequiredCR) * Pi;
+			E74PressureRequiredCR = (E73PressureRequiredCD / 1000) / 2;
 			H78ForceProducedPA = Q17MaxWorkingPressureOfCylinder;
-			E70PressureRequiredCD = ((Q22StrokeVolumeOfCylinder + Q23OverallCylinderDiameter) / 2);
-			Q23OverallCylinderDiameter = 0;
+			E73PressureRequiredCD = ((Q25SmallestRodDiameter + Q24OverallCylinderDiameter) / 2);
 
-			T39TactLtTmax = Q70ForceAppliedOnCylinderByNoLoadY1KN > Q61ForceResistanceOfCylinderYKN;
+            P78PowerPackRaiseLowerTimeRaiseF = Q23StrokeVolumeOfCylinder;
+            P77PowerPackRaiseLowerTimeRaiseSV = Q18FlowRateOfPowerPackRaise;
+            P81PowerPackRaiseLowerTimeLowerF = Q19FlowRateOfPowerPackLower;
+            Q83PowerPackRaiseLowerTimeR = P77PowerPackRaiseLowerTimeRaiseSV/P78PowerPackRaiseLowerTimeRaiseF*MinSec;
+            Q84PowerPackRaiseLowerTimeL = P77PowerPackRaiseLowerTimeRaiseSV/P81PowerPackRaiseLowerTimeLowerF*MinSec;
+
+            T39TactLtTmax = Q70ForceAppliedOnCylinderByNoLoadY1KN > Q61ForceResistanceOfCylinderYKN;
 			Q70ForceAppliedOnCylinderByNoLoadY1KN = O70ForceAppliedOnCylinderByNoLoadY1N / 1000;
 			O70ForceAppliedOnCylinderByNoLoadY1N = (Q67ForceAppliedOnCylinderByNoLoadW1 * N67ForceAppliedOnCylinderByNoLoadL1) / N68ForceAppliedOnCylinderByNoLoadL2;
-			N67ForceAppliedOnCylinderByNoLoadL1 = E59ForceRequiredL1;
 			E59ForceRequiredL1 = Q11CenterOfGravity;
-			N68ForceAppliedOnCylinderByNoLoadL2 = E60ForceRequiredL2;
+
 
 			Q67ForceAppliedOnCylinderByNoLoadW1 = N57ForceAppliedW;
             N54ForceAppliedM = Q9TrayWeightEmpty;
             N57ForceAppliedW = N54ForceAppliedM * g;
 
 			N67ForceAppliedOnCylinderByNoLoadL1 = E59ForceRequiredL1;
-			N68ForceAppliedOnCylinderByNoLoadL2 = O70ForceAppliedOnCylinderByNoLoadY1N;
+			N68ForceAppliedOnCylinderByNoLoadL2 = E60ForceRequiredL2;
 
 			Q61ForceResistanceOfCylinderYKN = O61ForceResistanceOfCylinderYN / 1000;
 			O61ForceResistanceOfCylinderYN = (M58ForceResistanceOfCylinderEPM * BarPa) * M59ForceResistanceOfCylinderA;
 			M59ForceResistanceOfCylinderA = (Q59ForceResistanceOfCylinderCR * Q59ForceResistanceOfCylinderCR) * Pi;
 			Q59ForceResistanceOfCylinderCR = (Q58ForceResistanceOfCylinderCD / 1000) / 2;
-			Q58ForceResistanceOfCylinderCD = Q22StrokeVolumeOfCylinder;
+			Q58ForceResistanceOfCylinderCD = Q24OverallCylinderDiameter;
 
             if (E30CylinderPartNumber == TipperKits[0].Model) {
-                Q22StrokeVolumeOfCylinder = TipperKits[0].Volume;
+                Q23StrokeVolumeOfCylinder = TipperKits[0].Volume;
 
             } else if (E30CylinderPartNumber == TipperKits[1].Model) {
-                Q22StrokeVolumeOfCylinder = TipperKits[1].Volume;
+                Q23StrokeVolumeOfCylinder = TipperKits[1].Volume;
 
             } else if (E30CylinderPartNumber == TipperKits[2].Model) {
-                Q22StrokeVolumeOfCylinder = TipperKits[2].Volume;
+                Q23StrokeVolumeOfCylinder = TipperKits[2].Volume;
 
             } else if (E30CylinderPartNumber == TipperKits[3].Model) {
-                Q22StrokeVolumeOfCylinder = TipperKits[3].Volume;
+                Q23StrokeVolumeOfCylinder = TipperKits[3].Volume;
 
+            } else if (E30CylinderPartNumber == TipperKits[4].Model) {
+                Q23StrokeVolumeOfCylinder = TipperKits[4].Volume;
+                
             } else {
+                Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL1!!   CYL: " + E30CylinderPartNumber);
                 // ERROR = Data doesnt match Datasheet
             }
 
-            if (E30CylinderPartNumber == TipperKits[0].Model) {
-                Q23OverallCylinderDiameter = TipperKits[3].RodDiameterPerStage6th;
+            if (E30CylinderPartNumber == TipperKits[0].Kit) {
+                Q24OverallCylinderDiameter = TipperKits[0].RodDiameterPerStage1st;  // Were all Tipperkits[3]
 
             } else if (E30CylinderPartNumber == TipperKits[1].Model) {
-                Q23OverallCylinderDiameter = TipperKits[3].RodDiameterPerStage6th;
+                Q24OverallCylinderDiameter = TipperKits[1].RodDiameterPerStage1st;
 
             } else if (E30CylinderPartNumber == TipperKits[2].Model) {
-                Q23OverallCylinderDiameter = TipperKits[3].RodDiameterPerStage6th;
+                Q24OverallCylinderDiameter = TipperKits[2].RodDiameterPerStage1st;
 
             } else if (E30CylinderPartNumber == TipperKits[3].Model) {
-                Q23OverallCylinderDiameter = TipperKits[3].RodDiameterPerStage6th;
+                Q24OverallCylinderDiameter = TipperKits[3].RodDiameterPerStage1st;
 
+            } else if (E30CylinderPartNumber == TipperKits[4].Model) {
+                Q24OverallCylinderDiameter = TipperKits[4].RodDiameterPerStage1st;
+                
             } else {
+                Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL2!!   " + E30CylinderPartNumber);
                 //ERROR!!!
             }
 
             if (E30CylinderPartNumber == TipperKits[0].Model) {
-                Q24SmallestRodDiameter = TipperKits[0].RodDiameterPerStage1st;
+                Q25SmallestRodDiameter = TipperKits[0].RodDiameterPerStage6th;
 
             } else if (E30CylinderPartNumber == TipperKits[1].Model) {
-                Q24SmallestRodDiameter = TipperKits[1].RodDiameterPerStage1st;
+                Q25SmallestRodDiameter = TipperKits[1].RodDiameterPerStage6th;
             
             } else if (E30CylinderPartNumber == TipperKits[2].Model) {
-                Q24SmallestRodDiameter = TipperKits[2].RodDiameterPerStage1st;
+                Q25SmallestRodDiameter = TipperKits[2].RodDiameterPerStage6th;
             
             } else if (E30CylinderPartNumber == TipperKits[3].Model) {
-                Q24SmallestRodDiameter = TipperKits[3].RodDiameterPerStage1st;
-            
+                Q25SmallestRodDiameter = TipperKits[3].RodDiameterPerStage6th;
+
+            } else if (E30CylinderPartNumber == TipperKits[4].Model) {
+                Q25SmallestRodDiameter = TipperKits[4].RodDiameterPerStage6th;
+                
             } else {
+                Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL3!!   " + E30CylinderPartNumber);
                 // ERROR = Data doesnt match Datasheet
             }
 
-            T41Srh6L = Q22StrokeVolumeOfCylinder < SRH[1].UsableVol;
-			T42SSH10L = Q22StrokeVolumeOfCylinder < SSH[0].UsableVol;
-			T43SSH15l = Q22StrokeVolumeOfCylinder < SSH[2].UsableVol;
-
+            T41Srh6L = Q23StrokeVolumeOfCylinder < SRH[1].UsableVol;
+			T42SSH10L = Q23StrokeVolumeOfCylinder < SSH[0].UsableVol;
+			T43SSH15l = Q23StrokeVolumeOfCylinder < SSH[2].UsableVol;
+            
 			T48dGt39Lt58 = Q15TippingAngle < 58 && Q15TippingAngle > 39;
-			T68OverallApplicationSetup = T37FmaxGtY2 && T38PLsPmax && T39TactLtTmax && T48dGt39Lt58;
 
             if (P3TipperKitPartNumber == TipperKits[0].Kit) {
                 E30CylinderPartNumber = TipperKits[0].Model;
@@ -275,33 +300,38 @@ namespace TipperKit {
             } else if (P3TipperKitPartNumber == TipperKits[3].Kit) {
                 E30CylinderPartNumber = TipperKits[3].Model;
 
-            } else { 
+            } else if (P3TipperKitPartNumber == TipperKits[4].Kit) {
+                E30CylinderPartNumber = TipperKits[4].Model;
+                
+            } else {
+                Android.Util.Log.Debug("TipperCalc:", "e30 PART NUMBER FAIL!!");
                 //ERROR!!!
             }
             
 
             if (Q13CylinderStroke == TipperKits[0].Stroke) {
-                P3TipperKitPartNumber = TipperKits[0].Model;
+                P3TipperKitPartNumber = TipperKits[0].Kit;
 
             } else if (Q13CylinderStroke == TipperKits[1].Stroke) {
-                P3TipperKitPartNumber = TipperKits[1].Model;
+                P3TipperKitPartNumber = TipperKits[1].Kit;
 
             } else if (Q13CylinderStroke == TipperKits[1].Stroke) {
-                P3TipperKitPartNumber = TipperKits[1].Model;
+                P3TipperKitPartNumber = TipperKits[1].Kit;
 
             } else if (Q13CylinderStroke == TipperKits[2].Stroke) {
-                P3TipperKitPartNumber = TipperKits[2].Model;
+                P3TipperKitPartNumber = TipperKits[2].Kit;
 
             } else if (Q13CylinderStroke == TipperKits[3].Stroke) {
-                P3TipperKitPartNumber = TipperKits[3].Model;
+                P3TipperKitPartNumber = TipperKits[3].Kit;
 
+            } else if (Q13CylinderStroke == TipperKits[4].Stroke) {
+                P3TipperKitPartNumber = TipperKits[4].Kit;
+                
             } else {
+                Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL5!!");
                 //ERROR!!!
             }
-
-
-
-
+            T68OverallApplicationSetup = T37FmaxGtY2 && T38PLsPmax && T39TactLtTmax && T48dGt39Lt58;
             return T68OverallApplicationSetup;
 		}
 	}
@@ -338,36 +368,36 @@ namespace TipperKit {
 			public float Height;
 		}
         public class TipperKits {
-            public TipperKits(int? No, string Model, int? Extension, int? Stroke, int? Capacity, float? Volume, int? Weight, int? A, int? B, int? D, int? E, int? F, int? H, int? I, int? L, string Kit, int? RodDiameterPerStage1st, int? RodDiameterPerStage2nd, int? RodDiameterPerStage3rd, int? RodDiameterPerStage4th, int? RodDiameterPerStage5th, int? RodDiameterPerStage6th, float? TonForce160BarPerStage1st, float? TonForce160BarPerStage2nd, float? TonForce160BarPerStage3rd, float? TonForce160BarPerStage4th, float? TonForce160BarPerStage5th, float? TonForce160BarPerStage6th, float? MinOilCapCylCapPlus10Percent) {
-                No = this.No;
-                Model = this.Model;
-                Extension = this.Extension;
-                Stroke = this.Stroke;
-                Capacity = this.Capacity;
-                Volume = this.Volume;
-                Weight = this.Weight;
-                A = this.A;
-                B = this.B;
-                D = this.D;
-                E = this.E;
-                F = this.F;
-                H = this.H;
-                I = this.I;
-                L = this.L;
-                Kit = this.Kit;
-                RodDiameterPerStage1st = this.RodDiameterPerStage1st;
-                RodDiameterPerStage2nd = this.RodDiameterPerStage2nd;
-                RodDiameterPerStage3rd = this.RodDiameterPerStage3rd;
-                RodDiameterPerStage4th = this.RodDiameterPerStage4th;
-                RodDiameterPerStage5th = this.RodDiameterPerStage5th;
-                RodDiameterPerStage6th = this.RodDiameterPerStage6th;
-                TonForce160BarPerStage1st = this.TonForce160BarPerStage1st;
-                TonForce160BarPerStage2nd = this.TonForce160BarPerStage2nd;
-                TonForce160BarPerStage3rd = this.TonForce160BarPerStage3rd;
-                TonForce160BarPerStage4th = this.TonForce160BarPerStage4th;
-                TonForce160BarPerStage5th = this.TonForce160BarPerStage5th;
-                TonForce160BarPerStage6th = this.TonForce160BarPerStage6th;
-                MinOilCapCylCapPlus10Percent = this.MinOilCapCylCapPlus10Percent;
+            public TipperKits(int No, string Model, int Extension, int Stroke, int Capacity, float Volume, int Weight, int A, int B, int D, int E, int F, int H, int I, int L, string Kit, int RodDiameterPerStage1st, int RodDiameterPerStage2nd, int RodDiameterPerStage3rd, int RodDiameterPerStage4th, int RodDiameterPerStage5th, int RodDiameterPerStage6th, float TonForce160BarPerStage1st, float TonForce160BarPerStage2nd, float TonForce160BarPerStage3rd, float TonForce160BarPerStage4th, float TonForce160BarPerStage5th, float TonForce160BarPerStage6th, float MinOilCapCylCapPlus10Percent) {
+                this.No = No;
+                this.Model = Model;
+                this.Extension = Extension;
+                this.Stroke = Stroke;
+                this.Capacity = Capacity;
+                this.Volume = Volume;
+                this.Weight = Weight;
+                this.A = A;
+                this.B = B;
+                this.D = D;
+                this.E = E;
+                this.F = F;
+                this.H = H;
+                this.I = I;
+                this.L = L;
+                this.Kit = Kit;
+                this.RodDiameterPerStage1st = RodDiameterPerStage1st;
+                this.RodDiameterPerStage2nd = RodDiameterPerStage2nd;
+                this.RodDiameterPerStage3rd = RodDiameterPerStage3rd;
+                this.RodDiameterPerStage4th = RodDiameterPerStage4th;
+                this.RodDiameterPerStage5th = RodDiameterPerStage5th;
+                this.RodDiameterPerStage6th = RodDiameterPerStage6th;
+                this.TonForce160BarPerStage1st = TonForce160BarPerStage1st;
+                this.TonForce160BarPerStage2nd = TonForce160BarPerStage2nd;
+                this.TonForce160BarPerStage3rd = TonForce160BarPerStage3rd;
+                this.TonForce160BarPerStage4th = TonForce160BarPerStage4th;
+                this.TonForce160BarPerStage5th = TonForce160BarPerStage5th;
+                this.TonForce160BarPerStage6th = TonForce160BarPerStage6th;
+                this.MinOilCapCylCapPlus10Percent = MinOilCapCylCapPlus10Percent;
             }
 
             public int No;

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/scrollView1">
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/linearLayout1">
+        <ImageView
+            p1:src="@drawable/TipperDrawing"
+            p1:layout_width="match_parent"
+            p1:layout_height="312.0dp"
+            p1:id="@+id/imageView1" />
+        <ImageView
+            p1:src="@drawable/T"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/imageView1" />
+        <ImageView
+            p1:src="@drawable/Tanks"
+            p1:layout_width="match_parent"
+            p1:layout_height="168.5dp"
+            p1:id="@+id/imageView1" />
+        <ImageView
+            p1:src="@drawable/Cyl"
+            p1:layout_width="match_parent"
+            p1:layout_height="312.0dp"
+            p1:id="@+id/imageView1" />
+        <ImageView
+            p1:src="@drawable/Green"
+            p1:layout_width="match_parent"
+            p1:layout_height="155.0dp"
+            p1:id="@+id/imageView1" />
+        <ImageView
+            p1:src="@drawable/Weights"
+            p1:layout_width="match_parent"
+            p1:layout_height="101.0dp"
+            p1:id="@+id/imageView1" />
+        <ImageView
+            p1:src="@drawable/bot"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/imageView1" />
+    </LinearLayout>
+</ScrollView>

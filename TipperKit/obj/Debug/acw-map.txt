@@ -1,3 +1,7 @@
+TipperKit.DataSheets, TipperKit;md5c71bd3ede1cc5b61e4a263b3f1f671c6.DataSheets
+TipperKit.DataSheets, TipperKit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c71bd3ede1cc5b61e4a263b3f1f671c6.DataSheets
+TipperKit.DataSheets;md5c71bd3ede1cc5b61e4a263b3f1f671c6.DataSheets
+tipperkit.DataSheets;md5c71bd3ede1cc5b61e4a263b3f1f671c6.DataSheets
 TipperKit.DetailedOutput, TipperKit;md5c71bd3ede1cc5b61e4a263b3f1f671c6.DetailedOutput
 TipperKit.DetailedOutput, TipperKit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c71bd3ede1cc5b61e4a263b3f1f671c6.DetailedOutput
 TipperKit.DetailedOutput;md5c71bd3ede1cc5b61e4a263b3f1f671c6.DetailedOutput

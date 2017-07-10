@@ -1644,11 +1644,11 @@ namespace TipperKit
 			// aapt resource value: 0x7f02005c
 			public const int notification_icon_background = 2130837596;
 			
-			// aapt resource value: 0x7f020060
-			public const int notification_template_icon_bg = 2130837600;
-			
 			// aapt resource value: 0x7f020061
-			public const int notification_template_icon_low_bg = 2130837601;
+			public const int notification_template_icon_bg = 2130837601;
+			
+			// aapt resource value: 0x7f020062
+			public const int notification_template_icon_low_bg = 2130837602;
 			
 			// aapt resource value: 0x7f02005d
 			public const int notification_tile_bg = 2130837597;
@@ -1658,6 +1658,9 @@ namespace TipperKit
 			
 			// aapt resource value: 0x7f02005f
 			public const int splash = 2130837599;
+			
+			// aapt resource value: 0x7f020060
+			public const int TipperDrawing = 2130837600;
 			
 			static Drawable()
 			{
@@ -1672,8 +1675,8 @@ namespace TipperKit
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a00b7
-			public const int GenerateReport = 2131361975;
+			// aapt resource value: 0x7f0a00d1
+			public const int GenerateReport = 2131362001;
 			
 			// aapt resource value: 0x7f0a005d
 			public const int Output = 2131361885;
@@ -1798,6 +1801,21 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a005c
 			public const int Output49 = 2131361884;
 			
+			// aapt resource value: 0x7f0a00b1
+			public const int Output491 = 2131361969;
+			
+			// aapt resource value: 0x7f0a00b3
+			public const int Output492 = 2131361971;
+			
+			// aapt resource value: 0x7f0a00b5
+			public const int Output493 = 2131361973;
+			
+			// aapt resource value: 0x7f0a00b7
+			public const int Output494 = 2131361975;
+			
+			// aapt resource value: 0x7f0a00b9
+			public const int Output495 = 2131361977;
+			
 			// aapt resource value: 0x7f0a0063
 			public const int Output5 = 2131361891;
 			
@@ -1813,14 +1831,62 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a0067
 			public const int Output9 = 2131361895;
 			
-			// aapt resource value: 0x7f0a00b5
-			public const int Recalculate = 2131361973;
-			
 			// aapt resource value: 0x7f0a00af
-			public const int SRH6L = 2131361967;
+			public const int OutputA1 = 2131361967;
+			
+			// aapt resource value: 0x7f0a00bd
+			public const int OutputA10 = 2131361981;
+			
+			// aapt resource value: 0x7f0a00be
+			public const int OutputA11 = 2131361982;
+			
+			// aapt resource value: 0x7f0a00bf
+			public const int OutputA12 = 2131361983;
+			
+			// aapt resource value: 0x7f0a00c0
+			public const int OutputA13 = 2131361984;
+			
+			// aapt resource value: 0x7f0a00b0
+			public const int OutputA2 = 2131361968;
 			
 			// aapt resource value: 0x7f0a00b2
-			public const int SSH10L = 2131361970;
+			public const int OutputA3 = 2131361970;
+			
+			// aapt resource value: 0x7f0a00b4
+			public const int OutputA4 = 2131361972;
+			
+			// aapt resource value: 0x7f0a00b6
+			public const int OutputA5 = 2131361974;
+			
+			// aapt resource value: 0x7f0a00b8
+			public const int OutputA6 = 2131361976;
+			
+			// aapt resource value: 0x7f0a00ba
+			public const int OutputA7 = 2131361978;
+			
+			// aapt resource value: 0x7f0a00bb
+			public const int OutputA8 = 2131361979;
+			
+			// aapt resource value: 0x7f0a00bc
+			public const int OutputA9 = 2131361980;
+			
+			// aapt resource value: 0x7f0a00ab
+			public const int OutputPartC = 2131361963;
+			
+			// aapt resource value: 0x7f0a00ac
+			public const int OutputPartT = 2131361964;
+			
+			// aapt resource value: 0x7f0a00cf
+			public const int Recalculate = 2131361999;
+			
+			// aapt resource value: 0x7f0a00c9
+			public const int SRH6L = 2131361993;
+			
+			// aapt resource value: 0x7f0a00cc
+			public const int SSH10L = 2131361996;
+			
+			// aapt resource value: 0x7f0a00ae
+			public const int Sentance = 2131361966;
 			
 			// aapt resource value: 0x7f0a0095
 			public const int action0 = 2131361941;
@@ -1963,8 +2029,8 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a003d
 			public const int expanded_menu = 2131361853;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int frameLayout1 = 2131361962;
+			// aapt resource value: 0x7f0a00c4
+			public const int frameLayout1 = 2131361988;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int home = 2131361796;
@@ -2008,8 +2074,17 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a00a9
 			public const int linearLayout5 = 2131361961;
 			
-			// aapt resource value: 0x7f0a00b4
-			public const int linearLayout6 = 2131361972;
+			// aapt resource value: 0x7f0a00ce
+			public const int linearLayout6 = 2131361998;
+			
+			// aapt resource value: 0x7f0a00aa
+			public const int linearLayout7 = 2131361962;
+			
+			// aapt resource value: 0x7f0a00c1
+			public const int linearLayout8 = 2131361985;
+			
+			// aapt resource value: 0x7f0a00ad
+			public const int linearLayout9 = 2131361965;
 			
 			// aapt resource value: 0x7f0a0009
 			public const int listMode = 2131361801;
@@ -2170,26 +2245,32 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a0059
 			public const int textView2 = 2131361881;
 			
-			// aapt resource value: 0x7f0a00b3
-			public const int textViewH = 2131361971;
+			// aapt resource value: 0x7f0a00c5
+			public const int textViewA = 2131361989;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int textViewa = 2131361963;
+			// aapt resource value: 0x7f0a00cd
+			public const int textViewH = 2131361997;
 			
-			// aapt resource value: 0x7f0a00ac
-			public const int textViewb = 2131361964;
+			// aapt resource value: 0x7f0a00c3
+			public const int textViewa = 2131361987;
 			
-			// aapt resource value: 0x7f0a00ad
-			public const int textViewc = 2131361965;
+			// aapt resource value: 0x7f0a00c2
+			public const int textViewaasdg = 2131361986;
 			
-			// aapt resource value: 0x7f0a00ae
-			public const int textViewd = 2131361966;
+			// aapt resource value: 0x7f0a00c6
+			public const int textViewb = 2131361990;
 			
-			// aapt resource value: 0x7f0a00b0
-			public const int textViewf = 2131361968;
+			// aapt resource value: 0x7f0a00c7
+			public const int textViewc = 2131361991;
 			
-			// aapt resource value: 0x7f0a00b1
-			public const int textViewg = 2131361969;
+			// aapt resource value: 0x7f0a00c8
+			public const int textViewd = 2131361992;
+			
+			// aapt resource value: 0x7f0a00ca
+			public const int textViewf = 2131361994;
+			
+			// aapt resource value: 0x7f0a00cb
+			public const int textViewg = 2131361995;
 			
 			// aapt resource value: 0x7f0a009d
 			public const int time = 2131361949;
@@ -2203,8 +2284,8 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a003a
 			public const int title_template = 2131361850;
 			
-			// aapt resource value: 0x7f0a00b6
-			public const int toggleButton1 = 2131361974;
+			// aapt resource value: 0x7f0a00d0
+			public const int toggleButton1 = 2131362000;
 			
 			// aapt resource value: 0x7f0a0023
 			public const int top = 2131361827;
@@ -2344,73 +2425,76 @@ namespace TipperKit
 			public const int abc_select_dialog_material = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int DetailedOutputLayout = 2130903067;
+			public const int DataSheetLayout = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int GenerateReportLayout = 2130903068;
+			public const int DetailedOutputLayout = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int Main = 2130903069;
+			public const int GenerateReportLayout = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int notification_action = 2130903070;
+			public const int Main = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int notification_action_tombstone = 2130903071;
+			public const int notification_action = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int notification_media_action = 2130903072;
+			public const int notification_action_tombstone = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int notification_media_cancel_action = 2130903073;
+			public const int notification_media_action = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int notification_template_big_media = 2130903074;
+			public const int notification_media_cancel_action = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int notification_template_big_media_custom = 2130903075;
+			public const int notification_template_big_media = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int notification_template_big_media_narrow = 2130903076;
+			public const int notification_template_big_media_custom = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int notification_template_big_media_narrow_custom = 2130903077;
+			public const int notification_template_big_media_narrow = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int notification_template_custom_big = 2130903078;
+			public const int notification_template_big_media_narrow_custom = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int notification_template_icon_group = 2130903079;
+			public const int notification_template_custom_big = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int notification_template_lines_media = 2130903080;
+			public const int notification_template_icon_group = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int notification_template_media = 2130903081;
+			public const int notification_template_lines_media = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int notification_template_media_custom = 2130903082;
+			public const int notification_template_media = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int notification_template_part_chronometer = 2130903083;
+			public const int notification_template_media_custom = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int notification_template_part_time = 2130903084;
+			public const int notification_template_part_chronometer = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int OutputLayout = 2130903085;
+			public const int notification_template_part_time = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int select_dialog_item_material = 2130903086;
+			public const int OutputLayout = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int select_dialog_multichoice_material = 2130903087;
+			public const int select_dialog_item_material = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int select_dialog_singlechoice_material = 2130903088;
+			public const int select_dialog_multichoice_material = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int support_simple_spinner_dropdown_item = 2130903089;
+			public const int select_dialog_singlechoice_material = 2130903089;
+			
+			// aapt resource value: 0x7f030032
+			public const int support_simple_spinner_dropdown_item = 2130903090;
 			
 			static Layout()
 			{
@@ -3379,6 +3463,9 @@ namespace TipperKit
 			
 			// aapt resource value: 0x7f070160
 			public const int TipperKitTheme = 2131165536;
+			
+			// aapt resource value: 0x7f070161
+			public const int TipperKitTheme_ActionBar_TitleTextStyle = 2131165537;
 			
 			// aapt resource value: 0x7f070117
 			public const int Widget_AppCompat_ActionBar = 2131165463;

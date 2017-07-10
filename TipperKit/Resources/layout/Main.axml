@@ -7,6 +7,12 @@
     p1:layout_height="match_parent"
     p1:id="@+id/linearLayout1"
     p1:background="#222">
+  <Button
+      p1:id="@+id/button2"
+      p1:text="See Data Sheets"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:textAllCaps="false" />
     <LinearLayout
         p1:orientation="horizontal"
         p1:layout_width="match_parent"

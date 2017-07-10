@@ -24,8 +24,8 @@ namespace TipperKit {
             // Set the content view from Main.axml
             try {
                 SetContentView(Resource.Layout.Main);
-
-            //STYLING
+                
+                //STYLING
                 //Create Local Copies of 
                 Button recalculateButton = FindViewById<Button>(Resource.Id.button1);
                 
@@ -45,14 +45,20 @@ namespace TipperKit {
                 Android.Util.Log.Error("TipperKit", "SetContentView Failed  ");
             }
             // Fill out sample data
-            FillData();
+            //FillData();
+            TipperCalculator = new Tipper();
+
+            //Button ds = FindViewById<Button>(Resource.Id.button2);
             Button button = FindViewById<Button>(Resource.Id.button1);
 
+            /*ds.Click += delegate {
+                this.StartActivity(typeof(DataSheets));
+            };*/
             button.Click += delegate {
                 Android.Util.Log.Info("TipperKit", "Calculate Button was clicked");
                 try {
-                    TipperCalculator.Q10GrossTrayWeightLoaded = int.Parse(FindViewById<EditText>(Resource.Id.editText1).Text); // Tray weight Loaded
-                    TipperCalculator.Q9TrayWeightEmpty = int.Parse(FindViewById<EditText>(Resource.Id.editText2).Text);
+                    TipperCalculator.Q9TrayWeightEmpty = int.Parse(FindViewById<EditText>(Resource.Id.editText1).Text);
+                    TipperCalculator.Q10GrossTrayWeightLoaded = int.Parse(FindViewById<EditText>(Resource.Id.editText2).Text); // Tray weight Loaded
                     TipperCalculator.Q12DistanceBetweenPivotPoints = int.Parse(FindViewById<EditText>(Resource.Id.editText3).Text);
                     TipperCalculator.Q13CylinderStroke = int.Parse(FindViewById<EditText>(Resource.Id.editText4).Text);
                     TipperCalculator.Q14TrayLength = int.Parse(FindViewById<EditText>(Resource.Id.editText5).Text);

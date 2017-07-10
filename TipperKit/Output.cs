@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android;
+using Android.Text;
 
 namespace TipperKit {
     [Activity(Label = "Output")]
@@ -18,80 +19,102 @@ namespace TipperKit {
             base.OnCreate(savedInstanceState);
             try {
                 SetContentView(Resource.Layout.OutputLayout);
+                Android.Util.Log.Debug("(*****************************************", "Set Content View");
                 ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Argb(0xFF, 0x1F, 0x1F, 0x1F)));
                 // Recalculate
                 Button Recalculate = FindViewById<Button>(Resource.Id.Recalculate);
                 Button GenerateReport = FindViewById<Button>(Resource.Id.GenerateReport);
 
                 if (Util.TipperCalculator.T37FmaxGtY2) {
-                    FindViewById<TextView>(Resource.Id.textViewa).SetBackgroundColor(Android.Graphics.Color.Green);
-                    FindViewById<TextView>(Resource.Id.textViewa).SetText("True".ToCharArray(), 0, 4);
-                    FindViewById<TextView>(Resource.Id.textViewa).SetTextColor(Android.Graphics.Color.Black);
+                    FindViewById<TextView>(Resource.Id.textViewA).SetBackgroundColor(Android.Graphics.Color.Green);
+                    FindViewById<TextView>(Resource.Id.textViewA).SetText("Acceptable".ToCharArray(), 0, 10);
                 } else {
-                    FindViewById<TextView>(Resource.Id.textViewa).SetBackgroundColor(Android.Graphics.Color.Orange);
+                    FindViewById<TextView>(Resource.Id.textViewA).SetBackgroundColor(Android.Graphics.Color.Red);
+                    FindViewById<TextView>(Resource.Id.textViewA).SetText("Unacceptable".ToCharArray(), 0, 12);
                 }
                 if (Util.TipperCalculator.T38PLsPmax) {
                     FindViewById<TextView>(Resource.Id.textViewb).SetBackgroundColor(Android.Graphics.Color.Green);
-                    FindViewById<TextView>(Resource.Id.textViewb).SetText("True".ToCharArray(), 0, 4);
-                    FindViewById<TextView>(Resource.Id.textViewb).SetTextColor(Android.Graphics.Color.Black);
+                    FindViewById<TextView>(Resource.Id.textViewb).SetText("Acceptable".ToCharArray(), 0, 10);
                 } else {
-                    FindViewById<TextView>(Resource.Id.textViewb).SetBackgroundColor(Android.Graphics.Color.Orange);
+                    FindViewById<TextView>(Resource.Id.textViewb).SetBackgroundColor(Android.Graphics.Color.Red);
+                    FindViewById<TextView>(Resource.Id.textViewb).SetText("Unacceptable".ToCharArray(), 0, 12);
                 }
                 if (Util.TipperCalculator.T48dGt39Lt58) {
                     FindViewById<TextView>(Resource.Id.textViewc).SetBackgroundColor(Android.Graphics.Color.Green);
-                    FindViewById<TextView>(Resource.Id.textViewc).SetText("True".ToCharArray(), 0, 4);
-                    FindViewById<TextView>(Resource.Id.textViewc).SetTextColor(Android.Graphics.Color.Black);
+                    FindViewById<TextView>(Resource.Id.textViewc).SetText("Acceptable".ToCharArray(), 0, 10);
                 } else {
-                    FindViewById<TextView>(Resource.Id.textViewc).SetBackgroundColor(Android.Graphics.Color.Orange);
+                    FindViewById<TextView>(Resource.Id.textViewc).SetBackgroundColor(Android.Graphics.Color.Red);
+                    FindViewById<TextView>(Resource.Id.textViewc).SetText("Unacceptable".ToCharArray(), 0, 12);
                 }
                 if (Util.TipperCalculator.T39TactLtTmax) {
                     FindViewById<TextView>(Resource.Id.textViewd).SetBackgroundColor(Android.Graphics.Color.Green);
-                    FindViewById<TextView>(Resource.Id.textViewd).SetText("True".ToCharArray(), 0, 4);
-                    FindViewById<TextView>(Resource.Id.textViewd).SetTextColor(Android.Graphics.Color.Black);
+                    FindViewById<TextView>(Resource.Id.textViewd).SetText("Acceptable".ToCharArray(), 0, 10);
                 } else {
-                    FindViewById<TextView>(Resource.Id.textViewd).SetBackgroundColor(Android.Graphics.Color.Orange);
+                    FindViewById<TextView>(Resource.Id.textViewd).SetBackgroundColor(Android.Graphics.Color.Red);
+                    FindViewById<TextView>(Resource.Id.textViewd).SetText("Unacceptable".ToCharArray(), 0, 12);
                 }
                 if (Util.TipperCalculator.T41Srh6L) {
                     FindViewById<TextView>(Resource.Id.textViewf).SetBackgroundColor(Android.Graphics.Color.Green);
-                    FindViewById<TextView>(Resource.Id.textViewf).SetText("True".ToCharArray(), 0, 4);
-                    FindViewById<TextView>(Resource.Id.textViewf).SetTextColor(Android.Graphics.Color.Black);
+                    FindViewById<TextView>(Resource.Id.textViewf).SetText("Acceptable".ToCharArray(), 0, 10);
                 } else {
-                    FindViewById<TextView>(Resource.Id.textViewf).SetBackgroundColor(Android.Graphics.Color.Orange);
+                    FindViewById<TextView>(Resource.Id.textViewf).SetBackgroundColor(Android.Graphics.Color.Red);
+                    FindViewById<TextView>(Resource.Id.textViewf).SetText("Unacceptable".ToCharArray(), 0, 12);
                 }
                 if (Util.TipperCalculator.T42SSH10L) {
                     FindViewById<TextView>(Resource.Id.textViewg).SetBackgroundColor(Android.Graphics.Color.Green);
-                    FindViewById<TextView>(Resource.Id.textViewg).SetText("True".ToCharArray(), 0, 4);
-                    FindViewById<TextView>(Resource.Id.textViewg).SetTextColor(Android.Graphics.Color.Black);
+                    FindViewById<TextView>(Resource.Id.textViewg).SetText("Acceptable".ToCharArray(), 0, 10);
                 } else {
-                    FindViewById<TextView>(Resource.Id.textViewg).SetBackgroundColor(Android.Graphics.Color.Orange);
+                    FindViewById<TextView>(Resource.Id.textViewg).SetBackgroundColor(Android.Graphics.Color.Red);
+                    FindViewById<TextView>(Resource.Id.textViewg).SetText("Unacceptable".ToCharArray(), 0, 12);
                 }
                 if (Util.TipperCalculator.T43SSH15l) {
                     FindViewById<TextView>(Resource.Id.textViewH).SetBackgroundColor(Android.Graphics.Color.Green);
-                    FindViewById<TextView>(Resource.Id.textViewH).SetText("True".ToCharArray(), 0, 4);
-                    FindViewById<TextView>(Resource.Id.textViewH).SetTextColor(Android.Graphics.Color.Black);
+                    FindViewById<TextView>(Resource.Id.textViewH).SetText("Acceptable".ToCharArray(), 0, 10);
                 } else {
-                    FindViewById<TextView>(Resource.Id.textViewH).SetBackgroundColor(Android.Graphics.Color.Orange);
+                    FindViewById<TextView>(Resource.Id.textViewH).SetBackgroundColor(Android.Graphics.Color.Red);
+                    FindViewById<TextView>(Resource.Id.textViewH).SetText("Unacceptable".ToCharArray(), 0, 12);
                 }
                 if (TipperKit.Util.TipperCalculator.T68OverallApplicationSetup) {
-                    ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Green));
-                    ActionBar.Title = "Application Acceptable";
-                    
+                    ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.ForestGreen));
+                    ActionBar.Title = "Application ACCEPTABLE";
+
                 } else {
                     ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red));
-                    ActionBar.Title = "Application Unaceptable";
+                    ActionBar.Title = "Application UnaccepTABLE";
                 }
                 Recalculate.Click += delegate {
                     this.Finish();
                     Android.Util.Log.Info("Tipperkit", "Recalculate button has been Pressed");
                 };
+                FindViewById<EditText>(Resource.Id.OutputPartC).Text = Convert.ToString(Util.TipperCalculator.E30CylinderPartNumber);
+                FindViewById<EditText>(Resource.Id.OutputPartT).Text = Convert.ToString(Util.TipperCalculator.P3TipperKitPartNumber);
+
+                FindViewById<EditText>(Resource.Id.OutputA1).Text = Convert.ToString(Util.TipperCalculator.Q9TrayWeightEmpty);
+                FindViewById<EditText>(Resource.Id.OutputA2).Text = Convert.ToString(Util.TipperCalculator.Q10GrossTrayWeightLoaded);
+                FindViewById<EditText>(Resource.Id.OutputA3).Text = Convert.ToString(Util.TipperCalculator.Q11CenterOfGravity);
+                FindViewById<EditText>(Resource.Id.OutputA4).Text = Convert.ToString(Util.TipperCalculator.Q12DistanceBetweenPivotPoints);
+                FindViewById<EditText>(Resource.Id.OutputA5).Text = Convert.ToString(Util.TipperCalculator.Q13CylinderStroke);
+                FindViewById<EditText>(Resource.Id.OutputA6).Text = Convert.ToString(Util.TipperCalculator.Q14TrayLength);
+                FindViewById<EditText>(Resource.Id.OutputA7).Text = Convert.ToString(Util.TipperCalculator.Q15TippingAngle);
+
+                FindViewById<EditText>(Resource.Id.OutputA8).Text = Convert.ToString(Util.TipperCalculator.Q17MaxWorkingPressureOfCylinder);
+                FindViewById<EditText>(Resource.Id.OutputA9).Text = Convert.ToString(Util.TipperCalculator.Q18FlowRateOfPowerPackRaise);
+                FindViewById<EditText>(Resource.Id.OutputA10).Text = Convert.ToString(Util.TipperCalculator.Q19FlowRateOfPowerPackLower);
+
+                FindViewById<EditText>(Resource.Id.OutputA11).Text = Convert.ToString(Util.TipperCalculator.Q23StrokeVolumeOfCylinder);
+                FindViewById<EditText>(Resource.Id.OutputA12).Text = Convert.ToString(Util.TipperCalculator.Q24OverallCylinderDiameter);
+                FindViewById<EditText>(Resource.Id.OutputA13).Text = Convert.ToString(Util.TipperCalculator.Q25SmallestRodDiameter);
+
+                FindViewById<TextView>(Resource.Id.Sentance).Text = Convert.ToString("Cylinder is able to produce a force of " + Math.Round(Util.TipperCalculator.E66ForceRequiredY2 / 1000 / 10, 1) + " Tonne at a pressure of " + Math.Round(Util.TipperCalculator.E75PressureRequiredTheoPB, 1) + " Bar. " + "Cylinder can produce a maximum force of " + Math.Round(Util.TipperCalculator.H83ForceProducedMFWUO20KN / 10, 1) + " Tonne, which includes an underload of 20% with a maximum working pressure of 160 Bar.");
+                Android.Util.Log.Debug("Tipperkit", Convert.ToString("Cylinder is able to produce a force of " + Math.Round(Util.TipperCalculator.E66ForceRequiredY2 / 1000/10, 1) + " at a pressure of " + Math.Round(Util.TipperCalculator.E75PressureRequiredTheoPB, 1) + " Bar." + "Cylinder can produce a maximum force of " + Math.Round(Util.TipperCalculator.H83ForceProducedMFWUO20KN/10, 1 ) + "Tonne, which includes an underload of 20% with a maximum working pressure of 160 Bar."));
 
                 GenerateReport.Click += delegate {
                     Android.Util.Log.Info("Tipperkit", "GenerateReport button has been Pressed");
                     //Generate Report Activity
                     this.StartActivity(typeof(DetailedOutput));
                 };
-            } catch {
-                this.Dispose();
+            } catch(Exception e) {
+                Android.Util.Log.Debug("TipperKit", "Set Content View FAILED: " + e.Message);
             }
         }
     }

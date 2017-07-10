@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>10/07/2017 3:41:28 PM</xs:documentation>
+    <xs:documentation>10/07/2017 11:10:50 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -155,6 +155,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -170,6 +173,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -560,6 +568,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -575,6 +586,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -891,6 +907,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -906,6 +925,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2124,6 +2148,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -2139,6 +2166,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2593,6 +2625,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -2608,6 +2643,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2924,6 +2964,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -2939,6 +2982,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3374,6 +3422,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -3389,6 +3440,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3705,6 +3761,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -3720,6 +3779,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4367,6 +4431,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -4382,6 +4449,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4698,6 +4770,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -4713,6 +4788,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5029,6 +5109,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -5044,6 +5127,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5434,6 +5522,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -5449,6 +5540,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5765,6 +5861,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -5780,6 +5879,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6203,6 +6307,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -6218,6 +6325,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6608,6 +6720,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -6623,6 +6738,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -7113,6 +7233,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -7128,6 +7251,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -7720,6 +7848,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -7735,6 +7866,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -9284,6 +9420,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -9299,6 +9438,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -9789,6 +9933,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -9804,6 +9951,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10313,6 +10465,9 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/bot" />
+            <xs:enumeration value="@drawable/cyl" />
+            <xs:enumeration value="@drawable/green" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -10328,6 +10483,11 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash" />
+            <xs:enumeration value="@drawable/tanks" />
+            <xs:enumeration value="@drawable/tipperdrawing" />
+            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/weights" />
+            <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />

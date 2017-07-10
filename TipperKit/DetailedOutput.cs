@@ -48,10 +48,10 @@ namespace TipperKit {
             FindViewById<EditText>(Resource.Id.Output17).Text = Convert.ToString(Util.TipperCalculator.E67ForceRequiredY1);
 
             //Pressure Required to Lift a full load
-            FindViewById<EditText>(Resource.Id.Output18).Text = Convert.ToString(Util.TipperCalculator.E70PressureRequiredCD);
-            FindViewById<EditText>(Resource.Id.Output19).Text = Convert.ToString(Util.TipperCalculator.E71PressureRequiredCR);
-            FindViewById<EditText>(Resource.Id.Output20).Text = Convert.ToString(Util.TipperCalculator.E72PressureRequiredA);
-            FindViewById<EditText>(Resource.Id.Output21).Text = Convert.ToString(Util.TipperCalculator.E73PressureRequiredMFR);
+            FindViewById<EditText>(Resource.Id.Output18).Text = Convert.ToString(Util.TipperCalculator.E73PressureRequiredCD);
+            FindViewById<EditText>(Resource.Id.Output19).Text = Convert.ToString(Util.TipperCalculator.E74PressureRequiredCR);
+            FindViewById<EditText>(Resource.Id.Output20).Text = Convert.ToString(Util.TipperCalculator.E75PressureRequiredA);
+            FindViewById<EditText>(Resource.Id.Output21).Text = Convert.ToString(Util.TipperCalculator.E76PressureRequiredMFR);
             FindViewById<EditText>(Resource.Id.Output24).Text = Convert.ToString(Util.TipperCalculator.C75PressureRequiredTheoPNM);
             FindViewById<EditText>(Resource.Id.Output25).Text = Convert.ToString(Util.TipperCalculator.E75PressureRequiredTheoPB);
 

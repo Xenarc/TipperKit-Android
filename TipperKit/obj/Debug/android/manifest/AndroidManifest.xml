@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="TipperKit.TipperKit" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
-  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="19" />
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="11" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="TipperKit" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="DataSheets" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.DataSheets" />
     <activity android:label="DetailedOutput" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.DetailedOutput" />
     <activity android:label="GenerateReport" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.GenerateReport" />
     <activity android:label="MainActivity" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.MainActivity" />
