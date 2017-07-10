@@ -129,7 +129,6 @@
     <AndroidResource Include="Resources\layout\DetailedOutputLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout-w720dp-h2000dp-normal-long-notround-port-v19\DetailedOutputLayout.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">

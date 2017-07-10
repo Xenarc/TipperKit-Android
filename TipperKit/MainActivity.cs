@@ -30,8 +30,9 @@ namespace TipperKit {
                 Button recalculateButton = FindViewById<Button>(Resource.Id.button1);
                 
                 try {
+                    ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Argb(0xFF, 0x1F, 0x1F, 0x1F)));
                     ActionBar.SetDisplayUseLogoEnabled(false);
-                    ActionBar.SetIcon(BitmapDrawable.CreateFromPath("Resources\\drawable\\Icon.png"));
+                    ActionBar.SetIcon(BitmapDrawable.CreateFromPath("@drawable/icon"));
                 } catch (Exception e) {
                     Android.Util.Log.Error("TipperKit", "ActionBarIcon Failed to load" + e.Message);
                     throw;
@@ -50,12 +51,12 @@ namespace TipperKit {
             button.Click += delegate {
                 Android.Util.Log.Info("TipperKit", "Calculate Button was clicked");
                 try {
-                    TipperCalculator.Q9GrossTrayWeightEmpty = float.Parse(FindViewById<EditText>(Resource.Id.editText1).Text); // Tray weight Loaded
-                    TipperCalculator.Q8TrayWeightLoaded = float.Parse(FindViewById<EditText>(Resource.Id.editText2).Text);
-                    TipperCalculator.Q11DistanceBetweenPivotPoints = float.Parse(FindViewById<EditText>(Resource.Id.editText3).Text);
-                    TipperCalculator.Q12CylinderStroke = float.Parse(FindViewById<EditText>(Resource.Id.editText4).Text);
-                    TipperCalculator.Q13TrayLength = float.Parse(FindViewById<EditText>(Resource.Id.editText5).Text);
-                    if (TipperCalculator.Q9GrossTrayWeightEmpty == null || TipperCalculator.Q8TrayWeightLoaded == null || TipperCalculator.Q11DistanceBetweenPivotPoints == null || TipperCalculator.Q12CylinderStroke == null || TipperCalculator.Q13TrayLength == null) {
+                    TipperCalculator.Q10GrossTrayWeightLoaded = int.Parse(FindViewById<EditText>(Resource.Id.editText1).Text); // Tray weight Loaded
+                    TipperCalculator.Q9TrayWeightEmpty = int.Parse(FindViewById<EditText>(Resource.Id.editText2).Text);
+                    TipperCalculator.Q12DistanceBetweenPivotPoints = int.Parse(FindViewById<EditText>(Resource.Id.editText3).Text);
+                    TipperCalculator.Q13CylinderStroke = int.Parse(FindViewById<EditText>(Resource.Id.editText4).Text);
+                    TipperCalculator.Q14TrayLength = int.Parse(FindViewById<EditText>(Resource.Id.editText5).Text);
+                    if (TipperCalculator.Q10GrossTrayWeightLoaded == null || TipperCalculator.Q9TrayWeightEmpty == null || TipperCalculator.Q12DistanceBetweenPivotPoints == null || TipperCalculator.Q13CylinderStroke == null || TipperCalculator.Q14TrayLength == null) {
                         Android.Util.Log.Info("TipperKit", "Calculate failed, fields were left blank!");
                         Toast.MakeText(ApplicationContext, "Fields were left blank!", ToastLength.Long);
                         return;

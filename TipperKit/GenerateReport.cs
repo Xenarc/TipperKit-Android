@@ -16,8 +16,8 @@ namespace TipperKit {
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.GenerateReportLayout);
-            
-            // Create your application here
+
+            ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Argb(0xFF, 0x1F, 0x1F, 0x1F)));
         }
     }
 }

@@ -11,7 +11,7 @@
         p1:layout_height="match_parent"
         p1:id="@+id/linearLayout1"
         p1:background="#333"
-        p1:padding="2.0dp"
+        p1:padding="1.0dp"
         p1:layout_width="match_parent">
         <LinearLayout
             p1:orientation="vertical"
@@ -54,8 +54,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output49"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -65,12 +66,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="%"
@@ -108,8 +109,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output1"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -119,12 +121,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="kg"
@@ -162,8 +164,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output2"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -173,7 +176,7 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <LinearLayout
@@ -184,7 +187,7 @@
                     p1:layout_width="40dp">
                     <EditText
                         p1:inputType="none"
-                        p1:id="@+id/SRH6L"
+                        p1:id="@+id/Output"
                         p1:clickable="false"
                         p1:editable="false"
                         p1:textAlignment="0"
@@ -200,7 +203,7 @@
                         p1:text=" m/s" />
                     <EditText
                         p1:inputType="none"
-                        p1:id="@+id/SRH6L"
+                        p1:id="@+id/Output"
                         p1:clickable="false"
                         p1:editable="false"
                         p1:text="2  "
@@ -238,8 +241,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output3"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -249,12 +253,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="N"
@@ -302,8 +306,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output4"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -313,12 +318,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="N/m"
@@ -375,8 +380,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output5"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -386,12 +392,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="kg"
@@ -429,8 +435,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output6"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -440,7 +447,7 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <LinearLayout
@@ -451,7 +458,7 @@
                     p1:layout_width="40dp">
                     <EditText
                         p1:inputType="none"
-                        p1:id="@+id/SRH6L"
+                        p1:id="@+id/Output"
                         p1:clickable="false"
                         p1:editable="false"
                         p1:textAlignment="0"
@@ -467,7 +474,7 @@
                         p1:text=" m/s" />
                     <EditText
                         p1:inputType="none"
-                        p1:id="@+id/SRH6L"
+                        p1:id="@+id/Output"
                         p1:clickable="false"
                         p1:editable="false"
                         p1:text="2  "
@@ -515,8 +522,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output7"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -526,12 +534,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="N"
@@ -569,8 +577,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output8"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -580,12 +589,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="Pa"
@@ -623,8 +632,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output9"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -634,12 +644,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="N/m"
@@ -677,8 +687,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output10"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -688,12 +699,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="Nom."
@@ -731,8 +742,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output11"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -742,12 +754,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="Pa"
@@ -804,8 +816,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output12"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -815,12 +828,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="kg"
@@ -842,7 +855,7 @@
                 p1:id="@+id/linearLayout3"
                 p1:layout_marginTop="2.0dp">
                 <TextView
-                    p1:text="g = "
+                    p1:text="L1 = "
                     p1:textAppearance="?android:attr/textAppearanceMedium"
                     p1:id="@+id/textView2"
                     p1:background="#444"
@@ -858,8 +871,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output13"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -869,47 +883,135 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
-                <LinearLayout
-                    p1:orientation="horizontal"
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="mm"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
                     p1:layout_height="match_parent"
-                    p1:id="@+id/linearLayout4"
                     p1:layout_marginRight="5.0dp"
-                    p1:layout_width="40dp">
-                    <EditText
-                        p1:inputType="none"
-                        p1:id="@+id/SRH6L"
-                        p1:clickable="false"
-                        p1:editable="false"
-                        p1:textAlignment="0"
-                        p1:focusable="false"
-                        p1:gravity="center"
-                        p1:background="#444"
-                        p1:textColor="#FFF"
-                        p1:enabled="false"
-                        p1:layout_width="wrap_content"
-                        p1:layout_height="match_parent"
-                        p1:layout_marginRight="0.0dp"
-                        p1:textSize="15dp"
-                        p1:text=" m/s" />
-                    <EditText
-                        p1:inputType="none"
-                        p1:id="@+id/SRH6L"
-                        p1:clickable="false"
-                        p1:editable="false"
-                        p1:text="2  "
-                        p1:textAlignment="0"
-                        p1:focusable="false"
-                        p1:gravity="top"
-                        p1:background="#444"
-                        p1:textColor="#FFF"
-                        p1:enabled="false"
-                        p1:layout_width="wrap_content"
-                        p1:layout_height="match_parent"
-                        p1:textSize="10dp" />
-                </LinearLayout>
+                    p1:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="L2 = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output14"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="mm"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="L3 = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output15"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="mm"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
             </LinearLayout>
             <TextView
                 p1:textAppearance="?android:attr/textAppearanceMedium"
@@ -974,8 +1076,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output16"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -985,12 +1088,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="N"
@@ -1028,8 +1131,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output17"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1039,12 +1143,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="N"
@@ -1101,8 +1205,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output18"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1112,12 +1217,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="mm"
@@ -1155,8 +1260,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output19"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1166,12 +1272,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="m"
@@ -1209,8 +1315,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output20"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1220,7 +1327,7 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <LinearLayout
@@ -1231,7 +1338,7 @@
                     p1:layout_width="40dp">
                     <EditText
                         p1:inputType="none"
-                        p1:id="@+id/SRH6L"
+                        p1:id="@+id/Output"
                         p1:clickable="false"
                         p1:editable="false"
                         p1:textAlignment="0"
@@ -1240,26 +1347,26 @@
                         p1:background="#444"
                         p1:textColor="#FFF"
                         p1:enabled="false"
-                        p1:layout_width="wrap_content"
+                        p1:layout_width="27.5dp"
                         p1:layout_height="match_parent"
                         p1:layout_marginRight="0.0dp"
                         p1:textSize="15dp"
                         p1:text=" m" />
                     <EditText
                         p1:inputType="none"
-                        p1:id="@+id/SRH6L"
+                        p1:id="@+id/Output"
                         p1:clickable="false"
                         p1:editable="false"
-                        p1:text="2  "
+                        p1:text="2"
                         p1:textAlignment="0"
                         p1:focusable="false"
                         p1:gravity="top"
                         p1:background="#444"
                         p1:textColor="#FFF"
                         p1:enabled="false"
-                        p1:layout_width="wrap_content"
                         p1:layout_height="match_parent"
-                        p1:textSize="10dp" />
+                        p1:textSize="10dp"
+                        p1:layout_width="match_parent" />
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -1269,7 +1376,7 @@
                 p1:id="@+id/linearLayout3"
                 p1:layout_marginTop="2.0dp">
                 <TextView
-                    p1:text="Max. Force Required (Y2 = )"
+                    p1:text="Max. Force Required (Y2) = "
                     p1:textAppearance="?android:attr/textAppearanceMedium"
                     p1:id="@+id/textView2"
                     p1:background="#444"
@@ -1285,8 +1392,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output21"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1296,12 +1404,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="N"
@@ -1325,102 +1433,7 @@
                 p1:padding="3dp"
                 p1:textColor="#fff"
                 p1:gravity="center"
-                p1:text="P = W/A" />
-            <LinearLayout
-                p1:orientation="horizontal"
-                p1:layout_width="match_parent"
-                p1:layout_height="wrap_content"
-                p1:id="@+id/linearLayout3"
-                p1:layout_marginTop="2.0dp">
-                <TextView
-                    p1:text="Ycly = "
-                    p1:textAppearance="?android:attr/textAppearanceMedium"
-                    p1:id="@+id/textView2"
-                    p1:background="#444"
-                    p1:layout_width="wrap_content"
-                    p1:layout_height="match_parent"
-                    p1:layout_marginLeft="5.0dp"
-                    p1:layout_marginRight="5.0dp"
-                    p1:padding="3dp"
-                    p1:textColor="#FFF" />
-                <Space
-                    p1:layout_width="wrap_content"
-                    p1:layout_height="match_parent"
-                    p1:id="@+id/space1"
-                    p1:layout_weight="1" />
-                <EditText
-                    p1:inputType="none"
-                    p1:id="@+id/SRH6L"
-                    p1:clickable="false"
-                    p1:editable="false"
-                    p1:text="NULL"
-                    p1:textAlignment="0"
-                    p1:focusable="false"
-                    p1:gravity="center"
-                    p1:background="#444"
-                    p1:textColor="#FFF"
-                    p1:enabled="false"
-                    p1:layout_width="84.7dp"
-                    p1:layout_height="match_parent"
-                    p1:layout_marginRight="5.0dp" />
-                <EditText
-                    p1:inputType="none"
-                    p1:id="@+id/SRH6L"
-                    p1:clickable="false"
-                    p1:editable="false"
-                    p1:text="N"
-                    p1:textAlignment="0"
-                    p1:focusable="false"
-                    p1:gravity="center"
-                    p1:background="#444"
-                    p1:textColor="#FFF"
-                    p1:enabled="false"
-                    p1:textSize="15dp"
-                    p1:layout_width="40dp"
-                    p1:layout_height="match_parent"
-                    p1:layout_marginRight="5.0dp" />
-                <EditText
-                    p1:inputType="none"
-                    p1:id="@+id/SRH6L"
-                    p1:clickable="false"
-                    p1:editable="false"
-                    p1:text="NULL"
-                    p1:textAlignment="0"
-                    p1:focusable="false"
-                    p1:gravity="center"
-                    p1:background="#444"
-                    p1:textColor="#FFF"
-                    p1:enabled="false"
-                    p1:layout_width="84.7dp"
-                    p1:layout_height="match_parent"
-                    p1:layout_marginRight="5.0dp" />
-                <EditText
-                    p1:inputType="none"
-                    p1:id="@+id/SRH6L"
-                    p1:clickable="false"
-                    p1:editable="false"
-                    p1:text="kN"
-                    p1:textAlignment="0"
-                    p1:focusable="false"
-                    p1:gravity="center"
-                    p1:background="#444"
-                    p1:textColor="#FFF"
-                    p1:enabled="false"
-                    p1:layout_width="40dp"
-                    p1:layout_height="match_parent"
-                    p1:layout_marginRight="5.0dp"
-                    p1:textSize="15dp" />
-            </LinearLayout>
-            <TextView
-                p1:textAppearance="?android:attr/textAppearanceMedium"
-                p1:id="@+id/textView2"
-                p1:layout_width="match_parent"
-                p1:layout_height="wrap_content"
-                p1:layout_marginLeft="5.0dp"
-                p1:padding="3dp"
-                p1:textColor="#fff"
-                p1:gravity="center"
-                p1:text="CYLINDER PRESSURE RESISTANCE (Pcyl) = Ycyl /A" />
+                p1:text="Cylinder Pressure Resistance (Pcyl) = Ycyl /A" />
             <LinearLayout
                 p1:orientation="horizontal"
                 p1:layout_width="match_parent"
@@ -1444,8 +1457,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output24"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1455,12 +1469,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="N/m"
@@ -1476,7 +1490,7 @@
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output25"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1486,12 +1500,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="Bar"
@@ -1548,8 +1562,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output26"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1559,12 +1574,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="Bar"
@@ -1602,8 +1617,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output27"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1613,7 +1629,7 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <LinearLayout
@@ -1624,7 +1640,7 @@
                     p1:layout_width="40dp">
                     <EditText
                         p1:inputType="none"
-                        p1:id="@+id/SRH6L"
+                        p1:id="@+id/Output"
                         p1:clickable="false"
                         p1:editable="false"
                         p1:textAlignment="0"
@@ -1633,14 +1649,14 @@
                         p1:background="#444"
                         p1:textColor="#FFF"
                         p1:enabled="false"
-                        p1:layout_width="wrap_content"
+                        p1:layout_width="27.5dp"
                         p1:layout_height="match_parent"
                         p1:layout_marginRight="0.0dp"
                         p1:textSize="15dp"
                         p1:text=" m" />
                     <EditText
                         p1:inputType="none"
-                        p1:id="@+id/SRH6L"
+                        p1:id="@+id/Output"
                         p1:clickable="false"
                         p1:editable="false"
                         p1:text="2  "
@@ -1650,9 +1666,9 @@
                         p1:background="#444"
                         p1:textColor="#FFF"
                         p1:enabled="false"
-                        p1:layout_width="wrap_content"
                         p1:layout_height="match_parent"
-                        p1:textSize="10dp" />
+                        p1:textSize="10dp"
+                        p1:layout_width="match_parent" />
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -1678,8 +1694,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output28"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1689,12 +1706,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="mm"
@@ -1732,8 +1749,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output29"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1743,12 +1761,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="m"
@@ -1772,7 +1790,7 @@
                 p1:padding="3dp"
                 p1:textColor="#fff"
                 p1:gravity="center"
-                p1:text="FORCE MIMIMUM (Ycyl) = (Pmin x A)" />
+                p1:text="Force Minimum (Ycyl) = (Pmin x A)" />
             <LinearLayout
                 p1:orientation="horizontal"
                 p1:layout_width="match_parent"
@@ -1796,8 +1814,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output30"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1807,12 +1826,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="N"
@@ -1828,7 +1847,7 @@
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output31"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1838,12 +1857,13 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="kN"
@@ -1867,7 +1887,7 @@
                 p1:padding="3dp"
                 p1:textColor="#fff"
                 p1:gravity="center"
-                p1:text="CYLINDER PRESSURE RESISTANCE (Pcyl) = Ycyl /A" />
+                p1:text="Cylinder Pressure Resistance (Pcyl) = Ycyl /A" />
             <LinearLayout
                 p1:orientation="horizontal"
                 p1:layout_width="match_parent"
@@ -1891,8 +1911,9 @@
                     p1:id="@+id/space1"
                     p1:layout_weight="1" />
                 <EditText
+                    p1:padding="2.0dp"
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output32"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1902,12 +1923,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="N/m"
@@ -1923,7 +1944,7 @@
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output33"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="NULL"
@@ -1933,12 +1954,12 @@
                     p1:background="#444"
                     p1:textColor="#FFF"
                     p1:enabled="false"
-                    p1:layout_width="84.7dp"
+                    p1:layout_width="wrap_content"
                     p1:layout_height="match_parent"
                     p1:layout_marginRight="5.0dp" />
                 <EditText
                     p1:inputType="none"
-                    p1:id="@+id/SRH6L"
+                    p1:id="@+id/Output"
                     p1:clickable="false"
                     p1:editable="false"
                     p1:text="Bar"
@@ -1954,5 +1975,795 @@
                     p1:textSize="15dp" />
             </LinearLayout>
         </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/linearLayout2"
+            p1:background="#222"
+            p1:padding="2dp"
+            p1:layout_margin="2.5dp">
+            <TextView
+                p1:text="Force Applied On Cylinder By No Load (Equally Distributed)"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:id="@+id/textView2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:layout_marginLeft="5.0dp"
+                p1:padding="3dp"
+                p1:textColor="#fff"
+                p1:gravity="center" />
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="L1 = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output34"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="mm"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="L2 = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output35"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="mm"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="W1 = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output36"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="m"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+            <TextView
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:id="@+id/textView2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:layout_marginLeft="5.0dp"
+                p1:padding="3dp"
+                p1:textColor="#fff"
+                p1:gravity="center"
+                p1:text="Force Applied On Cylinder (Ycyl) = (W x L1)/L2" />
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="Ycly1 = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output37"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="N"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:textSize="15dp"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output38"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="kN"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+            <TextView
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:id="@+id/textView2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:layout_marginLeft="5.0dp"
+                p1:padding="3dp"
+                p1:textColor="#fff"
+                p1:gravity="center"
+                p1:text="Cylinder Pressure Resistance (Pcyl) = Ycyl /A" />
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="Pcly = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output39"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="N/m"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:textSize="15dp"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output40"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="Bar"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/linearLayout2"
+            p1:background="#222"
+            p1:padding="2dp"
+            p1:layout_margin="2.5dp">
+            <TextView
+                p1:text="Power Pack - Raise / Lower Time"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:id="@+id/textView2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:layout_marginLeft="5.0dp"
+                p1:padding="3dp"
+                p1:textColor="#fff"
+                p1:gravity="center" />
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="1 min = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output41"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="sec"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+            <TextView
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:id="@+id/textView2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:layout_marginLeft="5.0dp"
+                p1:padding="3dp"
+                p1:textColor="#fff"
+                p1:gravity="center"
+                p1:text="Raise Tray At Full Load" />
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="Stroke Volume (v) = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output42"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="I"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="Flow (Q) = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output44"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="I/min"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+            <TextView
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:id="@+id/textView2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:layout_marginLeft="5.0dp"
+                p1:padding="3dp"
+                p1:textColor="#fff"
+                p1:gravity="center"
+                p1:text="Raise Tray At No Load" />
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="Flow (Q) = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output46"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="I/min"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+            <TextView
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:id="@+id/textView2"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:layout_marginLeft="5.0dp"
+                p1:padding="3dp"
+                p1:textColor="#fff"
+                p1:gravity="center"
+                p1:text="t = V/Q" />
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="Raise = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text=" t =  "
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output47"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="sec"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout3"
+                p1:layout_marginTop="2.0dp">
+                <TextView
+                    p1:text="Lower = "
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:id="@+id/textView2"
+                    p1:background="#444"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginLeft="5.0dp"
+                    p1:layout_marginRight="5.0dp"
+                    p1:padding="3dp"
+                    p1:textColor="#FFF" />
+                <Space
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/space1"
+                    p1:layout_weight="1" />
+                <EditText
+                    p1:padding="2.0dp"
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text=" t =  "
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output48"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="NULL"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp" />
+                <EditText
+                    p1:inputType="none"
+                    p1:id="@+id/Output"
+                    p1:clickable="false"
+                    p1:editable="false"
+                    p1:text="sec"
+                    p1:textAlignment="0"
+                    p1:focusable="false"
+                    p1:gravity="center"
+                    p1:background="#444"
+                    p1:textColor="#FFF"
+                    p1:enabled="false"
+                    p1:layout_width="40dp"
+                    p1:layout_height="match_parent"
+                    p1:layout_marginRight="5.0dp"
+                    p1:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            p1:text="Continue"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/button1"
+            p1:textAllCaps="false" />
     </LinearLayout>
 </ScrollView>

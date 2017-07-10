@@ -22,13 +22,13 @@ namespace TipperKit {
         public Datasheets.SSH[] SSH;
         public Datasheets.TipperKits[] TipperKits;
 
-        public float Q8TrayWeightLoaded = 1000;
-		public float Q9GrossTrayWeightEmpty = 800;
-		public float Q10CenterOfGravity = 1000;
-		public float Q11DistanceBetweenPivotPoints = 1500;
-		public float Q12CylinderStroke = 1250;
-		public float Q13TrayLength = 2000;
-		public float Q14TippingAngle = 49.2f;
+        public float Q9TrayWeightEmpty;
+		public float Q10GrossTrayWeightLoaded;
+		public float Q11CenterOfGravity;
+		public float Q12DistanceBetweenPivotPoints;
+		public float Q13CylinderStroke;
+		public float Q14TrayLength;
+		public float Q15TippingAngle;
 
 		public float MaxWorkingPressureOfCylinder;
 
@@ -55,12 +55,14 @@ namespace TipperKit {
 
 		public float g = 9.81f;
 		public float Pi = 3.14f;
-		public float PaNM = 1f;
+		public float PaNM = 1.0f;
 		public float MpaPa = 1000000.0f;
 		public float BarPa = 100000.0f;
+        public float MinSec = 60.0f;
 
-		public float N54ForceAppliedW;
-		public float E58ForceRequiredW;
+        public float N57ForceAppliedW;
+        public float N54ForceAppliedM;
+        public float E58ForceRequiredW;
 		public float E59ForceRequiredL1;
 		public float E60ForceRequiredL2;
         public float E61ForceRequiredL3;
@@ -145,11 +147,11 @@ namespace TipperKit {
 
 
             MaxWorkingPressureOfCylinder = 160;
-            E61ForceRequiredL3 = Q12CylinderStroke;
+            E61ForceRequiredL3 = Q13CylinderStroke;
             E67ForceRequiredY1 = E58ForceRequiredW - E66ForceRequiredY2;
 
-            Q10CenterOfGravity = Q13TrayLength / 2;
-			Q14TippingAngle = (float)Math.Acos((Q12CylinderStroke / Q13TrayLength));
+            Q11CenterOfGravity = Q14TrayLength / 2;
+			Q15TippingAngle = (float)Math.Acos((Q13CylinderStroke / Q14TrayLength));
 
 			T37FmaxGtY2 = (H82ForceProducedMFWUO20N > E66ForceRequiredY2);
 			H82ForceProducedMFWUO20N = H80ForceProducedPNM * D80ForceProducedA;
@@ -162,7 +164,7 @@ namespace TipperKit {
 
 			D80ForceProducedA = (D79ForceProducedCR * D79ForceProducedCR) * Pi;
 			D79ForceProducedCR = (D78ForceProducedCD / 1000) / 2;
-			D78ForceProducedCD = Q22StrokeVolumeOfCylinder; //Q23 IS REFERENCED
+			D78ForceProducedCD = Q22StrokeVolumeOfCylinder;
 
             T38PLsPmax = E75PressureRequiredTheoPB < H78ForceProducedPA;
 			E75PressureRequiredTheoPB = C75PressureRequiredTheoPNM / 100000;
@@ -171,11 +173,11 @@ namespace TipperKit {
 			E66ForceRequiredY2 = E58ForceRequiredW * E59ForceRequiredL1 / E60ForceRequiredL2;
 			E58ForceRequiredW = E55ForceAppliedFullLoadW;
             E55ForceAppliedFullLoadW = E51ForceAppliedFullLoadM * g + E53ForceAppliedFullLoadO;
-            E51ForceAppliedFullLoadM = Q9GrossTrayWeightEmpty + Q83PowerPackRaiseLowerTimeR;
+            E51ForceAppliedFullLoadM = Q11CenterOfGravity + Q10GrossTrayWeightLoaded;
             E53ForceAppliedFullLoadO = E51ForceAppliedFullLoadM * g * (E50ForceAppliedFullLoadAFO / 100);
 
-            E59ForceRequiredL1 = Q10CenterOfGravity;
-			E60ForceRequiredL2 = Q11DistanceBetweenPivotPoints;
+            E59ForceRequiredL1 = Q11CenterOfGravity;
+			E60ForceRequiredL2 = Q12DistanceBetweenPivotPoints;
 
 			E72PressureRequiredA = (E71PressureRequiredCR * E71PressureRequiredCR) * Pi;
 			E71PressureRequiredCR = (E70PressureRequiredCD / 1000) / 2;
@@ -187,11 +189,12 @@ namespace TipperKit {
 			Q70ForceAppliedOnCylinderByNoLoadY1KN = O70ForceAppliedOnCylinderByNoLoadY1N / 1000;
 			O70ForceAppliedOnCylinderByNoLoadY1N = (Q67ForceAppliedOnCylinderByNoLoadW1 * N67ForceAppliedOnCylinderByNoLoadL1) / N68ForceAppliedOnCylinderByNoLoadL2;
 			N67ForceAppliedOnCylinderByNoLoadL1 = E59ForceRequiredL1;
-			E59ForceRequiredL1 = Q10CenterOfGravity;
+			E59ForceRequiredL1 = Q11CenterOfGravity;
 			N68ForceAppliedOnCylinderByNoLoadL2 = E60ForceRequiredL2;
 
-			Q67ForceAppliedOnCylinderByNoLoadW1 = N54ForceAppliedW;
-			N54ForceAppliedW = Q8TrayWeightLoaded * g;
+			Q67ForceAppliedOnCylinderByNoLoadW1 = N57ForceAppliedW;
+            N54ForceAppliedM = Q9TrayWeightEmpty;
+            N57ForceAppliedW = N54ForceAppliedM * g;
 
 			N67ForceAppliedOnCylinderByNoLoadL1 = E59ForceRequiredL1;
 			N68ForceAppliedOnCylinderByNoLoadL2 = O70ForceAppliedOnCylinderByNoLoadY1N;
@@ -254,7 +257,7 @@ namespace TipperKit {
 			T42SSH10L = Q22StrokeVolumeOfCylinder < SSH[0].UsableVol;
 			T43SSH15l = Q22StrokeVolumeOfCylinder < SSH[2].UsableVol;
 
-			T48dGt39Lt58 = Q14TippingAngle < 58 && Q14TippingAngle > 39;
+			T48dGt39Lt58 = Q15TippingAngle < 58 && Q15TippingAngle > 39;
 			T68OverallApplicationSetup = T37FmaxGtY2 && T38PLsPmax && T39TactLtTmax && T48dGt39Lt58;
 
             if (P3TipperKitPartNumber == TipperKits[0].Kit) {
@@ -277,19 +280,19 @@ namespace TipperKit {
             }
             
 
-            if (Q12CylinderStroke == TipperKits[0].Stroke) {
+            if (Q13CylinderStroke == TipperKits[0].Stroke) {
                 P3TipperKitPartNumber = TipperKits[0].Model;
 
-            } else if (Q12CylinderStroke == TipperKits[1].Stroke) {
+            } else if (Q13CylinderStroke == TipperKits[1].Stroke) {
                 P3TipperKitPartNumber = TipperKits[1].Model;
 
-            } else if (Q12CylinderStroke == TipperKits[1].Stroke) {
+            } else if (Q13CylinderStroke == TipperKits[1].Stroke) {
                 P3TipperKitPartNumber = TipperKits[1].Model;
 
-            } else if (Q12CylinderStroke == TipperKits[2].Stroke) {
+            } else if (Q13CylinderStroke == TipperKits[2].Stroke) {
                 P3TipperKitPartNumber = TipperKits[2].Model;
 
-            } else if (Q12CylinderStroke == TipperKits[3].Stroke) {
+            } else if (Q13CylinderStroke == TipperKits[3].Stroke) {
                 P3TipperKitPartNumber = TipperKits[3].Model;
 
             } else {

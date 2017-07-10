@@ -18,10 +18,11 @@ namespace TipperKit {
             base.OnCreate(savedInstanceState);
             try {
                 SetContentView(Resource.Layout.OutputLayout);
-                
+                ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Argb(0xFF, 0x1F, 0x1F, 0x1F)));
                 // Recalculate
                 Button Recalculate = FindViewById<Button>(Resource.Id.Recalculate);
                 Button GenerateReport = FindViewById<Button>(Resource.Id.GenerateReport);
+
                 if (Util.TipperCalculator.T37FmaxGtY2) {
                     FindViewById<TextView>(Resource.Id.textViewa).SetBackgroundColor(Android.Graphics.Color.Green);
                     FindViewById<TextView>(Resource.Id.textViewa).SetText("True".ToCharArray(), 0, 4);
