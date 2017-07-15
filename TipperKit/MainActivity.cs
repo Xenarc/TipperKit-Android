@@ -45,15 +45,15 @@ namespace TipperKit {
                 Android.Util.Log.Error("TipperKit", "SetContentView Failed  ");
             }
             // Fill out sample data
-            //FillData();
+            FillData(1);
             TipperCalculator = new Tipper();
 
-            //Button ds = FindViewById<Button>(Resource.Id.button2);
+            Button ds = FindViewById<Button>(Resource.Id.button2);
             Button button = FindViewById<Button>(Resource.Id.button1);
 
-            /*ds.Click += delegate {
+            ds.Click += delegate {
                 this.StartActivity(typeof(DataSheets));
-            };*/
+            };
             button.Click += delegate {
                 Android.Util.Log.Info("TipperKit", "Calculate Button was clicked");
                 try {
@@ -61,6 +61,7 @@ namespace TipperKit {
                     TipperCalculator.Q10GrossTrayWeightLoaded = int.Parse(FindViewById<EditText>(Resource.Id.editText2).Text); // Tray weight Loaded
                     TipperCalculator.Q12DistanceBetweenPivotPoints = int.Parse(FindViewById<EditText>(Resource.Id.editText3).Text);
                     TipperCalculator.Q13CylinderStroke = int.Parse(FindViewById<EditText>(Resource.Id.editText4).Text);
+
                     TipperCalculator.Q14TrayLength = int.Parse(FindViewById<EditText>(Resource.Id.editText5).Text);
                     if (TipperCalculator.Q10GrossTrayWeightLoaded == null || TipperCalculator.Q9TrayWeightEmpty == null || TipperCalculator.Q12DistanceBetweenPivotPoints == null || TipperCalculator.Q13CylinderStroke == null || TipperCalculator.Q14TrayLength == null) {
                         Android.Util.Log.Info("TipperKit", "Calculate failed, fields were left blank!");
@@ -79,7 +80,7 @@ namespace TipperKit {
                     Toast.MakeText(ApplicationContext, "CALC ERROR" + e.Message, ToastLength.Long);
                     Android.Util.Log.Info("TipperKit", "Calculation error! " + e.Message);
                 }
-                for (int i = 0; i < 100; i++) {     // Test Calculating for 100 times
+                for (int i = 0; i < 20; i++) {     // Test Calculating for 20 times
                     TipperCalculator.Calculate();
                 }
                 if(TipperCalculator.E30CylinderPartNumber == "" || TipperCalculator.P3TipperKitPartNumber == "") {
@@ -91,13 +92,22 @@ namespace TipperKit {
                 this.StartActivity(typeof(Output));
             };
         }
-        private void FillData() {
-            FindViewById<EditText>(Resource.Id.editText1).Text = "800";
-            FindViewById<EditText>(Resource.Id.editText2).Text = "1000";
-            FindViewById<EditText>(Resource.Id.editText3).Text = "1500";
-            FindViewById<EditText>(Resource.Id.editText4).Text = "1250";
-            FindViewById<EditText>(Resource.Id.editText5).Text = "2000";
-            Android.Util.Log.Info("TipperKit", "Filled sample data");
+        private void FillData(int i) {
+            if (i == 0) {
+                FindViewById<EditText>(Resource.Id.editText1).Text = "800";
+                FindViewById<EditText>(Resource.Id.editText2).Text = "1000";
+                FindViewById<EditText>(Resource.Id.editText3).Text = "1500";
+                FindViewById<EditText>(Resource.Id.editText4).Text = "1250";
+                FindViewById<EditText>(Resource.Id.editText5).Text = "2000";
+                Android.Util.Log.Info("TipperKit", "Filled sample data 0");
+            } else if(i == 1) {
+                FindViewById<EditText>(Resource.Id.editText1).Text = "150";
+                FindViewById<EditText>(Resource.Id.editText2).Text = "3500";
+                FindViewById<EditText>(Resource.Id.editText3).Text = "1000";
+                FindViewById<EditText>(Resource.Id.editText4).Text = "800";
+                FindViewById<EditText>(Resource.Id.editText5).Text = "2400";
+                Android.Util.Log.Info("TipperKit", "Filled sample data 1");
+            }
         }
     }
 }

@@ -148,7 +148,6 @@ D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\System.
 D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\android\assets\TipperKit.dll.mdb
 D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\res\layout\outputlayout.xml
 D:\Mark\Desktop\TipperKit_3_UI_Fields\TipperKit\obj\Debug\TipperKit.dll.mdb
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.csprojResolveAssemblyReference.cache
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Annotations.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll.stamp
@@ -178,7 +177,7 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\values\strings.xml
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\values\styles.xml
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\logo.png
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\tipperdrawing.png
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\ton force.png
+D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\ton_force.png
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\yellow.png
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\green.png
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\cyl.png
@@ -187,17 +186,5 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\weights.png
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\bot.png
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\R.cs.flag
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\uploadflags.txt
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\dda502ec.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\proguard\a35ed7280.txt
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\a35ed728.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\66b78e27.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\60bb5a27.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\fab25ab7.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\5379ba9d.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\ad46a843.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\f291fecb.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\proguard\8f1de9cb0.txt
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\8f1de9cb.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\6ce5e490.proguard.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.dll.mdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\TipperKit.dll.mdb

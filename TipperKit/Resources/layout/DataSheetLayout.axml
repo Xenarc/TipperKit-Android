@@ -16,7 +16,7 @@
             p1:layout_height="312.0dp"
             p1:id="@+id/imageView1" />
         <ImageView
-            p1:src="@drawable/T"
+            p1:src="@drawable/Ton_Force"
             p1:layout_width="match_parent"
             p1:layout_height="wrap_content"
             p1:id="@+id/imageView1" />

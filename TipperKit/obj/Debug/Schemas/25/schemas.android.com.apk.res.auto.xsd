@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>10/07/2017 11:10:50 PM</xs:documentation>
+    <xs:documentation>15/07/2017 11:57:17 AM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -175,7 +175,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -588,7 +588,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -927,7 +927,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2168,7 +2168,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2645,7 +2645,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2984,7 +2984,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -3442,7 +3442,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -3781,7 +3781,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -4451,7 +4451,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -4790,7 +4790,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5129,7 +5129,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5542,7 +5542,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5881,7 +5881,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -6327,7 +6327,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -6740,7 +6740,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -7253,7 +7253,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -7868,7 +7868,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -9440,7 +9440,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -9953,7 +9953,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -10485,7 +10485,7 @@
             <xs:enumeration value="@drawable/splash" />
             <xs:enumeration value="@drawable/tanks" />
             <xs:enumeration value="@drawable/tipperdrawing" />
-            <xs:enumeration value="@drawable/ton force" />
+            <xs:enumeration value="@drawable/ton_force" />
             <xs:enumeration value="@drawable/weights" />
             <xs:enumeration value="@drawable/yellow" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />

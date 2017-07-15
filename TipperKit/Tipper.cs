@@ -102,9 +102,9 @@ namespace TipperKit {
         
 
         public void initSRH() {
-            SRH = new Datasheets.SRH[]{ new Datasheets.SRH("KR45W", 5, 3.8f, 170, 250), 
+            SRH = new Datasheets.SRH[]{
+                new Datasheets.SRH("KR45W", 5, 3.8f, 170, 250), 
                 new Datasheets.SRH("YBZ-TRYX-6L-W", 6, 5.2f, 178, 300), 
-                new Datasheets.SRH("YBZ-TRYX-8L-W", 8, 6.8f, 178, 370),
                 new Datasheets.SRH("YBZ-TRYX-8L-W", 8, 6.8f, 178, 370),
                 new Datasheets.SRH("YBZ-TRYX-10L-W", 10, 8.1f, 178, 370),
                 new Datasheets.SRH("YBZ-TRYX-12L-W", 12, 10.2f, 178, 540)
@@ -113,10 +113,9 @@ namespace TipperKit {
 
         public void initSSH() {
 
-            SSH = new Datasheets.SSH[] { new Datasheets.SSH("TK - 36C", 10, 8.5f, 213, 198, 260),
-                new Datasheets.SSH("", 12, 10.2f, 213, 198, 301.5f),   //FIX THIS
+            SSH = new Datasheets.SSH[] {
+                new Datasheets.SSH("TK - 36C", 10, 8.5f, 213, 198, 260),
                 new Datasheets.SSH("TK-03", 12, 10.2f, 213, 198, 301.5f),
-                new Datasheets.SSH("", 12, 10.2f, 213, 198, 301.5f),   //AND THIS
                 new Datasheets.SSH("TK-120-15L-66-W-A", 15, 13.5f, 213, 198, 410),
                 new Datasheets.SSH("TK-15", 20, 17.8f, 213, 198, 734),
                 new Datasheets.SSH("TK-34", 25, 23.5f, 213, 198, 705)
@@ -239,28 +238,35 @@ namespace TipperKit {
                 // ERROR = Data doesnt match Datasheet
             }
 
-            if (E30CylinderPartNumber == TipperKits[0].Kit) {
+            if (E30CylinderPartNumber == TipperKits[0].Model) {
                 Q24OverallCylinderDiameter = TipperKits[0].RodDiameterPerStage1st;  // Were all Tipperkits[3]
+                Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[0].RodDiameterPerStage1st));
 
             } else if (E30CylinderPartNumber == TipperKits[1].Model) {
                 Q24OverallCylinderDiameter = TipperKits[1].RodDiameterPerStage1st;
+                Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[1].RodDiameterPerStage1st));
 
             } else if (E30CylinderPartNumber == TipperKits[2].Model) {
                 Q24OverallCylinderDiameter = TipperKits[2].RodDiameterPerStage1st;
+                Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[2].RodDiameterPerStage1st));
 
             } else if (E30CylinderPartNumber == TipperKits[3].Model) {
                 Q24OverallCylinderDiameter = TipperKits[3].RodDiameterPerStage1st;
+                Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[3].RodDiameterPerStage1st));
 
             } else if (E30CylinderPartNumber == TipperKits[4].Model) {
                 Q24OverallCylinderDiameter = TipperKits[4].RodDiameterPerStage1st;
                 
             } else {
                 Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL2!!   " + E30CylinderPartNumber);
-                //ERROR!!!
+                foreach (var x in TipperKits) {
+                    Android.Util.Log.Debug("TipperKit", "Model: " + Convert.ToString(x.Model)); 
+                    Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(x.RodDiameterPerStage1st));
+                }
             }
 
             if (E30CylinderPartNumber == TipperKits[0].Model) {
-                Q25SmallestRodDiameter = TipperKits[0].RodDiameterPerStage6th;
+                Q25SmallestRodDiameter = TipperKits[0].RodDiameterPerStage4th;
 
             } else if (E30CylinderPartNumber == TipperKits[1].Model) {
                 Q25SmallestRodDiameter = TipperKits[1].RodDiameterPerStage6th;

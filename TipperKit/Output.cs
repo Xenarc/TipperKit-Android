@@ -20,7 +20,7 @@ namespace TipperKit {
             try {
                 SetContentView(Resource.Layout.OutputLayout);
                 Android.Util.Log.Debug("(*****************************************", "Set Content View");
-                ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Argb(0xFF, 0x1F, 0x1F, 0x1F)));
+                FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Argb(0xFF, 0x1F, 0x1F, 0x1F));
                 // Recalculate
                 Button Recalculate = FindViewById<Button>(Resource.Id.Recalculate);
                 Button GenerateReport = FindViewById<Button>(Resource.Id.GenerateReport);
@@ -75,12 +75,11 @@ namespace TipperKit {
                     FindViewById<TextView>(Resource.Id.textViewH).SetText("Unacceptable".ToCharArray(), 0, 12);
                 }
                 if (TipperKit.Util.TipperCalculator.T68OverallApplicationSetup) {
-                    ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.ForestGreen));
-                    ActionBar.Title = "Application ACCEPTABLE";
-
+                    FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Green);
+                    FindViewById<TextView>(Resource.Id.overallApplication).Text = "Application ACCEPTABLE";
                 } else {
-                    ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red));
-                    ActionBar.Title = "Application UnaccepTABLE";
+                    FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red);
+                    FindViewById<TextView>(Resource.Id.overallApplication).Text = "Application UNACCEPTABLE";
                 }
                 Recalculate.Click += delegate {
                     this.Finish();

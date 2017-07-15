@@ -4,10 +4,7 @@
     <item name="android:windowBackground">@drawable/splash</item>
     <item name="android:windowNoTitle">true</item>
   </style>
-  <style name="TipperKitTheme" parent="android:Theme.DeviceDefault">
+  <style name="TipperKitTheme" parent="android:Theme.DeviceDefault.NoActionBar">
     <item name="android:logo">@drawable/logo</item>
-  </style>
-  <style name="TipperKitTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
-    <item name="android:textColor">#f08080</item>
   </style>
 </resources>
