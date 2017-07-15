@@ -10,28 +10,25 @@
     <LinearLayout
         p1:orientation="horizontal"
         p1:layout_width="match_parent"
-        p1:layout_height="50dp"
+        p1:layout_height="wrap_content"
         p1:id="@+id/linearLayout2"
         p1:layout_marginBottom="5.0dp"
         p1:layout_marginTop="5.0dp">
         <TextView
             p1:text="Tray Weight (Empty)"
             p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:layout_width="220.0dp"
+            p1:layout_width="match_parent"
             p1:layout_height="match_parent"
             p1:id="@+id/textView1"
             p1:textColor="#FFFFFF"
             p1:layout_marginLeft="5.0dp"
             p1:layout_marginRight="5.0dp"
-            p1:gravity="center_vertical" />
-        <Space
-            p1:layout_width="wrap_content"
-            p1:layout_height="match_parent"
-            p1:id="@+id/space5"
-            p1:layout_weight="1" />
+            p1:gravity="center_vertical"
+            p1:layout_weight="1"
+            p1:minHeight="50dp" />
         <EditText
             p1:inputType="numberSigned"
-            p1:layout_width="wrap_content"
+            p1:layout_width="match_parent"
             p1:layout_height="match_parent"
             p1:id="@+id/editText1"
             p1:layout_marginRight="5.0dp"
@@ -45,27 +42,24 @@
     <LinearLayout
         p1:orientation="horizontal"
         p1:layout_width="match_parent"
-        p1:layout_height="50dp"
+        p1:layout_height="wrap_content"
         p1:id="@+id/linearLayout2"
         p1:layout_marginBottom="5.0dp">
         <TextView
             p1:text="Gross Tray Weight (Loaded)"
             p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:layout_width="220.0dp"
+            p1:layout_width="match_parent"
             p1:layout_height="match_parent"
             p1:id="@+id/textView1"
             p1:textColor="#FFFFFF"
             p1:layout_marginRight="5.0dp"
             p1:layout_marginLeft="5.0dp"
-            p1:gravity="center_vertical" />
-        <Space
-            p1:layout_width="wrap_content"
-            p1:layout_height="match_parent"
-            p1:id="@+id/space4"
-            p1:layout_weight="1" />
+            p1:gravity="center_vertical"
+            p1:layout_weight="1"
+            p1:minHeight="50dp" />
         <EditText
             p1:inputType="numberSigned"
-            p1:layout_width="wrap_content"
+            p1:layout_width="match_parent"
             p1:layout_height="match_parent"
             p1:id="@+id/editText2"
             p1:layout_marginRight="5.0dp"
@@ -79,27 +73,24 @@
     <LinearLayout
         p1:orientation="horizontal"
         p1:layout_width="match_parent"
-        p1:layout_height="50dp"
+        p1:layout_height="wrap_content"
         p1:id="@+id/linearLayout2"
         p1:layout_marginBottom="5.0dp">
         <TextView
             p1:text="Distance between Pivot Points (L2)"
             p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:layout_width="220.0dp"
+            p1:layout_width="match_parent"
             p1:layout_height="match_parent"
             p1:id="@+id/textView1"
             p1:textColor="#FFFFFF"
             p1:layout_marginRight="5.0dp"
             p1:layout_marginLeft="5.0dp"
-            p1:gravity="center_vertical" />
-        <Space
-            p1:layout_width="wrap_content"
-            p1:layout_height="match_parent"
-            p1:id="@+id/space3"
-            p1:layout_weight="1" />
+            p1:gravity="center_vertical"
+            p1:layout_weight="1"
+            p1:minHeight="50dp" />
         <EditText
             p1:inputType="numberSigned"
-            p1:layout_width="wrap_content"
+            p1:layout_width="match_parent"
             p1:layout_height="match_parent"
             p1:id="@+id/editText3"
             p1:layout_marginRight="5.0dp"
@@ -113,27 +104,24 @@
     <LinearLayout
         p1:orientation="horizontal"
         p1:layout_width="match_parent"
-        p1:layout_height="50dp"
+        p1:layout_height="wrap_content"
         p1:id="@+id/linearLayout2"
-        p1:layout_marginBottom="5.0dp">
+        p1:layout_marginBottom="5.0dp"
+        p1:minHeight="50dp">
         <TextView
             p1:text="Cylinder Stroke (Refer Data Sheet) (L3)"
             p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:layout_width="220.0dp"
+            p1:layout_width="match_parent"
             p1:layout_height="match_parent"
             p1:id="@+id/textView1"
             p1:textColor="#FFFFFF"
             p1:layout_marginRight="5.0dp"
             p1:layout_marginLeft="5.0dp"
-            p1:gravity="center_vertical" />
-        <Space
-            p1:layout_width="wrap_content"
-            p1:layout_height="match_parent"
-            p1:id="@+id/space2"
-            p1:layout_weight="1" />
+            p1:gravity="center_vertical"
+            p1:layout_weight="1"
+            p1:minHeight="50dp" />
         <EditText
             p1:inputType="numberSigned"
-            p1:layout_width="wrap_content"
             p1:layout_height="match_parent"
             p1:id="@+id/editText4"
             p1:layout_marginRight="5.0dp"
@@ -142,29 +130,27 @@
             p1:textColorHighlight="#222222"
             p1:textColorHint="#222222"
             p1:textColorLink="#222222"
-            p1:layout_weight="1" />
+            p1:layout_weight="1"
+            p1:layout_width="match_parent" />
     </LinearLayout>
     <LinearLayout
         p1:orientation="horizontal"
         p1:layout_width="match_parent"
-        p1:layout_height="50dp"
+        p1:layout_height="wrap_content"
         p1:id="@+id/linearLayout2"
         p1:layout_marginBottom="5.0dp">
         <TextView
             p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:layout_width="220.0dp"
-            p1:layout_height="wrap_content"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
             p1:id="@+id/textView1"
             p1:textColor="#FFFFFF"
             p1:text="Tray Length (L4)"
             p1:layout_marginLeft="5.0dp"
             p1:layout_marginRight="5.0dp"
-            p1:gravity="center_vertical" />
-        <Space
-            p1:layout_width="wrap_content"
-            p1:layout_height="match_parent"
-            p1:id="@+id/space1"
-            p1:layout_weight="1" />
+            p1:gravity="center_vertical"
+            p1:layout_weight="1"
+            p1:minHeight="50dp" />
         <EditText
             p1:inputType="numberSigned"
             p1:layout_height="match_parent"
@@ -176,24 +162,38 @@
             p1:textColorHint="#222222"
             p1:textColorLink="#222222"
             p1:layout_weight="1"
-            p1:layout_width="wrap_content" />
+            p1:layout_width="match_parent" />
     </LinearLayout>
-    <Button
-        p1:text="Calculate"
+    <LinearLayout
+        p1:orientation="horizontal"
         p1:layout_width="match_parent"
-        p1:layout_height="40dp"
-        p1:id="@+id/button1"
-        p1:textColor="#FFF"
-        p1:textAllCaps="false"
-        p1:background="#3f3f3f"
-        p1:layout_marginBottom="5.0dp"
-        p1:layout_marginTop="5.0dp" />
-    <Button
-        p1:id="@+id/button2"
-        p1:text="See Data Sheets"
-        p1:layout_width="match_parent"
-        p1:layout_height="40dp"
-        p1:textAllCaps="false"
-        p1:textColor="#FFF"
-        p1:background="#3f3f3f" />
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout3">
+        <Button
+            p1:id="@+id/button2"
+            p1:text="See Data Sheets"
+            p1:textAllCaps="false"
+            p1:textColor="#FFF"
+            p1:background="#3f3f3f"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:padding="2dp"
+            p1:layout_marginRight="2.5dp"
+            p1:paddingLeft="5dp"
+            p1:paddingRight="5dp"
+            p1:layout_weight="1" />
+        <Button
+            p1:text="Calculate"
+            p1:id="@+id/button1"
+            p1:textColor="#FFF"
+            p1:textAllCaps="false"
+            p1:background="#3f3f3f"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:padding="2dp"
+            p1:layout_marginLeft="2.5dp"
+            p1:paddingLeft="5dp"
+            p1:paddingRight="5dp"
+            p1:layout_weight="1" />
+    </LinearLayout>
 </LinearLayout>

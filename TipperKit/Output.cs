@@ -18,12 +18,14 @@ namespace TipperKit {
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
             try {
+                this.RequestWindowFeature(Android.Views.WindowFeatures.NoTitle); // Remove ActionBar
                 SetContentView(Resource.Layout.OutputLayout);
                 Android.Util.Log.Debug("(*****************************************", "Set Content View");
                 FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Argb(0xFF, 0x1F, 0x1F, 0x1F));
                 // Recalculate
                 Button Recalculate = FindViewById<Button>(Resource.Id.Recalculate);
-                Button GenerateReport = FindViewById<Button>(Resource.Id.GenerateReport);
+                Button Continue = FindViewById<Button>(Resource.Id.GenerateReport);
+                ToggleButton GenerateReport = FindViewById<ToggleButton>(Resource.Id.toggleButton1);
 
                 if (Util.TipperCalculator.T37FmaxGtY2) {
                     FindViewById<TextView>(Resource.Id.textViewA).SetBackgroundColor(Android.Graphics.Color.Green);
@@ -78,9 +80,9 @@ namespace TipperKit {
                     FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Green);
                     FindViewById<TextView>(Resource.Id.overallApplication).Text = "Application ACCEPTABLE";
                 } else {
-                    FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red);
                     FindViewById<TextView>(Resource.Id.overallApplication).Text = "Application UNACCEPTABLE";
                 }
+
                 Recalculate.Click += delegate {
                     this.Finish();
                     Android.Util.Log.Info("Tipperkit", "Recalculate button has been Pressed");
@@ -109,11 +111,43 @@ namespace TipperKit {
 
                 GenerateReport.Click += delegate {
                     Android.Util.Log.Info("Tipperkit", "GenerateReport button has been Pressed");
-                    //Generate Report Activity
-                    this.StartActivity(typeof(DetailedOutput));
+                    if (GenerateReport.Checked) {
+                        Util.GenerateReport = true;
+                    } else {
+                        Util.GenerateReport = false;
+                    }
+                    
                 };
+                Continue.Click += delegate {
+                    if (!Util.GenerateReport) {
+                        this.Finish();
+
+                    } else {
+                        StartActivity(typeof(GenerateReport));
+
+                    }
+                };
+
             } catch(Exception e) {
                 Android.Util.Log.Debug("TipperKit", "Set Content View FAILED: " + e.Message);
+            }
+        }
+        void f() {
+            StartTimer();
+        }
+
+        async void StartTimer() {
+            while (true) {
+                await System.Threading.Tasks.Task.Delay(2000);
+                if (!TipperKit.Util.TipperCalculator.T68OverallApplicationSetup) {
+                    if (FindViewById<TextView>(Resource.Id.overallApplication).Background == new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red)) {
+                        FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.DarkRed);
+                    } else if (FindViewById<TextView>(Resource.Id.overallApplication).Background == new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.DarkRed)) {
+                        FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red);
+                    } else {
+                        FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red);
+                    }
+                }
             }
         }
     }

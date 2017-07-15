@@ -1,7 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    p1:padding="5dp">
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout2">
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/linearLayout3"
+            p1:padding="2dp"
+            p1:layout_marginTop="5dp">
+            <TextView
+                p1:text="To: "
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/textView1"
+                p1:gravity="center_vertical"
+                p1:padding="5dp"
+                p1:layout_marginRight="5dp" />
+            <EditText
+                p1:inputType="textEmailAddress"
+                p1:layout_width="match_parent"
+                p1:layout_height="match_parent"
+                p1:id="@+id/editText1"
+                p1:background="#FFF"
+                p1:textColor="#000"
+                p1:padding="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/linearLayout3"
+            p1:padding="2dp">
+            <TextView
+                p1:text="Subject:  "
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/textView1"
+                p1:gravity="center_vertical"
+                p1:padding="5dp"
+                p1:layout_marginRight="5dp" />
+            <EditText
+                p1:inputType="textPhonetic"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText2"
+                p1:text="Tipper Calculation Result - "
+                p1:textColor="#000"
+                p1:background="#FFF"
+                p1:padding="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <EditText
+        p1:inputType="textWebEditText|textMultiLine"
+        p1:id="@+id/Message"
+        p1:textColor="#000"
+        p1:background="#FFF"
+        p1:padding="5dp"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:singleLine="false"
+        p1:layout_weight="100"
+        p1:maxLines="1000"
+        p1:layout_gravity="top" />
+    <EditText
+        p1:inputType="textWebEditText|textMultiLine"
+        p1:id="@+id/Report"
+        p1:textColor="#000"
+        p1:background="#FFF"
+        p1:padding="5dp"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:singleLine="false"
+        p1:layout_weight="1000"
+        p1:maxLines="1000"
+        p1:layout_gravity="top"
+        p1:clickable="false"
+        p1:editable="false"
+        p1:enabled="false"
+        p1:focusable="false"
+        p1:layout_marginTop="2.0dp" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/linearLayout5"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_weight="1"
+        p1:layout_gravity="bottom">
+        <Button
+            p1:text="Back"
+            p1:id="@+id/Back"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:layout_weight="2"
+            p1:layout_marginRight="0.0dp" />
+        <Button
+            p1:text="Send"
+            p1:id="@+id/Send"
+            p1:layout_width="match_parent"
+            p1:layout_height="50dp"
+            p1:layout_weight="1"
+            p1:layout_marginRight="0.0dp" />
+    </LinearLayout>
 </LinearLayout>

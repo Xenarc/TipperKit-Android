@@ -18,6 +18,7 @@ namespace TipperKit {
     public class DetailedOutput : Activity {
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
+            this.RequestWindowFeature(Android.Views.WindowFeatures.NoTitle); // Remove ActionBar
             SetContentView(Resource.Layout.DetailedOutputLayout);
             ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Argb(0xFF, 0x1F, 0x1F, 0x1F)));
 

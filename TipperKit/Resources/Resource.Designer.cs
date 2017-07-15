@@ -1653,11 +1653,11 @@ namespace TipperKit
 			// aapt resource value: 0x7f02005f
 			public const int notification_icon_background = 2130837599;
 			
-			// aapt resource value: 0x7f020068
-			public const int notification_template_icon_bg = 2130837608;
-			
 			// aapt resource value: 0x7f020069
-			public const int notification_template_icon_low_bg = 2130837609;
+			public const int notification_template_icon_bg = 2130837609;
+			
+			// aapt resource value: 0x7f02006a
+			public const int notification_template_icon_low_bg = 2130837610;
 			
 			// aapt resource value: 0x7f020060
 			public const int notification_tile_bg = 2130837600;
@@ -1669,19 +1669,22 @@ namespace TipperKit
 			public const int splash = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int Tanks = 2130837603;
+			public const int TankSRH = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int TipperDrawing = 2130837604;
+			public const int TankSSH = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int Ton_Force = 2130837605;
+			public const int TipperDrawing = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int Weights = 2130837606;
+			public const int Ton_Force = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int Yellow = 2130837607;
+			public const int Weights = 2130837607;
+			
+			// aapt resource value: 0x7f020068
+			public const int Yellow = 2130837608;
 			
 			static Drawable()
 			{
@@ -1696,218 +1699,230 @@ namespace TipperKit
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a00d8
-			public const int GenerateReport = 2131362008;
+			// aapt resource value: 0x7f0a0092
+			public const int Back = 2131361938;
 			
-			// aapt resource value: 0x7f0a005e
-			public const int Output = 2131361886;
+			// aapt resource value: 0x7f0a00d7
+			public const int GenerateReport = 2131362007;
 			
-			// aapt resource value: 0x7f0a005f
-			public const int Output1 = 2131361887;
-			
-			// aapt resource value: 0x7f0a0069
-			public const int Output10 = 2131361897;
-			
-			// aapt resource value: 0x7f0a006a
-			public const int Output11 = 2131361898;
-			
-			// aapt resource value: 0x7f0a006b
-			public const int Output12 = 2131361899;
-			
-			// aapt resource value: 0x7f0a006c
-			public const int Output13 = 2131361900;
-			
-			// aapt resource value: 0x7f0a006d
-			public const int Output14 = 2131361901;
-			
-			// aapt resource value: 0x7f0a006e
-			public const int Output15 = 2131361902;
-			
-			// aapt resource value: 0x7f0a006f
-			public const int Output16 = 2131361903;
-			
-			// aapt resource value: 0x7f0a0070
-			public const int Output17 = 2131361904;
-			
-			// aapt resource value: 0x7f0a0071
-			public const int Output18 = 2131361905;
-			
-			// aapt resource value: 0x7f0a0072
-			public const int Output19 = 2131361906;
-			
-			// aapt resource value: 0x7f0a0060
-			public const int Output2 = 2131361888;
-			
-			// aapt resource value: 0x7f0a0073
-			public const int Output20 = 2131361907;
-			
-			// aapt resource value: 0x7f0a0074
-			public const int Output21 = 2131361908;
-			
-			// aapt resource value: 0x7f0a0075
-			public const int Output24 = 2131361909;
-			
-			// aapt resource value: 0x7f0a0076
-			public const int Output25 = 2131361910;
-			
-			// aapt resource value: 0x7f0a0077
-			public const int Output26 = 2131361911;
-			
-			// aapt resource value: 0x7f0a0078
-			public const int Output27 = 2131361912;
-			
-			// aapt resource value: 0x7f0a0079
-			public const int Output28 = 2131361913;
-			
-			// aapt resource value: 0x7f0a007a
-			public const int Output29 = 2131361914;
-			
-			// aapt resource value: 0x7f0a0062
-			public const int Output3 = 2131361890;
-			
-			// aapt resource value: 0x7f0a007b
-			public const int Output30 = 2131361915;
-			
-			// aapt resource value: 0x7f0a007c
-			public const int Output31 = 2131361916;
-			
-			// aapt resource value: 0x7f0a007d
-			public const int Output32 = 2131361917;
-			
-			// aapt resource value: 0x7f0a007e
-			public const int Output33 = 2131361918;
-			
-			// aapt resource value: 0x7f0a007f
-			public const int Output34 = 2131361919;
-			
-			// aapt resource value: 0x7f0a0080
-			public const int Output35 = 2131361920;
-			
-			// aapt resource value: 0x7f0a0081
-			public const int Output36 = 2131361921;
-			
-			// aapt resource value: 0x7f0a0082
-			public const int Output37 = 2131361922;
-			
-			// aapt resource value: 0x7f0a0083
-			public const int Output38 = 2131361923;
-			
-			// aapt resource value: 0x7f0a0084
-			public const int Output39 = 2131361924;
-			
-			// aapt resource value: 0x7f0a0063
-			public const int Output4 = 2131361891;
-			
-			// aapt resource value: 0x7f0a0085
-			public const int Output40 = 2131361925;
-			
-			// aapt resource value: 0x7f0a0086
-			public const int Output41 = 2131361926;
-			
-			// aapt resource value: 0x7f0a0087
-			public const int Output42 = 2131361927;
-			
-			// aapt resource value: 0x7f0a0088
-			public const int Output44 = 2131361928;
-			
-			// aapt resource value: 0x7f0a0089
-			public const int Output46 = 2131361929;
-			
-			// aapt resource value: 0x7f0a008a
-			public const int Output47 = 2131361930;
-			
-			// aapt resource value: 0x7f0a008b
-			public const int Output48 = 2131361931;
+			// aapt resource value: 0x7f0a008f
+			public const int Message = 2131361935;
 			
 			// aapt resource value: 0x7f0a005d
-			public const int Output49 = 2131361885;
+			public const int Output = 2131361885;
 			
-			// aapt resource value: 0x7f0a00c7
-			public const int Output491 = 2131361991;
-			
-			// aapt resource value: 0x7f0a00c5
-			public const int Output492 = 2131361989;
-			
-			// aapt resource value: 0x7f0a00c9
-			public const int Output493 = 2131361993;
-			
-			// aapt resource value: 0x7f0a00cb
-			public const int Output494 = 2131361995;
-			
-			// aapt resource value: 0x7f0a00cd
-			public const int Output495 = 2131361997;
-			
-			// aapt resource value: 0x7f0a0064
-			public const int Output5 = 2131361892;
-			
-			// aapt resource value: 0x7f0a0065
-			public const int Output6 = 2131361893;
-			
-			// aapt resource value: 0x7f0a0066
-			public const int Output7 = 2131361894;
-			
-			// aapt resource value: 0x7f0a0067
-			public const int Output8 = 2131361895;
+			// aapt resource value: 0x7f0a005e
+			public const int Output1 = 2131361886;
 			
 			// aapt resource value: 0x7f0a0068
-			public const int Output9 = 2131361896;
+			public const int Output10 = 2131361896;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int OutputA1 = 2131361987;
+			// aapt resource value: 0x7f0a0069
+			public const int Output11 = 2131361897;
 			
-			// aapt resource value: 0x7f0a00d1
-			public const int OutputA10 = 2131362001;
+			// aapt resource value: 0x7f0a006a
+			public const int Output12 = 2131361898;
 			
-			// aapt resource value: 0x7f0a00d2
-			public const int OutputA11 = 2131362002;
+			// aapt resource value: 0x7f0a006b
+			public const int Output13 = 2131361899;
 			
-			// aapt resource value: 0x7f0a00d3
-			public const int OutputA12 = 2131362003;
+			// aapt resource value: 0x7f0a006c
+			public const int Output14 = 2131361900;
 			
-			// aapt resource value: 0x7f0a00d4
-			public const int OutputA13 = 2131362004;
+			// aapt resource value: 0x7f0a006d
+			public const int Output15 = 2131361901;
 			
-			// aapt resource value: 0x7f0a00c4
-			public const int OutputA2 = 2131361988;
+			// aapt resource value: 0x7f0a006e
+			public const int Output16 = 2131361902;
 			
-			// aapt resource value: 0x7f0a00c8
-			public const int OutputA3 = 2131361992;
+			// aapt resource value: 0x7f0a006f
+			public const int Output17 = 2131361903;
+			
+			// aapt resource value: 0x7f0a0070
+			public const int Output18 = 2131361904;
+			
+			// aapt resource value: 0x7f0a0071
+			public const int Output19 = 2131361905;
+			
+			// aapt resource value: 0x7f0a005f
+			public const int Output2 = 2131361887;
+			
+			// aapt resource value: 0x7f0a0072
+			public const int Output20 = 2131361906;
+			
+			// aapt resource value: 0x7f0a0073
+			public const int Output21 = 2131361907;
+			
+			// aapt resource value: 0x7f0a0074
+			public const int Output24 = 2131361908;
+			
+			// aapt resource value: 0x7f0a0075
+			public const int Output25 = 2131361909;
+			
+			// aapt resource value: 0x7f0a0076
+			public const int Output26 = 2131361910;
+			
+			// aapt resource value: 0x7f0a0077
+			public const int Output27 = 2131361911;
+			
+			// aapt resource value: 0x7f0a0078
+			public const int Output28 = 2131361912;
+			
+			// aapt resource value: 0x7f0a0079
+			public const int Output29 = 2131361913;
+			
+			// aapt resource value: 0x7f0a0061
+			public const int Output3 = 2131361889;
+			
+			// aapt resource value: 0x7f0a007a
+			public const int Output30 = 2131361914;
+			
+			// aapt resource value: 0x7f0a007b
+			public const int Output31 = 2131361915;
+			
+			// aapt resource value: 0x7f0a007c
+			public const int Output32 = 2131361916;
+			
+			// aapt resource value: 0x7f0a007d
+			public const int Output33 = 2131361917;
+			
+			// aapt resource value: 0x7f0a007e
+			public const int Output34 = 2131361918;
+			
+			// aapt resource value: 0x7f0a007f
+			public const int Output35 = 2131361919;
+			
+			// aapt resource value: 0x7f0a0080
+			public const int Output36 = 2131361920;
+			
+			// aapt resource value: 0x7f0a0081
+			public const int Output37 = 2131361921;
+			
+			// aapt resource value: 0x7f0a0082
+			public const int Output38 = 2131361922;
+			
+			// aapt resource value: 0x7f0a0083
+			public const int Output39 = 2131361923;
+			
+			// aapt resource value: 0x7f0a0062
+			public const int Output4 = 2131361890;
+			
+			// aapt resource value: 0x7f0a0084
+			public const int Output40 = 2131361924;
+			
+			// aapt resource value: 0x7f0a0085
+			public const int Output41 = 2131361925;
+			
+			// aapt resource value: 0x7f0a0086
+			public const int Output42 = 2131361926;
+			
+			// aapt resource value: 0x7f0a0087
+			public const int Output44 = 2131361927;
+			
+			// aapt resource value: 0x7f0a0088
+			public const int Output46 = 2131361928;
+			
+			// aapt resource value: 0x7f0a0089
+			public const int Output47 = 2131361929;
+			
+			// aapt resource value: 0x7f0a008a
+			public const int Output48 = 2131361930;
+			
+			// aapt resource value: 0x7f0a005c
+			public const int Output49 = 2131361884;
 			
 			// aapt resource value: 0x7f0a00c6
-			public const int OutputA4 = 2131361990;
+			public const int Output491 = 2131361990;
+			
+			// aapt resource value: 0x7f0a00c4
+			public const int Output492 = 2131361988;
+			
+			// aapt resource value: 0x7f0a00c8
+			public const int Output493 = 2131361992;
 			
 			// aapt resource value: 0x7f0a00ca
-			public const int OutputA5 = 2131361994;
+			public const int Output494 = 2131361994;
 			
 			// aapt resource value: 0x7f0a00cc
-			public const int OutputA6 = 2131361996;
+			public const int Output495 = 2131361996;
 			
-			// aapt resource value: 0x7f0a00ce
-			public const int OutputA7 = 2131361998;
+			// aapt resource value: 0x7f0a0063
+			public const int Output5 = 2131361891;
 			
-			// aapt resource value: 0x7f0a00cf
-			public const int OutputA8 = 2131361999;
+			// aapt resource value: 0x7f0a0064
+			public const int Output6 = 2131361892;
+			
+			// aapt resource value: 0x7f0a0065
+			public const int Output7 = 2131361893;
+			
+			// aapt resource value: 0x7f0a0066
+			public const int Output8 = 2131361894;
+			
+			// aapt resource value: 0x7f0a0067
+			public const int Output9 = 2131361895;
+			
+			// aapt resource value: 0x7f0a00c2
+			public const int OutputA1 = 2131361986;
 			
 			// aapt resource value: 0x7f0a00d0
-			public const int OutputA9 = 2131362000;
+			public const int OutputA10 = 2131362000;
+			
+			// aapt resource value: 0x7f0a00d1
+			public const int OutputA11 = 2131362001;
+			
+			// aapt resource value: 0x7f0a00d2
+			public const int OutputA12 = 2131362002;
+			
+			// aapt resource value: 0x7f0a00d3
+			public const int OutputA13 = 2131362003;
+			
+			// aapt resource value: 0x7f0a00c3
+			public const int OutputA2 = 2131361987;
+			
+			// aapt resource value: 0x7f0a00c7
+			public const int OutputA3 = 2131361991;
+			
+			// aapt resource value: 0x7f0a00c5
+			public const int OutputA4 = 2131361989;
+			
+			// aapt resource value: 0x7f0a00c9
+			public const int OutputA5 = 2131361993;
+			
+			// aapt resource value: 0x7f0a00cb
+			public const int OutputA6 = 2131361995;
+			
+			// aapt resource value: 0x7f0a00cd
+			public const int OutputA7 = 2131361997;
+			
+			// aapt resource value: 0x7f0a00ce
+			public const int OutputA8 = 2131361998;
+			
+			// aapt resource value: 0x7f0a00cf
+			public const int OutputA9 = 2131361999;
+			
+			// aapt resource value: 0x7f0a00b0
+			public const int OutputPartC = 2131361968;
 			
 			// aapt resource value: 0x7f0a00b1
-			public const int OutputPartC = 2131361969;
+			public const int OutputPartT = 2131361969;
 			
-			// aapt resource value: 0x7f0a00b2
-			public const int OutputPartT = 2131361970;
+			// aapt resource value: 0x7f0a00d5
+			public const int Recalculate = 2131362005;
 			
-			// aapt resource value: 0x7f0a00d6
-			public const int Recalculate = 2131362006;
+			// aapt resource value: 0x7f0a0090
+			public const int Report = 2131361936;
 			
-			// aapt resource value: 0x7f0a00bd
-			public const int SRH6L = 2131361981;
+			// aapt resource value: 0x7f0a00bc
+			public const int SRH6L = 2131361980;
 			
-			// aapt resource value: 0x7f0a00c0
-			public const int SSH10L = 2131361984;
+			// aapt resource value: 0x7f0a00bf
+			public const int SSH10L = 2131361983;
 			
-			// aapt resource value: 0x7f0a00b4
-			public const int Sentance = 2131361972;
+			// aapt resource value: 0x7f0a0093
+			public const int Send = 2131361939;
+			
+			// aapt resource value: 0x7f0a00b3
+			public const int Sentance = 2131361971;
 			
 			// aapt resource value: 0x7f0a009b
 			public const int action0 = 2131361947;
@@ -1984,8 +1999,8 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a0022
 			public const int bottom = 2131361826;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int button1 = 2131361932;
+			// aapt resource value: 0x7f0a008b
+			public const int button1 = 2131361931;
 			
 			// aapt resource value: 0x7f0a0097
 			public const int button2 = 2131361943;
@@ -2023,14 +2038,14 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a000c
 			public const int disableHome = 2131361804;
 			
-			// aapt resource value: 0x7f0a008f
-			public const int editText1 = 2131361935;
+			// aapt resource value: 0x7f0a008d
+			public const int editText1 = 2131361933;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int editText2 = 2131361937;
+			// aapt resource value: 0x7f0a008e
+			public const int editText2 = 2131361934;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int editText3 = 2131361939;
+			// aapt resource value: 0x7f0a0094
+			public const int editText3 = 2131361940;
 			
 			// aapt resource value: 0x7f0a0095
 			public const int editText4 = 2131361941;
@@ -2053,8 +2068,8 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a003d
 			public const int expanded_menu = 2131361853;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int frameLayout1 = 2131361976;
+			// aapt resource value: 0x7f0a00b7
+			public const int frameLayout1 = 2131361975;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int home = 2131361796;
@@ -2074,9 +2089,6 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a0029
 			public const int image = 2131361833;
 			
-			// aapt resource value: 0x7f0a0058
-			public const int imageView1 = 2131361880;
-			
 			// aapt resource value: 0x7f0a00a5
 			public const int info = 2131361957;
 			
@@ -2089,29 +2101,29 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a0057
 			public const int linearLayout1 = 2131361879;
 			
-			// aapt resource value: 0x7f0a0059
-			public const int linearLayout2 = 2131361881;
+			// aapt resource value: 0x7f0a0058
+			public const int linearLayout2 = 2131361880;
 			
-			// aapt resource value: 0x7f0a005b
-			public const int linearLayout3 = 2131361883;
+			// aapt resource value: 0x7f0a005a
+			public const int linearLayout3 = 2131361882;
 			
-			// aapt resource value: 0x7f0a0061
-			public const int linearLayout4 = 2131361889;
+			// aapt resource value: 0x7f0a0060
+			public const int linearLayout4 = 2131361888;
+			
+			// aapt resource value: 0x7f0a0091
+			public const int linearLayout5 = 2131361937;
+			
+			// aapt resource value: 0x7f0a00d4
+			public const int linearLayout6 = 2131362004;
 			
 			// aapt resource value: 0x7f0a00af
-			public const int linearLayout5 = 2131361967;
+			public const int linearLayout7 = 2131361967;
 			
-			// aapt resource value: 0x7f0a00d5
-			public const int linearLayout6 = 2131362005;
+			// aapt resource value: 0x7f0a00b4
+			public const int linearLayout8 = 2131361972;
 			
-			// aapt resource value: 0x7f0a00b0
-			public const int linearLayout7 = 2131361968;
-			
-			// aapt resource value: 0x7f0a00b5
-			public const int linearLayout8 = 2131361973;
-			
-			// aapt resource value: 0x7f0a00c2
-			public const int linearLayout9 = 2131361986;
+			// aapt resource value: 0x7f0a00c1
+			public const int linearLayout9 = 2131361985;
 			
 			// aapt resource value: 0x7f0a0009
 			public const int listMode = 2131361801;
@@ -2146,8 +2158,8 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a00a0
 			public const int notification_main_column_container = 2131361952;
 			
-			// aapt resource value: 0x7f0a00b3
-			public const int overallApplication = 2131361971;
+			// aapt resource value: 0x7f0a00b2
+			public const int overallApplication = 2131361970;
 			
 			// aapt resource value: 0x7f0a0030
 			public const int parentPanel = 2131361840;
@@ -2227,20 +2239,8 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a0011
 			public const int showTitle = 2131361809;
 			
-			// aapt resource value: 0x7f0a005c
-			public const int space1 = 2131361884;
-			
-			// aapt resource value: 0x7f0a0094
-			public const int space2 = 2131361940;
-			
-			// aapt resource value: 0x7f0a0092
-			public const int space3 = 2131361938;
-			
-			// aapt resource value: 0x7f0a0090
-			public const int space4 = 2131361936;
-			
-			// aapt resource value: 0x7f0a008e
-			public const int space5 = 2131361934;
+			// aapt resource value: 0x7f0a005b
+			public const int space1 = 2131361883;
 			
 			// aapt resource value: 0x7f0a002f
 			public const int spacer = 2131361839;
@@ -2281,38 +2281,38 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a0034
 			public const int textSpacerNoTitle = 2131361844;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int textView1 = 2131361933;
+			// aapt resource value: 0x7f0a008c
+			public const int textView1 = 2131361932;
 			
-			// aapt resource value: 0x7f0a005a
-			public const int textView2 = 2131361882;
+			// aapt resource value: 0x7f0a0059
+			public const int textView2 = 2131361881;
 			
-			// aapt resource value: 0x7f0a00b9
-			public const int textViewA = 2131361977;
+			// aapt resource value: 0x7f0a00b8
+			public const int textViewA = 2131361976;
 			
-			// aapt resource value: 0x7f0a00c1
-			public const int textViewH = 2131361985;
-			
-			// aapt resource value: 0x7f0a00b7
-			public const int textViewa = 2131361975;
+			// aapt resource value: 0x7f0a00c0
+			public const int textViewH = 2131361984;
 			
 			// aapt resource value: 0x7f0a00b6
-			public const int textViewaasdg = 2131361974;
+			public const int textViewa = 2131361974;
+			
+			// aapt resource value: 0x7f0a00b5
+			public const int textViewaasdg = 2131361973;
+			
+			// aapt resource value: 0x7f0a00b9
+			public const int textViewb = 2131361977;
 			
 			// aapt resource value: 0x7f0a00ba
-			public const int textViewb = 2131361978;
+			public const int textViewc = 2131361978;
 			
 			// aapt resource value: 0x7f0a00bb
-			public const int textViewc = 2131361979;
+			public const int textViewd = 2131361979;
 			
-			// aapt resource value: 0x7f0a00bc
-			public const int textViewd = 2131361980;
+			// aapt resource value: 0x7f0a00bd
+			public const int textViewf = 2131361981;
 			
 			// aapt resource value: 0x7f0a00be
-			public const int textViewf = 2131361982;
-			
-			// aapt resource value: 0x7f0a00bf
-			public const int textViewg = 2131361983;
+			public const int textViewg = 2131361982;
 			
 			// aapt resource value: 0x7f0a00a3
 			public const int time = 2131361955;
@@ -2326,8 +2326,8 @@ namespace TipperKit
 			// aapt resource value: 0x7f0a003a
 			public const int title_template = 2131361850;
 			
-			// aapt resource value: 0x7f0a00d7
-			public const int toggleButton1 = 2131362007;
+			// aapt resource value: 0x7f0a00d6
+			public const int toggleButton1 = 2131362006;
 			
 			// aapt resource value: 0x7f0a0023
 			public const int top = 2131361827;
