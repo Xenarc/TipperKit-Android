@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>15/07/2017 4:18:51 PM</xs:documentation>
+    <xs:documentation>24/07/2017 6:01:54 PM</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -332,15 +332,6 @@
     <xs:attribute ref="tools:visibility" />
     <xs:attribute ref="p1:layout_width" />
     <xs:attribute ref="p1:layout_height" />
-    <xs:attribute ref="p1:layout_weight" />
-    <xs:attribute ref="p1:layout_gravity" />
-    <xs:attribute ref="p1:layout_margin" />
-    <xs:attribute ref="p1:layout_marginLeft" />
-    <xs:attribute ref="p1:layout_marginTop" />
-    <xs:attribute ref="p1:layout_marginRight" />
-    <xs:attribute ref="p1:layout_marginBottom" />
-    <xs:attribute ref="p1:layout_marginStart" />
-    <xs:attribute ref="p1:layout_marginEnd" />
     <xs:attribute ref="p1:style" />
   </xs:complexType>
   <xs:element name="MultiAutoCompleteTextView" type="MultiAutoCompleteTextView">
@@ -1427,15 +1418,6 @@
     <xs:attribute ref="tools:layout" />
     <xs:attribute ref="p1:layout_width" />
     <xs:attribute ref="p1:layout_height" />
-    <xs:attribute ref="p1:layout_weight" />
-    <xs:attribute ref="p1:layout_gravity" />
-    <xs:attribute ref="p1:layout_margin" />
-    <xs:attribute ref="p1:layout_marginLeft" />
-    <xs:attribute ref="p1:layout_marginTop" />
-    <xs:attribute ref="p1:layout_marginRight" />
-    <xs:attribute ref="p1:layout_marginBottom" />
-    <xs:attribute ref="p1:layout_marginStart" />
-    <xs:attribute ref="p1:layout_marginEnd" />
     <xs:attribute ref="p1:style" />
   </xs:complexType>
   <xs:element name="android.support.v13.app.FragmentTabHost" type="android.support.v13.app.FragmentTabHost">

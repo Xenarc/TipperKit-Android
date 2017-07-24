@@ -27,14 +27,8 @@ namespace TipperKit {
                 this.RequestWindowFeature(Android.Views.WindowFeatures.NoTitle); // Remove ActionBar
                 SetContentView(Resource.Layout.Main);
                 
-                //STYLING
-                //Create Local Copies of 
-                Button recalculateButton = FindViewById<Button>(Resource.Id.button1);
-                
-                recalculateButton.SetBackgroundColor(Color.Argb(0xFF, 0x3F, 0x3F, 0x3F));
-                
             } catch (Exception e) {
-                Android.Util.Log.Error("TipperKit", "SetContentView Failed  " + e.Message);
+                Android.Util.Log.Error("TipperKit", "SetContentView Failed: Stack Trace: " + e.StackTrace + " Message: " + e.Message + " Target Site: " + e.TargetSite);
                 Android.OS.Process.KillProcess(Android.OS.Process.MyPid());
             }
             // Fill out sample data
@@ -51,20 +45,19 @@ namespace TipperKit {
             button.Click += delegate {
                 Android.Util.Log.Info("TipperKit", "Calculate Button was clicked");
                 try {
-                    if (
-                    TipperCalculator.Q9TrayWeightEmpty <= 0 ||
-                    TipperCalculator.Q10GrossTrayWeightLoaded <= 0 ||
-                    TipperCalculator.Q12DistanceBetweenPivotPoints <= 0 ||
-                    TipperCalculator.Q13CylinderStroke <= 0 ||
-                    TipperCalculator.Q14TrayLength <= 0
-                    ) return;
-
                     TipperCalculator.Q9TrayWeightEmpty = int.Parse(FindViewById<EditText>(Resource.Id.editText1).Text);
                     TipperCalculator.Q10GrossTrayWeightLoaded = int.Parse(FindViewById<EditText>(Resource.Id.editText2).Text); // Tray weight Loaded
                     TipperCalculator.Q12DistanceBetweenPivotPoints = int.Parse(FindViewById<EditText>(Resource.Id.editText3).Text);
                     TipperCalculator.Q13CylinderStroke = int.Parse(FindViewById<EditText>(Resource.Id.editText4).Text);
-
                     TipperCalculator.Q14TrayLength = int.Parse(FindViewById<EditText>(Resource.Id.editText5).Text);
+
+                    if (
+                        TipperCalculator.Q9TrayWeightEmpty <= 0 ||
+                        TipperCalculator.Q10GrossTrayWeightLoaded <= 0 ||
+                        TipperCalculator.Q12DistanceBetweenPivotPoints <= 0 ||
+                        TipperCalculator.Q13CylinderStroke <= 0 ||
+                        TipperCalculator.Q14TrayLength <= 0
+                    ) return;
                 } catch (Exception e) {
                     Android.Util.Log.Info("TipperKit", "Failed! " + e.Message);
                     Toast.MakeText(ApplicationContext, "Error!", ToastLength.Long);
@@ -112,8 +105,3 @@ namespace TipperKit {
         }
     }
 }
-
-//Unhandled Exception:
-
-//System.InvalidCastException: Unable to convert instance of type 'Android.Widget.Button' to type 
-//'Android.Widget.EditText'. occurred

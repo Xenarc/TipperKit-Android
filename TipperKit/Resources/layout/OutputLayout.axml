@@ -108,10 +108,11 @@
                     android:ellipsize="none"
                     android:gravity="center"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="75dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
-                    android:layout_marginRight="5.0dp" />
+                    android:layout_marginRight="5.0dp"
+                    android:textSize="30dp" />
                 <TextView
                     android:text="NULL"
                     android:textAppearance="?android:attr/textAppearanceMedium"
@@ -608,7 +609,7 @@
                     android:layout_marginTop="2.0dp"
                     android:layout_marginRight="0.0dp">
                     <TextView
-                        android:text="Tray Weight (empty)"
+                        android:text="Tray Weight (Empty)"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:id="@+id/textView2"
                         android:background="#DBAD20"
@@ -709,25 +710,23 @@
                     android:id="@+id/linearLayout3"
                     android:layout_marginTop="2.0dp">
                     <TextView
-                        android:text="Distance Between Pivot Points"
+                        android:text="Center of Gravity"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:id="@+id/textView2"
                         android:background="#DBAD20"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
                         android:padding="3dp"
                         android:textColor="#000"
-                        android:layout_marginRight="5.0dp"
-                        android:scrollHorizontally="false"
-                        android:ellipsize="none"
                         android:layout_weight="1" />
                     <EditText
                         android:padding="2.0dp"
                         android:inputType="none"
-                        android:id="@+id/Output492"
+                        android:id="@+id/Output491"
                         android:clickable="false"
                         android:editable="false"
-                        android:text="L2"
+                        android:text="L1"
                         android:textAlignment="0"
                         android:focusable="false"
                         android:gravity="center"
@@ -740,7 +739,7 @@
                     <EditText
                         android:padding="2.0dp"
                         android:inputType="none"
-                        android:id="@+id/OutputA4"
+                        android:id="@+id/OutputA3"
                         android:clickable="false"
                         android:editable="false"
                         android:text="NULL"
@@ -777,23 +776,25 @@
                     android:id="@+id/linearLayout3"
                     android:layout_marginTop="2.0dp">
                     <TextView
-                        android:text="Center of Gravity"
+                        android:text="Distance Between Pivot Points"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:id="@+id/textView2"
                         android:background="#DBAD20"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_marginRight="5.0dp"
                         android:padding="3dp"
                         android:textColor="#000"
+                        android:layout_marginRight="5.0dp"
+                        android:scrollHorizontally="false"
+                        android:ellipsize="none"
                         android:layout_weight="1" />
                     <EditText
                         android:padding="2.0dp"
                         android:inputType="none"
-                        android:id="@+id/Output491"
+                        android:id="@+id/Output492"
                         android:clickable="false"
                         android:editable="false"
-                        android:text="L1"
+                        android:text="L2"
                         android:textAlignment="0"
                         android:focusable="false"
                         android:gravity="center"
@@ -806,7 +807,7 @@
                     <EditText
                         android:padding="2.0dp"
                         android:inputType="none"
-                        android:id="@+id/OutputA3"
+                        android:id="@+id/OutputA4"
                         android:clickable="false"
                         android:editable="false"
                         android:text="NULL"
@@ -1374,19 +1375,8 @@
                     android:layout_marginBottom="5.0dp"
                     android:textColor="#FFF"
                     android:layout_weight="1" />
-                <ToggleButton
-                    android:layout_height="wrap_content"
-                    android:id="@+id/toggleButton1"
-                    android:textOff="Generate Report"
-                    android:textOn="Generate Report"
-                    android:textAllCaps="false"
-                    android:layout_width="wrap_content"
-                    android:layout_marginLeft="0.0dp"
-                    android:layout_marginBottom="5.0dp"
-                    android:textColor="#FFF"
-                    android:layout_weight="1" />
                 <Button
-                    android:text="Continue"
+                    android:text="Generate and Email Report"
                     android:id="@+id/GenerateReport"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5.0dp"
@@ -1395,7 +1385,7 @@
                     android:layout_width="wrap_content"
                     android:layout_marginBottom="5.0dp"
                     android:textColor="#FFF"
-                    android:layout_weight="1" />
+                    android:layout_weight="2" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

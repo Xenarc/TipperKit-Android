@@ -70,26 +70,9 @@
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
         p1:singleLine="false"
-        p1:layout_weight="100"
+        p1:layout_weight="1E+07"
         p1:maxLines="1000"
         p1:layout_gravity="top" />
-    <EditText
-        p1:inputType="textWebEditText|textMultiLine"
-        p1:id="@+id/Report"
-        p1:textColor="#000"
-        p1:background="#FFF"
-        p1:padding="5dp"
-        p1:layout_width="match_parent"
-        p1:layout_height="wrap_content"
-        p1:singleLine="false"
-        p1:layout_weight="1000"
-        p1:maxLines="1000"
-        p1:layout_gravity="top"
-        p1:clickable="false"
-        p1:editable="false"
-        p1:enabled="false"
-        p1:focusable="false"
-        p1:layout_marginTop="2.0dp" />
     <LinearLayout
         p1:orientation="horizontal"
         p1:layout_width="match_parent"

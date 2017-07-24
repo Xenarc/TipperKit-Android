@@ -11,6 +11,8 @@ using Android.Views;
 using Android.Widget;
 using Android;
 using Android.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace TipperKit {
     [Activity(Label = "Output")]
@@ -25,7 +27,6 @@ namespace TipperKit {
                 // Recalculate
                 Button Recalculate = FindViewById<Button>(Resource.Id.Recalculate);
                 Button Continue = FindViewById<Button>(Resource.Id.GenerateReport);
-                ToggleButton GenerateReport = FindViewById<ToggleButton>(Resource.Id.toggleButton1);
 
                 if (Util.TipperCalculator.T37FmaxGtY2) {
                     FindViewById<TextView>(Resource.Id.textViewA).SetBackgroundColor(Android.Graphics.Color.Green);
@@ -81,6 +82,7 @@ namespace TipperKit {
                     FindViewById<TextView>(Resource.Id.overallApplication).Text = "Application ACCEPTABLE";
                 } else {
                     FindViewById<TextView>(Resource.Id.overallApplication).Text = "Application UNACCEPTABLE";
+                    FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red);
                 }
 
                 Recalculate.Click += delegate {
@@ -109,15 +111,8 @@ namespace TipperKit {
                 FindViewById<TextView>(Resource.Id.Sentance).Text = Convert.ToString("Cylinder is able to produce a force of " + Math.Round(Util.TipperCalculator.E66ForceRequiredY2 / 1000 / 10, 1) + " Tonne at a pressure of " + Math.Round(Util.TipperCalculator.E75PressureRequiredTheoPB, 1) + " Bar. " + "Cylinder can produce a maximum force of " + Math.Round(Util.TipperCalculator.H83ForceProducedMFWUO20KN / 10, 1) + " Tonne, which includes an underload of 20% with a maximum working pressure of 160 Bar.");
                 Android.Util.Log.Debug("Tipperkit", Convert.ToString("Cylinder is able to produce a force of " + Math.Round(Util.TipperCalculator.E66ForceRequiredY2 / 1000/10, 1) + " at a pressure of " + Math.Round(Util.TipperCalculator.E75PressureRequiredTheoPB, 1) + " Bar." + "Cylinder can produce a maximum force of " + Math.Round(Util.TipperCalculator.H83ForceProducedMFWUO20KN/10, 1 ) + "Tonne, which includes an underload of 20% with a maximum working pressure of 160 Bar."));
 
-                GenerateReport.Click += delegate {
-                    Android.Util.Log.Info("Tipperkit", "GenerateReport button has been Pressed");
-                    if (GenerateReport.Checked) {
-                        Util.GenerateReport = true;
-                    } else {
-                        Util.GenerateReport = false;
-                    }
-                    
-                };
+                Util.GenerateReport = true;
+
                 Continue.Click += delegate {
                     if (!Util.GenerateReport) {
                         this.Finish();
@@ -130,24 +125,6 @@ namespace TipperKit {
 
             } catch(Exception e) {
                 Android.Util.Log.Debug("TipperKit", "Set Content View FAILED: " + e.Message);
-            }
-        }
-        void f() {
-            StartTimer();
-        }
-
-        async void StartTimer() {
-            while (true) {
-                await System.Threading.Tasks.Task.Delay(2000);
-                if (!TipperKit.Util.TipperCalculator.T68OverallApplicationSetup) {
-                    if (FindViewById<TextView>(Resource.Id.overallApplication).Background == new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red)) {
-                        FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.DarkRed);
-                    } else if (FindViewById<TextView>(Resource.Id.overallApplication).Background == new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.DarkRed)) {
-                        FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red);
-                    } else {
-                        FindViewById<TextView>(Resource.Id.overallApplication).Background = new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Red);
-                    }
-                }
             }
         }
     }
