@@ -163,18 +163,6 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Sup
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\dda502ec.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\proguard\a35ed7280.txt
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\a35ed728.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\66b78e27.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\60bb5a27.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\fab25ab7.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\5379ba9d.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\ad46a843.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\f291fecb.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\proguard\8f1de9cb0.txt
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\8f1de9cb.proguard.stamp
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\XbdMerge\6ce5e490.proguard.stamp
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.dll
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.pdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\bin\TipperKit.TipperKit.apk
@@ -198,3 +186,6 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\tanks.png
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\tipperdrawing.jpg
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\R.cs.flag
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\uploadflags.txt
+D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.csprojResolveAssemblyReference.cache
+D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.dll.mdb
+D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\TipperKit.dll.mdb
