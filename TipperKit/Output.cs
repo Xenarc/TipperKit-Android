@@ -19,12 +19,6 @@ namespace TipperKit {
     public class Output : Activity {
         protected override void OnResume() {
             base.OnResume();
-            try {
-                System.IO.File.Delete(System.IO.Path.Combine(Android.OS.Environment.ExternalStorageDirectory.AbsolutePath, "TipperKitGeneratedReport.html"));
-            } catch (Exception) {
-                
-            }
-            
         }
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);

@@ -32,7 +32,7 @@ namespace TipperKit {
                 Android.OS.Process.KillProcess(Android.OS.Process.MyPid());
             }
             // Fill out sample data
-            FillData(1);
+            FillData(0);
 
             TipperCalculator = new Tipper();
 

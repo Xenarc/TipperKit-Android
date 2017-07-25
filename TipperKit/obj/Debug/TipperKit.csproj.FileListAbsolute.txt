@@ -186,6 +186,5 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\tanks.png
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\res\drawable\tipperdrawing.jpg
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\R.cs.flag
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\uploadflags.txt
-D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.csprojResolveAssemblyReference.cache
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.dll.mdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\TipperKit.dll.mdb

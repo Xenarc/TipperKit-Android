@@ -1313,7 +1313,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/linearLayout3"
-                    android:layout_marginTop="2.0dp">
+                    android:layout_marginTop="2.0dp"
+                    android:layout_marginBottom="20dp">
                     <TextView
                         android:text="Smallest Rod Diameter "
                         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -1374,7 +1375,8 @@
                     android:layout_width="wrap_content"
                     android:layout_marginBottom="5.0dp"
                     android:textColor="#FFF"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:background="#3F3F3F" />
                 <Button
                     android:text="Generate and Email Report"
                     android:id="@+id/GenerateReport"
@@ -1385,7 +1387,8 @@
                     android:layout_width="wrap_content"
                     android:layout_marginBottom="5.0dp"
                     android:textColor="#FFF"
-                    android:layout_weight="2" />
+                    android:layout_weight="2"
+                    android:background="#3F3F3F" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
