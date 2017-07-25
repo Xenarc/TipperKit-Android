@@ -363,7 +363,7 @@
                 <TextView
                     android:text="6L SRH (Option)"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:layout_width="125dp"
+                    android:layout_width="120dp"
                     android:layout_height="match_parent"
                     android:id="@+id/textView1"
                     android:gravity="center_horizontal"
@@ -439,7 +439,7 @@
                 <TextView
                     android:text="10L SSH (Standard)"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:layout_width="125dp"
+                    android:layout_width="120dp"
                     android:layout_height="match_parent"
                     android:id="@+id/textView1"
                     android:gravity="center_horizontal"
@@ -516,7 +516,7 @@
                 <TextView
                     android:text="15L SSH (Option)"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:layout_width="125dp"
+                    android:layout_width="120dp"
                     android:layout_height="match_parent"
                     android:id="@+id/textView1"
                     android:gravity="center_horizontal"

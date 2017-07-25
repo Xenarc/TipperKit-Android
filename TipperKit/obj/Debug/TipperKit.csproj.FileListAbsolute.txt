@@ -188,3 +188,4 @@ D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\R.cs.flag
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\uploadflags.txt
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\bin\Debug\TipperKit.dll.mdb
 D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\android\assets\TipperKit.dll.mdb
+D:\Mark\Documents\TIPPERKIT\APP\TipperKit\obj\Debug\TipperKit.csprojResolveAssemblyReference.cache
