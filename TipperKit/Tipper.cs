@@ -12,13 +12,13 @@ namespace TipperKit {
         public Datasheets.SSH[] SSH;
         public Datasheets.TipperKits[] TipperKits;
 
-        public float Q9TrayWeightEmpty;
-		public float Q10GrossTrayWeightLoaded;
-		public float Q11CenterOfGravity;
-		public float Q12DistanceBetweenPivotPoints;
-		public float Q13CylinderStroke;
-		public float Q14TrayLength;
-		public float Q15TippingAngle;
+        public float Q9TrayWeightEmpty = 0;
+		public float Q10GrossTrayWeightLoaded = 0;
+		public float Q11CenterOfGravity = 0;
+		public float Q12DistanceBetweenPivotPoints = 0;
+		public float Q13CylinderStroke = 0;
+		public float Q14TrayLength = 0;
+		public float Q15TippingAngle = 0;
 
 		public float Q17MaxWorkingPressureOfCylinder = 160.0f;
 		public float Q18FlowRateOfPowerPackRaise = 5.5f;
@@ -147,21 +147,21 @@ namespace TipperKit {
 
 
             Q15TippingAngle = (float)Math.Acos((a/b))*(180 / (float)Math.PI);
-
-            Android.Util.Log.Debug("TipperKit", Convert.ToString(a) + "   " + Convert.ToString(b) + "  a/b: " + Convert.ToString(a / b) + "     Q15 = " + Convert.ToString(Q15TippingAngle));
+            
+            //Android.Util.Log.Debug("TipperKit", Convert.ToString(a) + "   " + Convert.ToString(b) + "  a/b: " + Convert.ToString(a / b) + "     Q15 = " + Convert.ToString(Q15TippingAngle));
 
             T37FmaxGtY2 = (H82ForceProducedMFWUO20N > E66ForceRequiredY2);
 			H82ForceProducedMFWUO20N = H80ForceProducedPNM * D80ForceProducedA;
 
-            Android.Util.Log.Debug("TPC: ", Convert.ToString("FORCE APPLIED:"));
-            Android.Util.Log.Debug("TPC: ", Convert.ToString(D78ForceProducedCD));
-            Android.Util.Log.Debug("TPC: ", Convert.ToString(D79ForceProducedCR));
-            Android.Util.Log.Debug("TPC: ", Convert.ToString(D80ForceProducedA));
-            Android.Util.Log.Debug("TPC: ", Convert.ToString(H78ForceProducedPA));
-            Android.Util.Log.Debug("TPC: ", Convert.ToString(H79ForceProducedBP));
-            Android.Util.Log.Debug("TPC: ", Convert.ToString(H80ForceProducedPNM));
-            Android.Util.Log.Debug("TPC: ", Convert.ToString(H82ForceProducedMFWUO20N));
-            Android.Util.Log.Debug("TPC: ", Convert.ToString(H83ForceProducedMFWUO20KN));
+            //Android.Util.Log.Debug("TPC: ", Convert.ToString("FORCE APPLIED:"));
+            //Android.Util.Log.Debug("TPC: ", Convert.ToString(D78ForceProducedCD));
+            //Android.Util.Log.Debug("TPC: ", Convert.ToString(D79ForceProducedCR));
+            //Android.Util.Log.Debug("TPC: ", Convert.ToString(D80ForceProducedA));
+            //Android.Util.Log.Debug("TPC: ", Convert.ToString(H78ForceProducedPA));
+            //Android.Util.Log.Debug("TPC: ", Convert.ToString(H79ForceProducedBP));
+            //Android.Util.Log.Debug("TPC: ", Convert.ToString(H80ForceProducedPNM));
+            //Android.Util.Log.Debug("TPC: ", Convert.ToString(H82ForceProducedMFWUO20N));
+            //Android.Util.Log.Debug("TPC: ", Convert.ToString(H83ForceProducedMFWUO20KN));
 
             H80ForceProducedPNM = H79ForceProducedBP * PaNM;
 			H79ForceProducedBP = H78ForceProducedPA * BarPa;
@@ -193,8 +193,8 @@ namespace TipperKit {
 			H78ForceProducedPA = Q17MaxWorkingPressureOfCylinder;
 			E73PressureRequiredCD = ((Q25SmallestRodDiameter + Q24OverallCylinderDiameter) / 2);
 
-            P78PowerPackRaiseLowerTimeRaiseF = Q23StrokeVolumeOfCylinder;
-            P77PowerPackRaiseLowerTimeRaiseSV = Q18FlowRateOfPowerPackRaise;
+            P78PowerPackRaiseLowerTimeRaiseF = Q18FlowRateOfPowerPackRaise;
+            P77PowerPackRaiseLowerTimeRaiseSV = Q23StrokeVolumeOfCylinder;
             P81PowerPackRaiseLowerTimeLowerF = Q19FlowRateOfPowerPackLower;
             Q83PowerPackRaiseLowerTimeR = P77PowerPackRaiseLowerTimeRaiseSV/P78PowerPackRaiseLowerTimeRaiseF*MinSec;
             Q84PowerPackRaiseLowerTimeL = P77PowerPackRaiseLowerTimeRaiseSV/P81PowerPackRaiseLowerTimeLowerF*MinSec;
@@ -234,34 +234,34 @@ namespace TipperKit {
                 Q23StrokeVolumeOfCylinder = TipperKits[4].Volume;
                 
             } else {
-                Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL1!!   CYL: " + E30CylinderPartNumber);
+                //Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL1!!   CYL: " + E30CylinderPartNumber);
                 // ERROR = Data doesnt match Datasheet
             }
 
             if (E30CylinderPartNumber == TipperKits[0].Model) {
                 Q24OverallCylinderDiameter = TipperKits[0].RodDiameterPerStage1st;  // Were all Tipperkits[3]
-                Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[0].RodDiameterPerStage1st));
+                //Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[0].RodDiameterPerStage1st));
 
             } else if (E30CylinderPartNumber == TipperKits[1].Model) {
                 Q24OverallCylinderDiameter = TipperKits[1].RodDiameterPerStage1st;
-                Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[1].RodDiameterPerStage1st));
+                //Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[1].RodDiameterPerStage1st));
 
             } else if (E30CylinderPartNumber == TipperKits[2].Model) {
                 Q24OverallCylinderDiameter = TipperKits[2].RodDiameterPerStage1st;
-                Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[2].RodDiameterPerStage1st));
+                //Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[2].RodDiameterPerStage1st));
 
             } else if (E30CylinderPartNumber == TipperKits[3].Model) {
                 Q24OverallCylinderDiameter = TipperKits[3].RodDiameterPerStage1st;
-                Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[3].RodDiameterPerStage1st));
+                //Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(TipperKits[3].RodDiameterPerStage1st));
 
             } else if (E30CylinderPartNumber == TipperKits[4].Model) {
                 Q24OverallCylinderDiameter = TipperKits[4].RodDiameterPerStage1st;
                 
             } else {
-                Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL2!!   " + E30CylinderPartNumber);
+                //Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL2!!   " + E30CylinderPartNumber);
                 foreach (var x in TipperKits) {
-                    Android.Util.Log.Debug("TipperKit", "Model: " + Convert.ToString(x.Model)); 
-                    Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(x.RodDiameterPerStage1st));
+                    //Android.Util.Log.Debug("TipperKit", "Model: " + Convert.ToString(x.Model)); 
+                    //Android.Util.Log.Debug("TipperKit", "Overall Cyl Dia: " + Convert.ToString(x.RodDiameterPerStage1st));
                 }
             }
 
@@ -281,7 +281,7 @@ namespace TipperKit {
                 Q25SmallestRodDiameter = TipperKits[4].RodDiameterPerStage6th;
                 
             } else {
-                Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL3!!   " + E30CylinderPartNumber);
+                //Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL3!!   " + E30CylinderPartNumber);
                 // ERROR = Data doesnt match Datasheet
             }
 
@@ -310,10 +310,10 @@ namespace TipperKit {
                 E30CylinderPartNumber = TipperKits[4].Model;
                 
             } else {
-                Android.Util.Log.Debug("TipperCalc:", "e30 PART NUMBER FAIL!!");
+                //Android.Util.Log.Debug("TipperCalc:", "e30 PART NUMBER FAIL!!");
                 //ERROR!!!
             }
-            
+
 
             if (Q13CylinderStroke == TipperKits[0].Stroke) {
                 P3TipperKitPartNumber = TipperKits[0].Kit;
@@ -334,7 +334,7 @@ namespace TipperKit {
                 P3TipperKitPartNumber = TipperKits[4].Kit;
                 
             } else {
-                Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL5!!");
+                //Android.Util.Log.Debug("TipperCalc:", "PART NUMBER FAIL5!!");
                 //ERROR!!!
             }
             T68OverallApplicationSetup = T37FmaxGtY2 && T38PLsPmax && T39TactLtTmax && T48dGt39Lt58;

@@ -165,13 +165,6 @@
                         android:layout_marginRight="5.0dp" />
                 </LinearLayout>
             </LinearLayout>
-            <TextView
-                android:text="Cylinder Force Acceptable For Application"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:textColor="#FFF" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -180,7 +173,7 @@
                 android:background="#333333"
                 android:layout_marginTop="5.0dp">
                 <TextView
-                    android:text="SYSTEM OK = Fmax &gt; Y2"
+                    android:text="Is Cylinder Force Acceptable For Application?"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:layout_width="250.0dp"
                     android:layout_height="match_parent"
@@ -209,13 +202,6 @@
                         android:textSize="16dp" />
                 </FrameLayout>
             </LinearLayout>
-            <TextView
-                android:text="Cylinder Pressure Acceptable for Application"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:textColor="#FFF" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -224,7 +210,7 @@
                 android:background="#333333"
                 android:layout_marginTop="5.0dp">
                 <TextView
-                    android:text="SYSTEM OK = P &lt; Pmax"
+                    android:text="Is Cylinder Pressure Acceptable For Application?"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:layout_width="250.0dp"
                     android:layout_height="match_parent"
@@ -252,13 +238,6 @@
                         android:textSize="16dp" />
                 </FrameLayout>
             </LinearLayout>
-            <TextView
-                android:text="Tipping Angle Acceptable For Application"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:textColor="#FFF" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -267,7 +246,7 @@
                 android:background="#333333"
                 android:layout_marginTop="5.0dp">
                 <TextView
-                    android:text="SYSTEM OK = d &gt;39 &amp; &lt;58"
+                    android:text="Is Tipping Angle Acceptable For Application?"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:layout_width="250.0dp"
                     android:layout_height="match_parent"
@@ -295,13 +274,6 @@
                         android:textSize="16dp" />
                 </FrameLayout>
             </LinearLayout>
-            <TextView
-                android:text="Cylinder System Location Acceptable"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:textColor="#FFF" />
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
@@ -310,7 +282,7 @@
                 android:background="#333333"
                 android:layout_marginTop="5.0dp">
                 <TextView
-                    android:text="SYSTEM OK = tact &lt; tmax"
+                    android:text="Is Cylinder Location Acceptable?"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:layout_width="250.0dp"
                     android:layout_height="match_parent"
@@ -592,7 +564,7 @@
                 android:id="@+id/linearLayout9"
                 android:layout_marginTop="5dp">
                 <TextView
-                    android:text="Manually Inputted"
+                    android:text="Manually Inputed"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -638,7 +610,7 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output1"
                         android:clickable="false"
                         android:editable="false"
                         android:text="kg"
@@ -688,7 +660,7 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output2"
                         android:clickable="false"
                         android:editable="false"
                         android:text="kg"
@@ -754,7 +726,7 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output3"
                         android:clickable="false"
                         android:editable="false"
                         android:text="mm"
@@ -822,7 +794,7 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output4"
                         android:clickable="false"
                         android:editable="false"
                         android:text="mm"
@@ -889,7 +861,7 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output5"
                         android:clickable="false"
                         android:editable="false"
                         android:text="mm"
@@ -955,7 +927,7 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output6"
                         android:clickable="false"
                         android:editable="false"
                         android:text="mm"
@@ -1022,7 +994,7 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output7"
                         android:clickable="false"
                         android:editable="false"
                         android:text="d"
@@ -1082,7 +1054,7 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output8"
                         android:clickable="false"
                         android:editable="false"
                         android:text="Bar"
@@ -1132,10 +1104,10 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output9"
                         android:clickable="false"
                         android:editable="false"
-                        android:text="Bar"
+                        android:text="I/min"
                         android:textAlignment="0"
                         android:focusable="false"
                         android:gravity="center"
@@ -1183,10 +1155,10 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output10"
                         android:clickable="false"
                         android:editable="false"
-                        android:text="Bar"
+                        android:text="I/min"
                         android:textAlignment="0"
                         android:focusable="false"
                         android:gravity="center"
@@ -1243,10 +1215,10 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output11"
                         android:clickable="false"
                         android:editable="false"
-                        android:text="Bar"
+                        android:text="I"
                         android:textAlignment="0"
                         android:focusable="false"
                         android:gravity="center"
@@ -1293,10 +1265,10 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output12"
                         android:clickable="false"
                         android:editable="false"
-                        android:text="I/min"
+                        android:text="mm"
                         android:textAlignment="0"
                         android:focusable="false"
                         android:gravity="center"
@@ -1344,10 +1316,10 @@
                         android:layout_marginRight="5.0dp" />
                     <EditText
                         android:inputType="none"
-                        android:id="@+id/Output"
+                        android:id="@+id/Output13"
                         android:clickable="false"
                         android:editable="false"
-                        android:text="I/min"
+                        android:text="mm"
                         android:textAlignment="0"
                         android:focusable="false"
                         android:gravity="center"
@@ -1359,6 +1331,126 @@
                         android:layout_marginRight="5.0dp"
                         android:textSize="15dp" />
                 </LinearLayout>
+            
+              
+
+
+
+                <TextView
+                    android:text="Power Pack Raise / Lower Times"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:textColor="#FFF"
+                    android:background="#5523C1"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Raise Time"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#5523C1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#FFF"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA14"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#5523C1"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output14"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="sec"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#5523C1"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout3"
+                    android:layout_marginTop="2.0dp">
+                    <TextView
+                        android:text="Lower Time"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView2"
+                        android:background="#5523C1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:padding="3dp"
+                        android:textColor="#FFF"
+                        android:layout_weight="1" />
+                    <EditText
+                        android:padding="2.0dp"
+                        android:inputType="none"
+                        android:id="@+id/OutputA15"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="NULL"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#5523C1"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp" />
+                    <EditText
+                        android:inputType="none"
+                        android:id="@+id/Output15"
+                        android:clickable="false"
+                        android:editable="false"
+                        android:text="sec"
+                        android:textAlignment="0"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:background="#5523C1"
+                        android:textColor="#FFF"
+                        android:enabled="false"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5.0dp"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            
+          
+            
+            
+          
             </LinearLayout>
             <LinearLayout
                 android:orientation="horizontal"

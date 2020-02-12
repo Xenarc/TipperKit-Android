@@ -17,8 +17,9 @@ namespace TipperKit {
     public class SplashActivity : Activity {
         protected override void OnCreate(Bundle bundle) {
             base.OnCreate(bundle);
-            System.Threading.Thread.Sleep(500); //Let's wait awhile...
-            this.StartActivity(typeof(MainActivity));
+			System.Threading.Thread.Sleep(500); //Let's wait awhile...
+
+            this.StartActivity(typeof(AuthenticationScreen));
         }
     }
 }

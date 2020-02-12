@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="TipperKit.TipperKit" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
-	<uses-sdk />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.TipperKit.TipperKit" android:versionName="1.0.2.0" android:installLocation="auto" android:versionCode="3">
+	<uses-sdk android:minSdkVersion="19" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="TipperKit" android:icon="@drawable/Icon"></application>
+	<application android:label="Tipper Trailer Calculator" android:icon="@drawable/Icon"></application>
 </manifest>

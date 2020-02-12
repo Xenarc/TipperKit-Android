@@ -17,7 +17,7 @@ public class GenerateReport
 	}
 
 
-	public GenerateReport () throws java.lang.Throwable
+	public GenerateReport ()
 	{
 		super ();
 		if (getClass () == GenerateReport.class)

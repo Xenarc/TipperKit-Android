@@ -23,6 +23,7 @@ namespace TipperKit {
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
             try {
+                int SmallFont = 14;
                 this.RequestWindowFeature(Android.Views.WindowFeatures.NoTitle); // Remove ActionBar
                 SetContentView(Resource.Layout.OutputLayout);
                 Android.Util.Log.Debug("(*****************************************", "Set Content View");
@@ -37,6 +38,7 @@ namespace TipperKit {
                 } else {
                     FindViewById<TextView>(Resource.Id.textViewA).SetBackgroundColor(Android.Graphics.Color.Red);
                     FindViewById<TextView>(Resource.Id.textViewA).SetText("Unacceptable".ToCharArray(), 0, 12);
+                    FindViewById<TextView>(Resource.Id.textViewA).TextSize = SmallFont;
                 }
                 if (Util.TipperCalculator.T38PLsPmax) {
                     FindViewById<TextView>(Resource.Id.textViewb).SetBackgroundColor(Android.Graphics.Color.Green);
@@ -44,6 +46,7 @@ namespace TipperKit {
                 } else {
                     FindViewById<TextView>(Resource.Id.textViewb).SetBackgroundColor(Android.Graphics.Color.Red);
                     FindViewById<TextView>(Resource.Id.textViewb).SetText("Unacceptable".ToCharArray(), 0, 12);
+                    FindViewById<TextView>(Resource.Id.textViewb).TextSize = SmallFont;
                 }
                 if (Util.TipperCalculator.T48dGt39Lt58) {
                     FindViewById<TextView>(Resource.Id.textViewc).SetBackgroundColor(Android.Graphics.Color.Green);
@@ -51,6 +54,7 @@ namespace TipperKit {
                 } else {
                     FindViewById<TextView>(Resource.Id.textViewc).SetBackgroundColor(Android.Graphics.Color.Red);
                     FindViewById<TextView>(Resource.Id.textViewc).SetText("Unacceptable".ToCharArray(), 0, 12);
+                    FindViewById<TextView>(Resource.Id.textViewc).TextSize = SmallFont;
                 }
                 if (Util.TipperCalculator.T39TactLtTmax) {
                     FindViewById<TextView>(Resource.Id.textViewd).SetBackgroundColor(Android.Graphics.Color.Green);
@@ -58,6 +62,7 @@ namespace TipperKit {
                 } else {
                     FindViewById<TextView>(Resource.Id.textViewd).SetBackgroundColor(Android.Graphics.Color.Red);
                     FindViewById<TextView>(Resource.Id.textViewd).SetText("Unacceptable".ToCharArray(), 0, 12);
+                    FindViewById<TextView>(Resource.Id.textViewd).TextSize = SmallFont;
                 }
                 if (Util.TipperCalculator.T41Srh6L) {
                     FindViewById<TextView>(Resource.Id.textViewf).SetBackgroundColor(Android.Graphics.Color.Green);
@@ -90,7 +95,6 @@ namespace TipperKit {
 
                 Recalculate.Click += delegate {
                     this.Finish();
-                    Android.Util.Log.Info("Tipperkit", "Recalculate button has been Pressed");
                 };
                 FindViewById<EditText>(Resource.Id.OutputPartC).Text = Convert.ToString(Util.TipperCalculator.E30CylinderPartNumber);
                 FindViewById<EditText>(Resource.Id.OutputPartT).Text = Convert.ToString(Util.TipperCalculator.P3TipperKitPartNumber);
@@ -101,7 +105,8 @@ namespace TipperKit {
                 FindViewById<EditText>(Resource.Id.OutputA4).Text = Convert.ToString(Util.TipperCalculator.Q12DistanceBetweenPivotPoints);
                 FindViewById<EditText>(Resource.Id.OutputA5).Text = Convert.ToString(Util.TipperCalculator.Q13CylinderStroke);
                 FindViewById<EditText>(Resource.Id.OutputA6).Text = Convert.ToString(Util.TipperCalculator.Q14TrayLength);
-                FindViewById<EditText>(Resource.Id.OutputA7).Text = Convert.ToString(Util.TipperCalculator.Q15TippingAngle);
+                FindViewById<EditText>(Resource.Id.OutputA7).Text = Convert.ToString(Math.Round(Util.TipperCalculator.Q15TippingAngle, 2));
+
 
                 FindViewById<EditText>(Resource.Id.OutputA8).Text = Convert.ToString(Util.TipperCalculator.Q17MaxWorkingPressureOfCylinder);
                 FindViewById<EditText>(Resource.Id.OutputA9).Text = Convert.ToString(Util.TipperCalculator.Q18FlowRateOfPowerPackRaise);
@@ -110,6 +115,9 @@ namespace TipperKit {
                 FindViewById<EditText>(Resource.Id.OutputA11).Text = Convert.ToString(Util.TipperCalculator.Q23StrokeVolumeOfCylinder);
                 FindViewById<EditText>(Resource.Id.OutputA12).Text = Convert.ToString(Util.TipperCalculator.Q24OverallCylinderDiameter);
                 FindViewById<EditText>(Resource.Id.OutputA13).Text = Convert.ToString(Util.TipperCalculator.Q25SmallestRodDiameter);
+
+                FindViewById<EditText>(Resource.Id.OutputA14).Text = Convert.ToString(Math.Round(Util.TipperCalculator.Q83PowerPackRaiseLowerTimeR, 2));
+                FindViewById<EditText>(Resource.Id.OutputA15).Text = Convert.ToString(Math.Round(Util.TipperCalculator.Q84PowerPackRaiseLowerTimeL, 2));
 
                 FindViewById<TextView>(Resource.Id.Sentance).Text = Convert.ToString("Cylinder is able to produce a force of " + Math.Round(Util.TipperCalculator.E66ForceRequiredY2 / 1000 / 10, 1) + " Tonne at a pressure of " + Math.Round(Util.TipperCalculator.E75PressureRequiredTheoPB, 1) + " Bar. " + "Cylinder can produce a maximum force of " + Math.Round(Util.TipperCalculator.H83ForceProducedMFWUO20KN / 10, 1) + " Tonne, which includes an underload of 20% with a maximum working pressure of 160 Bar.");
                 Android.Util.Log.Debug("Tipperkit", Convert.ToString("Cylinder is able to produce a force of " + Math.Round(Util.TipperCalculator.E66ForceRequiredY2 / 1000/10, 1) + " at a pressure of " + Math.Round(Util.TipperCalculator.E75PressureRequiredTheoPB, 1) + " Bar." + "Cylinder can produce a maximum force of " + Math.Round(Util.TipperCalculator.H83ForceProducedMFWUO20KN/10, 1 ) + "Tonne, which includes an underload of 20% with a maximum working pressure of 160 Bar."));

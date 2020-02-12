@@ -21,6 +21,24 @@
             p1:background="#222"
             p1:padding="2.0dp"
             p1:layout_margin="2.5dp">
+            <Switch
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/testingSwitch"
+                p1:textAllCaps="true"
+                p1:text="Testing Mode" />
+            <Switch
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/sampleSwitch"
+                p1:textAllCaps="true"
+                p1:text="Fill Sample Data" />
+            <Switch
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/devSwitch"
+                p1:text="Developer Mode"
+                p1:textAllCaps="true" />
             <TextView
                 p1:text="Force Applied (Full Load)"
                 p1:textAppearance="?android:attr/textAppearanceMedium"

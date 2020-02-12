@@ -16,12 +16,35 @@ using Android.Graphics.Drawables;
 namespace TipperKit {
     [Activity(Label = "DetailedOutput")]
     public class DetailedOutput : Activity {
+        protected override void OnResume() {
+            Switch testingSwitch = FindViewById<Switch>(Resource.Id.testingSwitch);
+            testingSwitch.Checked = Util.Testing;
+
+            testingSwitch.Click += delegate {
+                Util.Testing = testingSwitch.Checked;
+            };
+
+            Switch sampleSwitch = FindViewById<Switch>(Resource.Id.sampleSwitch);
+            sampleSwitch.Checked = Util.FillSampleData;
+
+            sampleSwitch.Click += delegate {
+                Util.FillSampleData = sampleSwitch.Checked;
+            };
+
+            Switch devSwitch = FindViewById<Switch>(Resource.Id.devSwitch);
+            devSwitch.Checked = Util.DeveloperMode;
+
+            devSwitch.Click += delegate {
+                Util.DeveloperMode = devSwitch.Checked;
+                Android.Util.Log.Info("TipperKit", Convert.ToString(Util.DeveloperMode));
+            };
+        }
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
             this.RequestWindowFeature(Android.Views.WindowFeatures.NoTitle); // Remove ActionBar
             SetContentView(Resource.Layout.DetailedOutputLayout);
-            ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Argb(0xFF, 0x1F, 0x1F, 0x1F)));
-
+            //ActionBar.SetBackgroundDrawable(new Android.Graphics.Drawables.ColorDrawable(Android.Graphics.Color.Argb(0xFF, 0x1F, 0x1F, 0x1F)));
+            OnResume();
 
             //FindViewById<Button>(Resource.Id.Output).Text = Convert.ToString(Util.TipperCalculator.);
             //Force Applied Full Load
@@ -82,7 +105,6 @@ namespace TipperKit {
             FindViewById<EditText>(Resource.Id.Output46).Text = Convert.ToString(Util.TipperCalculator.P81PowerPackRaiseLowerTimeLowerF);
             FindViewById<EditText>(Resource.Id.Output47).Text = Convert.ToString(Util.TipperCalculator.Q18FlowRateOfPowerPackRaise);
             FindViewById<EditText>(Resource.Id.Output48).Text = Convert.ToString(Util.TipperCalculator.Q19FlowRateOfPowerPackLower);
-
         }
     }
 }

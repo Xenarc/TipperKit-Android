@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="TipperKit.TipperKit" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="19" />
-  <application android:label="TipperKit" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon">
-    <activity android:icon="@drawable/icon" android:label="TipperKit" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.MainActivity" />
-    <activity android:label="Output" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.Output" />
-    <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.SplashActivity">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.TipperKit.TipperKit" android:versionName="1.0.2.0" android:installLocation="auto" android:versionCode="3">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="19" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="Tipper Trailer Calculator" android:icon="@drawable/icon" android:debuggable="false" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:label="AuthenticationScreen" android:noHistory="true" android:name="md5d0b221f1f90862c222103e061b7ca7b0.AuthenticationScreen" />
+    <activity android:label="DataSheets" android:name="md5d0b221f1f90862c222103e061b7ca7b0.DataSheets" />
+    <activity android:label="DetailedOutput" android:name="md5d0b221f1f90862c222103e061b7ca7b0.DetailedOutput" />
+    <activity android:label="GenerateReport" android:name="md5d0b221f1f90862c222103e061b7ca7b0.GenerateReport" />
+    <activity android:label="MainActivity" android:name="md5d0b221f1f90862c222103e061b7ca7b0.MainActivity" />
+    <activity android:label="Output" android:name="md5d0b221f1f90862c222103e061b7ca7b0.Output" />
+    <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md5d0b221f1f90862c222103e061b7ca7b0.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="TipperKit.TipperKit.mono.MonoRuntimeProvider.__mono_init__" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.TipperKit.TipperKit.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
 </manifest>

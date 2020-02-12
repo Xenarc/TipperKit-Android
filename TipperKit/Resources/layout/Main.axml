@@ -7,6 +7,14 @@
     p1:layout_height="match_parent"
     p1:id="@+id/linearLayout1"
     p1:background="#222">
+    <TextView
+        p1:text="Tipper Trailer Calculator"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView2"
+        p1:textSize="48dp"
+        p1:gravity="center" />
     <LinearLayout
         p1:orientation="horizontal"
         p1:layout_width="match_parent"
@@ -196,4 +204,14 @@
             p1:paddingRight="5dp"
             p1:layout_weight="1" />
     </LinearLayout>
+    <Button
+        p1:layout_width="match_parent"
+        p1:layout_height="239.0dp"
+        p1:id="@+id/button3"
+        p1:layout_marginTop="0.0dp"
+        p1:layout_marginRight="0.0dp"
+        p1:layout_marginLeft="0.0dp"
+        p1:background="#222"
+        p1:text="_"
+        p1:textColor="#222" />
 </LinearLayout>

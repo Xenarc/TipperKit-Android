@@ -16,7 +16,7 @@ public class DataSheets
 	}
 
 
-	public DataSheets () throws java.lang.Throwable
+	public DataSheets ()
 	{
 		super ();
 		if (getClass () == DataSheets.class)

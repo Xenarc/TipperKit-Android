@@ -17,7 +17,7 @@ public class Output
 	}
 
 
-	public Output () throws java.lang.Throwable
+	public Output ()
 	{
 		super ();
 		if (getClass () == Output.class)

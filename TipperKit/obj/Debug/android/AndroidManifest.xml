@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="TipperKit.TipperKit" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.TipperKit.TipperKit" android:versionName="1.0.0.1" android:installLocation="auto" android:versionCode="2">
   <!--suppress UsesMinSdkAttributes-->
-  <uses-sdk android:minSdkVersion="11" />
+  <uses-sdk android:minSdkVersion="19" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="TipperKit" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+  <application android:label="Tipper Trailer Calculator" android:icon="@drawable/icon" android:debuggable="true" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:label="AuthenticationScreen" android:noHistory="true" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.AuthenticationScreen" />
     <activity android:label="DataSheets" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.DataSheets" />
     <activity android:label="DetailedOutput" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.DetailedOutput" />
     <activity android:label="GenerateReport" android:name="md5c71bd3ede1cc5b61e4a263b3f1f671c6.GenerateReport" />
@@ -17,14 +18,13 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="TipperKit.TipperKit.mono.MonoRuntimeProvider.__mono_init__" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.TipperKit.TipperKit.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
         <action android:name="mono.android.intent.action.SEPPUKU" />
-        <category android:name="mono.android.intent.category.SEPPUKU.TipperKit.TipperKit" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.TipperKit.TipperKit" />
       </intent-filter>
     </receiver>
   </application>
-  <meta-data android:name="android.support.VERSION" android:value="25.3.1" />
 </manifest>

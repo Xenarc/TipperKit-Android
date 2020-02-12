@@ -1,143 +1,258 @@
+<!DOCTYPE html>
 <html>
-    <head>
+
+<head>
     <style media="screen">
-        *{
-        margin: 0;
-        padding: 0;
+    html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+        * {
+            background-color: #131313;
+        }
+        .Vals2ManT{
+            background-color: #DBAD20; color: #000; padding: 2px; display: inline-block; width: 75%; text-align: left; float: left;
+        }
+        .Vals4ManV{
+            background-color: #DBAD20; color: #000; padding: 2px; display: inline-block; width: 9%; float: center; margin: 0 1px;
+        }
+        .Vals4ManT{
+            background-color: #DBAD20; color: #000; padding: 2px; display: inline-block; width: 63%; text-align: left; float: left;
+        }
+        .Vals3FixV{
+            background-color: #639144; color: #FFF; padding: 2px; display: inline-block; width: 9%; float: center; margin: 0 1px;
+        }
+        .Vals3FixT{
+            background-color: #639144; color: #FFF; padding: 2px; display: inline-block; width: 75%; text-align: left; float: left;
+        }
+        .Vals3RefV{
+            background-color: #32CDDB; color: #000; padding: 2px; display: inline-block; width: 9%; float: center; margin: 0 1px;
+        }
+        .Vals3RefT{
+            background-color: #32cddb; color: #000; padding: 2px; display: inline-block; width: 75%; text-align: left; float: left;
+        }
+        .Vals3RLV{
+            background-color: #7f0bc6; color: #FFF; padding: 2px; display: inline-block; width: 9%; float: center; margin: 0 1px;
+        }
+        .Vals3RLT{
+            background-color: #7f0bc6; color: #FFF; padding: 2px; display: inline-block; width: 75%; text-align: left; float: left;
         }
     </style>
-</head>
-    <body style="margin: 0; padding: 0;">
-        <div style="width: 600px; margin: auto; font-family: 'Segoe UI Light', 'Verdana', 'Arial', 'sans-serif'; background-color: #222; color: #FFF; padding: 0.5%;">
-            <div style="font-size: 12pt;">
-                <div style="clear: both;"><h1 style="padding: 1%;clear: both; background-color: #00F; float: left;">Cylinder Part Number: </h1><h1 style="background-color: #00F; padding: 1%; text-align: right; padding-right: 2%;">abc1</h1></div>
-                <div style="margin-top: 1%; clear: both;"><h1 style="padding: 1%; clear: both; background-color: #00F; float: left;">Tipper Kit Part Number: </h1><h1 style="background-color: #00F; padding: 1%; text-align: right; padding-right: 2%;">abc2</h1></div>
-            </div>
-            <div style="clear: both;"><h1 style="margin-top: 1.5%; padding: 1%;clear: both; background-color: XX1; text-align: center; color: #000; float: left; width: 98%;">Application abc3</h1></div>
-            <h3 style="padding: 2%; clear: both; text-align: center;">abc4</h3>
+</head>#
+
+<body style="margin: 0; padding: 0;">
+    <div style="max-width: 980px; margin: auto; font-family: 'Segoe UI Light', 'Verdana', 'Arial', 'sans-serif'; background-color: #222; color: #FFF; padding: 0.5%;  background-color: #222;">
+        <div style="font-size: 12pt;">
+            <div style="clear: both;">
+                <h2 style="padding: 1%;clear: both; background-color: #00F; float: left;">Cylinder Part Number: </h2>
+                <h2 style="background-color: #00F; padding: 1%; text-align: right; padding-right: 2%;">VALUE1</h2></div>
+            <div style="margin-top: 1%; clear: both;">
+                <h2 style="padding: 1%; clear: both; background-color: #00F; float: left;">Tipper Kit Part Number: </h2>
+                <h2 style="background-color: #00F; padding: 1%; text-align: right; padding-right: 2%;">VALUE2</h2></div>
+        </div>
+        <div style="clear: both;">
+            <h1 style="margin-top: 1.5%; padding: 1%;clear: both; background-color: COLOUR3; text-align: center; color: #000; float: left; width: 98%;">VALUE3</h1></div>
+        <h4 style="padding: 2%; clear: both; text-align: center;">VALUE4</h4>
+        <div>
+            <h3 style="margin: 0; margin-bottom: 1%; text-align: center; background-color: #333; padading: 0.5%;">Key</h3>
             <div>
-                <h2 style="margin: 0; margin-bottom: 1%; text-align: center; background-color: #333; padading: 0.5%;">Key</h2>
-                <div>
-                    <h2 style="margin: 0; display: inline-block; float: left; width: 49%; background-color: #F00; color: black; text-align: center; padding: 0.5%;">NOT Acceptable</h2>
-                    <h2 style="margin: 0; margin-bottom: 1%; display: inline-block; width: 49%; background-color: #0F0; color: black; text-align: center; padding: 0.5%;">Acceptable</h2>
-                </div>
+                <h3 style="margin: 0; display: inline-block; float: left; width: 49%; background-color: #F00; color: black; text-align: center; padding: 0.5%;">NOT Acceptable</h3>
+                <h3 style="margin: 0; margin-bottom: 1%; display: inline-block; width: 49%; background-color: #0F0; color: black; text-align: center; padding: 0.5%;">Acceptable</h3>
             </div>
-            <h2 style="margin-bottom: 1%; padding: 0.5%; background-color: #333; display: inline-block; width: 69%;">SYSTEM OK = Fmax &gt; Y2</h2><h2 style="padding: 0.5%; text-align: center; float: right; display: inline-block; width: 29%; background-color: XX2; color: #000;">abc5</h2>
-            <h2 style="margin-bottom: 1%; padding: 0.5%; background-color: #333; display: inline-block; width: 69%;">SYSTEM OK = P &lt; Pmax</h2><h2 style="padding: 0.5%; text-align: center; float: right; display: inline-block; width: 29%; background-color: XX3; color: #000;">abc6</h2>
-            <h2 style="margin-bottom: 1%; padding: 0.5%; background-color: #333; display: inline-block; width: 69%;">SYSTEM OK = d &gt; 39&deg; &amp; &lt; 58&deg;</h2><h2 style="padding: 0.5%; text-align: center; float: right; display: inline-block; width: 29%; background-color: XX4; color: #000;">abc7</h2>
-            <h2 style="margin-bottom: 1%; padding: 0.5%; background-color: #333; display: inline-block; width: 69%;">SYSTEM OK = tact &lt; tmax</h2><h2 style="padding: 0.5%; text-align: center; float: right; display: inline-block; width: 29%; background-color: XX5; color: #000;">abc8</h2>
+        </div>
+        <div style="text-align: center;">
+            <div       style="height: auto; clear: both;">
+                <h3 style="margin-bottom: 5px; padding: 0.5%; height: 46pt; background-color: #333; display: inline-block; width: 69%;">Is Cylinder Force Acceptable For Application?</h3>
+                <h3 style="padding: 0.5%; text-align: center; line-height: 46pt; height: 46pt; float: right; display: inline-block; width: 29%; background-color: COLOUR5; color: #000;">VALUE5</h3>
+            </div><div style="height: auto; clear: both;">
+                <h3 style="margin-bottom: 5px; padding: 0.5%; height: 46pt; background-color: #333; display: inline-block; width: 69%;">Is Cylinder Pressure Acceptable For Application?</h3>
+                <h3 style="padding: 0.5%; text-align: center; line-height: 46pt; height: 46pt;float: right; display: inline-block; width: 29%; background-color: COLOUR6; color: #000;">VALUE6</h3>
+            </div><div style="height: auto; clear: both;">
+                <h3 style="margin-bottom: 5px; padding: 0.5%; height: 46pt; background-color: #333; display: inline-block; width: 69%;">Is Tipping Angle Acceptable For Application?</h3>
+                <h3 style="padding: 0.5%; text-align: center; line-height: 46pt; height: 46pt; float: right; display: inline-block; width: 29%; background-color: COLOUR7; color: #000;">VALUE7</h3>
+            </div><div style="height: auto; clear: both;">
+                <h3 style="margin-bottom: 5px; padding: 0.5%; height: 46pt; background-color: #333; display: inline-block; width: 69%;">Is Cylinder Location Acceptable?</h3>
+                <h3 style="padding: 0.5%; text-align: center; line-height: 46pt; height: 46pt; float: right; display: inline-block; width: 29%; background-color: COLOUR8; color: #000;">VALUE8</h3>
+            </div>
+        </div>
+        <div style="margin-bottom: 1%;">
+            <h3 style="margin: 0; padding: 0.5%; margin-right: 0.5%; background-color: #333; text-align: center; line-height: 46pt; float: left; display: inline-block; width: 39%;">6L SRH (Option)</h3>
+            <div style="display: inline-block; width: 29%;">
+                <h4 style="padding: 0.5%; background-color: #333; display: block; line-height: 24pt; text-align: center;">Tank Vol. (usable)</h4>
+                <h4 style="padding: 0.5%; background-color: #444; display: block; line-height: 24pt; text-align: center; ">5.2</h4>
+            </div>
+            <h3 style="padding: 0.5%; text-align: center; float: right; display: inline-block; line-height: 46pt; background-color: COLOUR9; color: #000; width: 29%;">VALUE9</h3>
+        </div>
+        <div style="margin-bottom: 5px;">
+            <h3 style="margin: 0; padding: 0.5%; margin-right: 0.5%; background-color: #333; text-align: center; line-height: 46pt; float: left; display: inline-block; width: 39%;">10L SSH (Standard)</h3>
+            <div style="display: inline-block; width: 29%;">
+                <h4 style="padding: 0.5%; background-color: #333; display: block; line-height: 24pt; text-align: center;">Tank Vol. (usable)</h4>
+                <h4 style="padding: 0.5%; background-color: #444; display: block; line-height: 24pt; text-align: center; ">8.5</h4>
+            </div>
+            <h3 style="padding: 0.5%; text-align: center; float: right; display: inline-block; line-height: 46pt; background-color: COLOUR10; color: #000; width: 29%;">VALUE10</h3>
+        </div>
+        <h3 style="margin: 0; padding: 0.5%; margin-right: 0.5%; background-color: #333; text-align: center; line-height: 46pt; float: left; display: inline-block; width: 39%;">15L SSH (Option)</h3>
+        <div style="margin-bottom: 1%;">
+            <div style="display: inline-block; width: 29%;">
+                <h4 style="padding: 0.5%; background-color: #333; display: block; line-height: 24pt; text-align: center;">Tank Vol. (usable)</h4>
+                <h4 style="padding: 0.5%; background-color: #444; display: block; line-height: 24pt; text-align: center; ">13.5</h4>
+            </div>
+            <h3 style="padding: 0.5%; text-align: center; float: right; display: inline-block; line-height: 46pt; background-color: COLOUR11; color: #000; width: 29%;">VALUE11</h3>
+        </div>
+        <div style="clear: both; text-align: center; font-family: 'Segoe UI', 'Verdana', 'Arial', 'sans-serif'; font-weight: 400;">
+            <h3 style="font-family: 'Segoe UI Light'; margin-bottom: 4px; background-color: #DBAD20; color: #000; padding: 2px;">Manually Inputed</h3>
+            <div style="margin-bottom: 4px;">
+                <div class="Vals2ManT">Tray Weight (Empty)</div>
+                <div class="Vals4ManV">VALUE12</div>
+                <div class="Vals4ManV">kg</div>
+            </div>
+            <div style="margin-bottom: 4px;">
+                <div class="Vals2ManT">Gross Tray Weight (Loaded)</div>
+                <div class="Vals4ManV">VALUE13</div>
+                <div class="Vals4ManV">kg</div>
+            </div>
+            <div style="margin-bottom: 4px;">
+                <div class="Vals4ManT">Distance Between Pivot Points</div>
+                <div class="Vals4ManV">L1</div>
+                <div class="Vals4ManV">VALUE14</div>
+                <div class="Vals4ManV">mm</div>
+            </div>
+            <div style="margin-bottom: 4px;">
+                <div class="Vals4ManT">Center of Gravity</div>
+                <div class="Vals4ManV">L2</div>
+                <div class="Vals4ManV">VALUE16</div>
+                <div class="Vals4ManV">mm</div>
+            </div>
+            <div style="margin-bottom: 4px;">
+                <div class="Vals4ManT">Cylinder Stroke </div>
+                <div class="Vals4ManV">L3</div>
+                <div class="Vals4ManV">VALUE17</div>
+                <div class="Vals4ManV">mm</div>
+            </div>
+            <div style="margin-bottom: 4px;">
+                <div class="Vals4ManT">Tray Length</div>
+                <div class="Vals4ManV">L4</div>
+                <div class="Vals4ManV">VALUE17</div>
+                <div class="Vals4ManV">mm</div>
+            </div>
+            <div style="">
+                <div class="Vals4ManT">Tipping Angle</div>
+                <div class="Vals4ManV">Tilt</div>
+                <div class="Vals4ManV">VALUE18</div>
+                <div class="Vals4ManV">d</div>
+            </div>
+        </div>
 
-            <div style="margin-bottom: 1%;">
-                <h2 style="margin: 0; padding: 0.5%; margin-right: 0.5%; background-color: #333; line-height: 46pt; float: left; display: inline-block; width: 39%;">6L SRH (Option)</h2>
-                <div style="display: inline-block; width: 29%;">
-                    <h3 style="padding: 0.5%; background-color: #333; display: block; line-height: 24pt; text-align: center;">Tank Vol. (usable)</h3>
-                    <h3 style="padding: 0.5%; background-color: #444; display: block; line-height: 24pt; text-align: center; ">8.5</h3>
-                </div>
-                <h2 style="padding: 0.5%; text-align: center; float: right; display: inline-block; line-height: 46pt; background-color: XX6; color: #000; width: 29%;">abc9</h2>
-            </div>
-            <div style="margin-bottom: 1%;">
-                <h2 style="margin: 0; padding: 0.5%; margin-right: 0.5%; background-color: #333; line-height: 46pt; float: left; display: inline-block; width: 39%;">10L SSH (Standard)</h2>
-                <div style="display: inline-block; width: 29%;">
-                    <h3 style="padding: 0.5%; background-color: #333; display: block; line-height: 24pt; text-align: center;">Tank Vol. (usable)</h3>
-                    <h3 style="padding: 0.5%; background-color: #444; display: block; line-height: 24pt; text-align: center; ">8.5</h3>
-                </div>
-                <h2 style="padding: 0.5%; text-align: center; float: right; display: inline-block; line-height: 46pt; background-color: XX7; color: #000; width: 29%;">abc10</h2>
-            </div>
-                <h2 style="margin: 0; padding: 0.5%; margin-right: 0.5%; background-color: #333; line-height: 46pt; float: left; display: inline-block; width: 39%;">15L SSH (Option)</h2>
-                <div style="margin-bottom: 1%;">
-                <div style="display: inline-block; width: 29%;">
-                    <h3 style="padding: 0.5%; background-color: #333; display: block; line-height: 24pt; text-align: center;">Tank Vol. (usable)</h3>
-                    <h3 style="padding: 0.5%; background-color: #444; display: block; line-height: 24pt; text-align: center; ">13.5</h3>
-                </div>
-                <h2 style="padding: 0.5%; text-align: center; float: right; display: inline-block; line-height: 46pt; background-color: XX8; color: #000; width: 29%;">abc11</h2>
-            </div>
-            <div style="clear: both; text-align: center; font-family: 'Segoe UI', 'Verdana', 'Arial', 'sans-serif'; font-weight: 400;">
-                <h2 style="font-family: 'Segoe UI Light'; margin-bottom: 0.6%; background-color: #DBAD20; color: #000; padding: 0.2%;">Manually Inputted</h2>
-                <div style="margin-bottom: 0.6%;">
-                    <div style="background-color: #DBAD20; float: left; color: #000; padding: 0.5%; display: inline-block; width: 75.5%; text-align: left;">Tray Weight (Empty)</div>
-                    <div style="background-color: #DBAD20; float: center; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                    <div style="background-color: #DBAD20; float: right; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">kg</div>
-                </div>
-                <div style="margin-bottom: 0.6%;">
-                    <div style="background-color: #DBAD20; float: left; color: #000; padding: 0.5%; display: inline-block; width: 75.5%; text-align: left; ">Gross Tray Weight (Loaded)</div>
-                    <div style="background-color: #DBAD20; float: center; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                    <div style="background-color: #DBAD20; float: right; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">kg</div>
-                </div>
-                <div style="margin-bottom: 0.6%;">
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 63.5%; text-align: left;">Distance Between Pivot Points</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">L1</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">mm</div>
-                </div>
-                <div style="margin-bottom: 0.6%;">
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 63.5%; text-align: left;">Center of Gravity</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">L2</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">mm</div>
-                </div>
-                <div style="margin-bottom: 0.6%;">
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 63.5%; text-align: left;">Cylinder Stroke </div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">L3</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">mm</div>
-                </div>
-                <div style="margin-bottom: 0.6%;">
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 63.5%; text-align: left;">Tray Length</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">L4</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">mm</div>
+        <div style="margin-top: 1%; clear: both; text-align: center; font-family: 'Segoe UI', 'Verdana', 'Arial', 'sans-serif'; font-weight: 400;">
+            <h3 style="font-family: 'Segoe UI Light'; margin-bottom: 4px; background-color: #639144; color: #FFF; padding: 2px;">Fixed Values</h3>
+            <div style="">
+                <div style="margin-bottom: 4px;">
+                    <div class="Vals3FixT">Max Working Pressure of Cylinder (Pmax)</div>
+                    <div class="Vals3FixV">VALUE19</div>
+                    <div class="Vals3FixV">Bar</div>
                 </div>
                 <div style="">
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 63.5%; text-align: left;">Tipping Angle</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">Tilt</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                    <div style="background-color: #DBAD20; color: #000; padding: 0.5%; display: inline-block; width: 10%; ">d</div>
-                </div>
-            </div>
-
-            <div style="margin-top: 1%; clear: both; text-align: center; font-family: 'Segoe UI', 'Verdana', 'Arial', 'sans-serif'; font-weight: 400;">
-                <h2 style="font-family: 'Segoe UI Light'; margin-bottom: 0.6%; background-color: #639144; color: #FFF; padding: 0.2%;">Fixed Values</h2>
-                <div style="">
-                    <div style="margin-bottom: 0.6%;">
-                    <div style="background-color: #639144; float: left; color: #FFF; padding: 0.5%; display: inline-block; width: 75.5%; text-align: left;">Max Working Pressure of Cylinder (Pmax)</div>
-                    <div style="background-color: #639144; float: center; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                    <div style="background-color: #639144; float: right; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">Bar</div>
-                </div><div style="">
-                    <div style="margin-bottom: 0.6%;">
-                    <div style="background-color: #639144; float: left; color: #FFF; padding: 0.5%; display: inline-block; width: 75.5%; text-align: left;">Flow Rate of Power Pack (Raise)</div>
-                    <div style="background-color: #639144; float: center; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                    <div style="background-color: #639144; float: right; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">Bar</div>
-                </div>
-                </div>
-                <div style="">
-                    <div style="margin-bottom: 0.6%;">
-                    <div style="background-color: #639144; float: left; color: #FFF; padding: 0.5%; display: inline-block; width: 75.5%; text-align: left;">Flow Rate of Power Pack (Lower)</div>
-                    <div style="background-color: #639144; float: center; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                    <div style="background-color: #639144; float: right; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">Bar</div>
-                </div>
-            </div>
-
-            <div style="margin-top: 1%; clear: both; text-align: center; font-family: 'Segoe UI', 'Verdana', 'Arial', 'sans-serif'; font-weight: 400;">
-                <h2 style="font-family: 'Segoe UI Light'; margin-bottom: 0.6%; background-color: #32cddb; color: #FFF; padding: 0.2%;">Referenced Values</h2>
-                <div style="">
-                    <div style="margin-bottom: 0.6%;">
-                    <div style="background-color: #32cddb; float: left; color: #FFF; padding: 0.5%; display: inline-block; width: 75.5%; text-align: left;">Stroke Volume of Cylinder</div>
-                    <div style="background-color: #32cddb; float: center; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                    <div style="background-color: #32cddb; float: right; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">Bar</div>
-                </div>
-                <div style="">
-                    <div style="margin-bottom: 0.6%;">
-                        <div style="background-color: #32cddb; float: left; color: #FFF; padding: 0.5%; display: inline-block; width: 75.5%; text-align: left;">Overall Cylinder Diamter</div>
-                        <div style="background-color: #32cddb; float: center; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                        <div style="background-color: #32cddb; float: right; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">I/min</div>
+                    <div style="margin-bottom: 4px;">
+                        <div class="Vals3FixT">Flow Rate of Power Pack (Raise)</div>
+                        <div class="Vals3FixV">VALUE20</div>
+                        <div class="Vals3FixV">I/min</div>
                     </div>
+                </div>
+                <div style="">
+                    <div style="margin-bottom: 4px;">
+                        <div class="Vals3FixT">Flow Rate of Power Pack (Lower)</div>
+                        <div class="Vals3FixV">VALUE21</div>
+                        <div class="Vals3FixV">I/min</div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 1%; clear: both; text-align: center; font-family: 'Segoe UI', 'Verdana', 'Arial', 'sans-serif'; font-weight: 400;">
+                    <h3 style="font-family: 'Segoe UI Light'; margin-bottom: 4px; background-color: #32cddb; color: #000; padding: 2px;">Referenced Values</h3>
                     <div style="">
-                        <div style="background-color: #32cddb; float: left; color: #FFF; padding: 0.5%; display: inline-block; width: 75.5%; text-align: left;">Smallest Rod Diameter</div>
-                        <div style="background-color: #32cddb; float: center; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">NULL</div>
-                        <div style="background-color: #32cddb; float: right; color: #FFF; padding: 0.5%; display: inline-block; width: 10%; ">I/min</div>
+                        <div style="margin-bottom: 4px;">
+                            <div class="Vals3RefT">Stroke Volume of Cylinder</div>
+                            <div class="Vals3RefV">VALUE22</div>
+                            <div class="Vals3RefV">I</div>
+                        </div>
+                        <div style="">
+                            <div style="margin-bottom: 4px;">
+                                <div class="Vals3RefT">Overall Cylinder Diamter</div>
+                                <div class="Vals3RefV">VALUE23</div>
+                                <div class="Vals3RefV">mm</div>
+                            </div>
+                            <div style="">
+                                <div class="Vals3RefT">Smallest Rod Diameter</div>
+                                <div class="Vals3RefV">VALUE24</div>
+                                <div class="Vals3RefV">mm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 1%; clear: both; text-align: center; font-family: 'Segoe UI', 'Verdana', 'Arial', 'sans-serif'; font-weight: 400;">
+                    <h3 style="font-family: 'Segoe UI Light'; margin-bottom: 4px; background-color: #7f0bc6; color: #FFF; padding: 2px;">Power Pack Raise / Lower Times</h3>
+                    <div style="">
+                        <div style="">
+                            <div style="margin-bottom: 4px;">
+                                <div class="Vals3RLT">Power Pack Raise Time</div>
+                                <div class="Vals3RLV">VALUE25</div>
+                                <div class="Vals3RLV">sec</div>
+                            </div>
+                            <div style="">
+                                <div class="Vals3RLT">Power Pack Lower Time</div>
+                                <div class="Vals3RLV">VALUE26</div>
+                                <div class="Vals3RLV">sec</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
+
+<--
+To Convert into C#:
+1) Minify Html
+2) Escape the html as a C# string
+-->
